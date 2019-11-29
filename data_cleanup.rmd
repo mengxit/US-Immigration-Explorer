@@ -1,0 +1,280 @@
+---
+title: "Milestone5"
+author: "Mengxi Tan"
+date: "10/18/2019"
+output: html_document
+---
+
+**#About This Project**
+
+Every year, there are roughly ~1M immigrants coming to the US from various origins and through different admission channels. How are these immigrants fitting in once they are in the US? Is there a certain a certain group that needs particular help in fitting into the American society?
+
+One important metrics for fitting into the American society, is English speaking capability. According to the US census bureau, in 2017, while 91% of all US citizens self-identified as speaking English "very well", the number among all foreigh-born citizens was only 52%.
+
+Would this impairment in English-speaking capability among immigrants differ by origin, channel of admission, or time? This visualization project aims to provide users with a tool to explore this issue, during the time span of 2007 - 2017.
+
+*time span determined by data availability
+
+
+**#Raw Data Source**
+
+My raw data comes from two sources: 
+
+1. Homeland Security: 
+https://www.dhs.gov/immigration-statistics/yearbook
+
+    covering annual immigration count by different characteristics (visa type, country of origin etc.)
+
+2. American Fact Finder(US Census Bureau): https://factfinder.census.gov/faces/nav/jsf/pages/searchresults.xhtml?refresh=t#none
+
+    covering US resident census data(immigration status, english speaking capability, in labor force or not, etc.)
+    
+Both data sets address the issue of immigrants to US, segmented by country and state of origin. Note that the US Census Bureau data covers all immigrants *living* in US in that particular year, while the Homeland Security data covers immigrants *moving* to US in that year. Therefore, there is strong connection between the two datasets, yet the Homeland Security sample population is only part of the US Census Bureau sample population.
+
+**#Data Storage and Cleaning: for TF only, will not be shown to users**
+
+Homeland Security data are stored under: raw_data > immigration_yearbook
+
+US Census Bureau data are stored under: raw_data > english_speaking_immigrants
+
+Relevant data that may or may not be used later is under: raw_data > parkinglot_4data
+
+All data loading is finished at this stage
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+#When installing package data.table, choose "No compliation" method
+
+library(readxl)
+library(skimr)
+library(ggplot2)
+library(readxl)
+library(janitor)
+library(gifski)
+library(gganimate)
+library(data.table)
+library(png)
+library(plyr)
+library(cowplot)
+library(ggridges)
+library(rstanarm)
+library(broom)
+library(tidyverse)
+
+#####
+#DATA LOADING: Homeland Security Part
+
+# load the immigration by continent data
+# clean up names and values
+# filter out "Total" and "Unknown"
+
+immigration_continent <- read_xlsx("raw_data/immigration_yearbook/Immigration_ByContinent.xlsx", na = c("", "NA")) %>%
+  clean_names()%>%
+  filter(region %in% c("Africa", "Asia", "Europe", "North America", "Oceania", "South America")) %>%
+  mutate(year = as.integer(year))
+
+# rename columns
+setnames(immigration_continent, "immediate_relatives_of_u_s_citizens", "immediate_relatives")
+
+setnames(immigration_continent, "family_sponsored_preferences", "family")
+
+setnames(immigration_continent, "employment_based_preferences", "employment")
+
+setnames(immigration_continent, "refugees_and_asylees", "refugee")
+
+# create a long format for continent level data
+immigration_continent_long <- immigration_continent %>%
+      select(region, year, immediate_relatives, family,employment, diversity, refugee, other) %>%
+      gather(key = "admission_class", value = "count", immediate_relatives: other)
+
+# load the immigration by country data
+# clean up names and values
+
+immigration_country_2017 <- read_xlsx("raw_data/immigration_yearbook/2017_table10d.xlsx", na = c("", "NA")) %>%
+  clean_names() %>%
+  mutate(year = 2017)
+
+immigration_country_2016 <- read_xlsx("raw_data/immigration_yearbook/2016_table10d.xlsx", na = c("", "NA")) %>%
+  clean_names() %>%
+  mutate(year = 2016)
+
+immigration_country_2015 <- read_xlsx("raw_data/immigration_yearbook/2015_table10d.xlsx", na = c("", "NA")) %>%
+  clean_names()%>%
+  mutate(year = 2015)
+
+immigration_country_2014 <- read_xlsx("raw_data/immigration_yearbook/2014_table10d.xlsx", na = c("", "NA")) %>%
+  clean_names()%>%
+  mutate(year = 2014)
+
+immigration_country_2013 <- read_xlsx("raw_data/immigration_yearbook/2013_table10d.xlsx", na = c("", "NA")) %>%
+  clean_names()%>%
+  mutate(year = 2013)
+
+
+immigration_country_2012 <- read_xlsx("raw_data/immigration_yearbook/2012_table10d.xlsx", na = c("", "NA")) %>%
+  clean_names()%>%
+  mutate(year = 2012)
+
+immigration_country_2011 <- read_xlsx("raw_data/immigration_yearbook/2011_table10d.xlsx", na = c("", "NA")) %>%
+  clean_names()%>%
+  mutate(year = 2011)
+
+immigration_country_2010 <- read_xlsx("raw_data/immigration_yearbook/2010_table10d.xlsx", na = c("", "NA")) %>%
+  clean_names()%>%
+  mutate(year = 2010)
+
+immigration_country_2009 <- read_xlsx("raw_data/immigration_yearbook/2009_table10d.xlsx", na = c("", "NA")) %>%
+  clean_names()%>%
+  mutate(year = 2009)
+
+immigration_country_2008 <- read_xlsx("raw_data/immigration_yearbook/2009_table10d.xlsx", na = c("", "NA")) %>%
+  clean_names()%>%
+  mutate(year = 2008)
+
+immigration_country_2007 <- read_xlsx("raw_data/immigration_yearbook/2009_table10d.xlsx", na = c("", "NA")) %>%
+  clean_names()%>%
+  mutate(year = 2007)
+
+
+#Combine the country tables together
+immigration_country <- rbind(immigration_country_2007,
+                             immigration_country_2008,
+                             immigration_country_2009,
+                             immigration_country_2010,
+                             immigration_country_2011,
+                             immigration_country_2012,
+                             immigration_country_2013,
+                             immigration_country_2014,
+                             immigration_country_2015,
+                             immigration_country_2016,
+                             immigration_country_2017)
+
+# clean up table
+# convert year to integer for graphing later
+immigration_country <- immigration_country %>%
+                          filter(region_and_country_of_birth != "Total") %>%
+                          drop_na %>%
+                          mutate(year = as.integer(year))
+
+# rename columns
+setnames(immigration_country, "region_and_country_of_birth", "country")
+
+setnames(immigration_country, "immediate_relatives_of_u_s_citizens", "immediate_relatives")
+
+setnames(immigration_country, "family_sponsored_preferences", "family")
+
+setnames(immigration_country, "employment_based_preferences", "employment")
+
+setnames(immigration_country, "refugees_and_asylees", "refugee")
+
+# "-" means 0, D means cannot disclose
+# treat both as 0 in this case
+# convert to numeric value
+
+# family column
+immigration_country$family <- revalue(immigration_country$family, c("-"= "0"))
+immigration_country$family <- revalue(immigration_country$family, c("D"= "0"))
+immigration_country$family <- as.numeric(immigration_country$family)
+
+# employment column
+immigration_country$employment <- revalue(immigration_country$employment, c("-"= "0"))
+immigration_country$employment <- revalue(immigration_country$employment, c("D"= "0"))
+immigration_country$employment <- as.numeric(immigration_country$employment)
+
+# relative column
+immigration_country$immediate_relatives <- revalue(immigration_country$immediate_relatives, c("-"= "0"))
+immigration_country$immediate_relatives <- revalue(immigration_country$immediate_relatives, c("D"= "0"))
+immigration_country$immediate_relatives <- as.numeric(immigration_country$immediate_relatives)
+
+# diversity column
+immigration_country$diversity <- revalue(immigration_country$diversity, c("-"= "0"))
+immigration_country$diversity <- revalue(immigration_country$diversity, c("D"= "0"))
+immigration_country$diversity <- as.numeric(immigration_country$diversity)
+
+# refugee column
+immigration_country$refugee <- revalue(immigration_country$refugee, c("-"= "0"))
+immigration_country$refugee <- revalue(immigration_country$refugee, c("D"= "0"))
+immigration_country$refugee <- as.numeric(immigration_country$refugee)
+
+# other column
+immigration_country$other <- revalue(immigration_country$other, c("-"= "0"))
+immigration_country$other <- revalue(immigration_country$other, c("D"= "0"))
+immigration_country$other <- as.numeric(immigration_country$other)
+
+# create a long format for continent level data
+immigration_country_long <- immigration_country %>%
+      select(country, year, immediate_relatives, family,employment, diversity, refugee, other) %>%
+      gather(key = "admission_class", value = "count", immediate_relatives: other)
+
+# rearrange the order of categorical variables for labelling later
+immigration_country_long$admission_class <- factor(immigration_country_long$admission_class, levels = c("diversity", "employment", "immediate_relatives", "family", "refugee", "other"))
+
+# make a clean data directory
+dir.create("clean_data")
+
+######
+#DATA LOADING: US Census Bureau Part
+#load english speaking capability by continent
+
+# english speaking: only takes into consideration population 5+
+# employment status: only takes into consideration population 16+
+
+english_by_continent  <- read_xlsx("raw_data/english_speaking_immigrants/english_by_continent.xlsx", na = c("", "NA")) %>% clean_names()
+
+#load english speaking capability by country, for the top 10 country with most US immigrants
+english_by_country <-
+read_xlsx("raw_data/english_speaking_immigrants/english_by_country.xlsx", na = c("", "NA")) %>% clean_names()
+
+
+
+# write the clean data to csv
+write.csv(immigration_country, file = "clean_data/immigration_country.csv", row.names = FALSE)
+write.csv(immigration_continent, file = "clean_data/immigration_continent.csv", row.names = FALSE)
+write.csv(immigration_country_long, file = "clean_data/immigration_country_long.csv", row.names = FALSE)
+write.csv(immigration_continent_long, file = "clean_data/immigration_continent_long.csv", row.names = FALSE)
+write.csv(english_by_continent, file = "clean_data/english_continent.csv", row.names = FALSE)
+write.csv(english_by_country, file = "clean_data/english_country.csv", row.names = FALSE)
+
+```
+
+
+```{r investigation/graph making - testing for app.R}
+
+# examine the top 10 countries with the most immigrants
+# Mexico 
+# China, People's Republic
+# India 
+# Philippines 
+# Dominican Republic
+# Cuba 
+# Vietnam  
+# Korea, South
+# Colombia
+# Haiti
+top10 <- immigration_country %>%
+          group_by(country) %>%
+          summarize(total = sum(total)) %>%
+          arrange(desc(total))
+          head(10)
+
+# create a intro_graph
+
+intro_graph <- ggplot(immigration_country_top_10, aes(x = total, y = country, group = country)) + geom_density_ridges(fill = "orange") + labs(x = "Total Immigrants", y = "Country", title = "Top 10 Countries with Most Immigration into US ", caption = "2009 - 2017")
+
+# save for later usage
+ggsave("Immigration_Explorer/intro_graph.png", intro_graph)
+
+
+
+  
+
+
+
+  
+  
+
+
+```
+

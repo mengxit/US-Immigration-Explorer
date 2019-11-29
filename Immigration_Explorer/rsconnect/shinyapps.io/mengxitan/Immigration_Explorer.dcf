@@ -1,0 +1,12 @@
+name: Immigration_Explorer
+title: Immigration_Explorer
+username:
+account: mengxitan
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1504489
+bundleId: 2610968
+url: https://mengxitan.shinyapps.io/Immigration_Explorer/
+when: 1574464295.80695
+asMultiple: FALSE
+asStatic: FALSE

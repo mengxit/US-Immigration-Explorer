@@ -1,0 +1,469 @@
+"region","year","admission_class","count"
+"Africa",2017,"immediate_relatives",51138
+"Asia",2017,"immediate_relatives",156133
+"Europe",2017,"immediate_relatives",42202
+"North America",2017,"immediate_relatives",215631
+"Oceania",2017,"immediate_relatives",2714
+"South America",2017,"immediate_relatives",47783
+"Africa",2016,"immediate_relatives",11420
+"Asia",2016,"immediate_relatives",108734
+"Europe",2016,"immediate_relatives",6380
+"North America",2016,"immediate_relatives",96604
+"Oceania",2016,"immediate_relatives",458
+"South America",2016,"immediate_relatives",14120
+"Africa",2015,"immediate_relatives",8980
+"Asia",2015,"immediate_relatives",87568
+"Europe",2015,"immediate_relatives",5104
+"North America",2015,"immediate_relatives",97529
+"Oceania",2015,"immediate_relatives",515
+"South America",2015,"immediate_relatives",14102
+"Africa",2014,"immediate_relatives",9609
+"Asia",2014,"immediate_relatives",100893
+"Europe",2014,"immediate_relatives",5737
+"North America",2014,"immediate_relatives",93698
+"Oceania",2014,"immediate_relatives",522
+"South America",2014,"immediate_relatives",18355
+"Africa",2013,"immediate_relatives",9603
+"Asia",2013,"immediate_relatives",78708
+"Europe",2013,"immediate_relatives",5145
+"North America",2013,"immediate_relatives",96178
+"Oceania",2013,"immediate_relatives",447
+"South America",2013,"immediate_relatives",19247
+"Africa",2012,"immediate_relatives",7804
+"Asia",2012,"immediate_relatives",86742
+"Europe",2012,"immediate_relatives",4156
+"North America",2012,"immediate_relatives",90663
+"Oceania",2012,"immediate_relatives",376
+"South America",2012,"immediate_relatives",12178
+"Africa",2011,"immediate_relatives",7940
+"Asia",2011,"immediate_relatives",101067
+"Europe",2011,"immediate_relatives",5531
+"North America",2011,"immediate_relatives",101373
+"Oceania",2011,"immediate_relatives",599
+"South America",2011,"immediate_relatives",18237
+"Africa",2010,"immediate_relatives",5938
+"Asia",2010,"immediate_relatives",92470
+"Europe",2010,"immediate_relatives",4955
+"North America",2010,"immediate_relatives",95557
+"Oceania",2010,"immediate_relatives",581
+"South America",2010,"immediate_relatives",14951
+"Africa",2009,"immediate_relatives",5450
+"Asia",2009,"immediate_relatives",81218
+"Europe",2009,"immediate_relatives",4393
+"North America",2009,"immediate_relatives",106602
+"Oceania",2009,"immediate_relatives",404
+"South America",2009,"immediate_relatives",13665
+"Africa",2008,"immediate_relatives",6039
+"Asia",2008,"immediate_relatives",89069
+"Europe",2008,"immediate_relatives",5433
+"North America",2008,"immediate_relatives",111652
+"Oceania",2008,"immediate_relatives",635
+"South America",2008,"immediate_relatives",14780
+"Africa",2007,"immediate_relatives",5603
+"Asia",2007,"immediate_relatives",80081
+"Europe",2007,"immediate_relatives",5594
+"North America",2007,"immediate_relatives",89582
+"Oceania",2007,"immediate_relatives",743
+"South America",2007,"immediate_relatives",13204
+"Africa",2006,"immediate_relatives",5642
+"Asia",2006,"immediate_relatives",83972
+"Europe",2006,"immediate_relatives",6829
+"North America",2006,"immediate_relatives",108254
+"Oceania",2006,"immediate_relatives",600
+"South America",2006,"immediate_relatives",16671
+"Africa",2005,"immediate_relatives",4387
+"Asia",2005,"immediate_relatives",82492
+"Europe",2005,"immediate_relatives",5881
+"North America",2005,"immediate_relatives",104370
+"Oceania",2005,"immediate_relatives",558
+"South America",2005,"immediate_relatives",14492
+"Africa",2017,"family",13899
+"Asia",2017,"family",95788
+"Europe",2017,"family",6400
+"North America",2017,"family",100479
+"Oceania",2017,"family",463
+"South America",2017,"family",14801
+"Africa",2016,"family",5054
+"Asia",2016,"family",81288
+"Europe",2016,"family",21323
+"North America",2016,"family",18330
+"Oceania",2016,"family",1276
+"South America",2016,"family",10568
+"Africa",2015,"family",4813
+"Asia",2015,"family",89533
+"Europe",2015,"family",20945
+"North America",2015,"family",18238
+"Oceania",2015,"family",1186
+"South America",2015,"family",9296
+"Africa",2014,"family",4708
+"Asia",2014,"family",101045
+"Europe",2014,"family",18495
+"North America",2014,"family",16879
+"Oceania",2014,"family",986
+"South America",2014,"family",9435
+"Africa",2013,"family",5605
+"Asia",2013,"family",101860
+"Europe",2013,"family",21806
+"North America",2013,"family",18676
+"Oceania",2013,"family",1201
+"South America",2013,"family",11833
+"Africa",2012,"family",4763
+"Asia",2012,"family",91591
+"Europe",2012,"family",18065
+"North America",2012,"family",17202
+"Oceania",2012,"family",1057
+"South America",2012,"family",11253
+"Africa",2011,"family",4360
+"Asia",2011,"family",88880
+"Europe",2011,"family",16585
+"North America",2011,"family",17945
+"Oceania",2011,"family",798
+"South America",2011,"family",10662
+"Africa",2010,"family",5222
+"Asia",2010,"family",85471
+"Europe",2010,"family",20058
+"North America",2010,"family",22444
+"Oceania",2010,"family",1090
+"South America",2010,"family",13925
+"Africa",2009,"family",5707
+"Asia",2009,"family",78881
+"Europe",2009,"family",23529
+"North America",2009,"family",19839
+"Oceania",2009,"family",1075
+"South America",2009,"family",14856
+"Africa",2008,"family",6006
+"Asia",2008,"family",93882
+"Europe",2008,"family",28601
+"North America",2008,"family",20436
+"Oceania",2008,"family",1184
+"South America",2008,"family",16215
+"Africa",2007,"family",5810
+"Asia",2007,"family",92147
+"Europe",2007,"family",22198
+"North America",2007,"family",23841
+"Oceania",2007,"family",1073
+"South America",2007,"family",16962
+"Africa",2006,"family",6437
+"Asia",2006,"family",80635
+"Europe",2006,"family",25069
+"North America",2006,"family",23098
+"Oceania",2006,"family",1231
+"South America",2006,"family",22357
+"Africa",2005,"family",9900
+"Asia",2005,"family",131418
+"Europe",2005,"family",37238
+"North America",2005,"family",35702
+"Oceania",2005,"family",1951
+"South America",2005,"family",30032
+"Africa",2017,"employment",5014
+"Asia",2017,"employment",83962
+"Europe",2017,"employment",20059
+"North America",2017,"employment",16405
+"Oceania",2017,"employment",1210
+"South America",2017,"employment",11162
+"Africa",2016,"employment",51206
+"Asia",2016,"employment",180168
+"Europe",2016,"employment",49513
+"North America",2016,"employment",231712
+"Oceania",2016,"employment",3132
+"South America",2016,"employment",49814
+"Africa",2015,"employment",40379
+"Asia",2015,"employment",151189
+"Europe",2015,"employment",44680
+"North America",2015,"employment",181269
+"Oceania",2015,"employment",2926
+"South America",2015,"employment",44214
+"Africa",2014,"employment",38651
+"Asia",2014,"employment",136195
+"Europe",2014,"employment",43172
+"North America",2014,"employment",154139
+"Oceania",2014,"employment",2804
+"South America",2014,"employment",40867
+"Africa",2013,"employment",43550
+"Asia",2013,"employment",141880
+"Europe",2013,"employment",44319
+"North America",2013,"employment",160598
+"Oceania",2013,"employment",2850
+"South America",2013,"employment",44314
+"Africa",2012,"employment",49730
+"Asia",2012,"employment",150254
+"Europe",2012,"employment",46925
+"North America",2012,"employment",177796
+"Oceania",2012,"employment",2733
+"South America",2012,"employment",50548
+"Africa",2011,"employment",40183
+"Asia",2011,"employment",146914
+"Europe",2011,"employment",46509
+"North America",2011,"employment",164968
+"Oceania",2011,"employment",2956
+"South America",2011,"employment",50934
+"Africa",2010,"employment",43061
+"Asia",2010,"employment",156714
+"Europe",2010,"employment",47803
+"North America",2010,"employment",173509
+"Oceania",2010,"employment",2980
+"South America",2010,"employment",51581
+"Africa",2009,"employment",45823
+"Asia",2009,"employment",168366
+"Europe",2009,"employment",55844
+"North America",2009,"employment",196817
+"Oceania",2009,"employment",3357
+"South America",2009,"employment",64611
+"Africa",2008,"employment",37025
+"Asia",2008,"employment",146717
+"Europe",2008,"employment",51409
+"North America",2008,"employment",196021
+"Oceania",2008,"employment",2709
+"South America",2008,"employment",53882
+"Africa",2007,"employment",37414
+"Asia",2007,"employment",160366
+"Europe",2007,"employment",59113
+"North America",2007,"employment",174197
+"Oceania",2007,"employment",3261
+"South America",2007,"employment",59747
+"Africa",2006,"employment",42079
+"Asia",2006,"employment",180339
+"Europe",2006,"employment",77790
+"North America",2006,"employment",194885
+"Oceania",2006,"employment",4108
+"South America",2006,"employment",79562
+"Africa",2005,"employment",29039
+"Asia",2005,"employment",142230
+"Europe",2005,"employment",62704
+"North America",2005,"employment",142548
+"Oceania",2005,"employment",3323
+"South America",2005,"employment",52827
+"Africa",2017,"diversity",21927
+"Asia",2017,"diversity",15722
+"Europe",2017,"diversity",11367
+"North America",2017,"diversity",571
+"Oceania",2017,"diversity",632
+"South America",2017,"diversity",1347
+"Africa",2016,"diversity",20137
+"Asia",2016,"diversity",15503
+"Europe",2016,"diversity",11949
+"North America",2016,"diversity",714
+"Oceania",2016,"diversity",675
+"South America",2016,"diversity",827
+"Africa",2015,"diversity",19659
+"Asia",2015,"diversity",14562
+"Europe",2015,"diversity",11425
+"North America",2015,"diversity",667
+"Oceania",2015,"diversity",721
+"South America",2015,"diversity",878
+"Africa",2014,"diversity",23199
+"Asia",2014,"diversity",16355
+"Europe",2014,"diversity",11713
+"North America",2014,"diversity",583
+"Oceania",2014,"diversity",744
+"South America",2014,"diversity",837
+"Africa",2013,"diversity",18560
+"Asia",2013,"diversity",14958
+"Europe",2013,"diversity",10143
+"North America",2013,"diversity",468
+"Oceania",2013,"diversity",715
+"South America",2013,"diversity",662
+"Africa",2012,"diversity",18187
+"Asia",2012,"diversity",13336
+"Europe",2012,"diversity",7469
+"North America",2012,"diversity",261
+"Oceania",2012,"diversity",481
+"South America",2012,"diversity",558
+"Africa",2011,"diversity",23812
+"Asia",2011,"diversity",15573
+"Europe",2011,"diversity",9055
+"North America",2011,"diversity",484
+"Oceania",2011,"diversity",556
+"South America",2011,"diversity",605
+"Africa",2010,"diversity",23903
+"Asia",2010,"diversity",14776
+"Europe",2010,"diversity",9353
+"North America",2010,"diversity",461
+"Oceania",2010,"diversity",608
+"South America",2010,"diversity",642
+"Africa",2009,"diversity",24122
+"Asia",2009,"diversity",13536
+"Europe",2009,"diversity",8737
+"North America",2009,"diversity",437
+"Oceania",2009,"diversity",582
+"South America",2009,"diversity",414
+"Africa",2008,"diversity",18060
+"Asia",2008,"diversity",8350
+"Europe",2008,"diversity",13589
+"North America",2008,"diversity",471
+"Oceania",2008,"diversity",591
+"South America",2008,"diversity",661
+"Africa",2007,"diversity",19277
+"Asia",2007,"diversity",7498
+"Europe",2007,"diversity",12004
+"North America",2007,"diversity",421
+"Oceania",2007,"diversity",678
+"South America",2007,"diversity",2209
+"Africa",2006,"diversity",18032
+"Asia",2006,"diversity",8314
+"Europe",2006,"diversity",14909
+"North America",2006,"diversity",507
+"Oceania",2006,"diversity",721
+"South America",2006,"diversity",1940
+"Africa",2005,"diversity",16268
+"Asia",2005,"diversity",6882
+"Europe",2005,"diversity",20076
+"North America",2005,"diversity",558
+"Oceania",2005,"diversity",625
+"South America",2005,"diversity",1793
+"Africa",2017,"refugee",26615
+"Asia",2017,"refugee",52003
+"Europe",2017,"refugee",4103
+"North America",2017,"refugee",60617
+"Oceania",2017,"refugee",36
+"South America",2017,"refugee",2582
+"Africa",2016,"refugee",25265
+"Asia",2016,"refugee",62895
+"Europe",2016,"refugee",4197
+"North America",2016,"refugee",62053
+"Oceania",2016,"refugee",38
+"South America",2016,"refugee",2934
+"Africa",2015,"refugee",27104
+"Asia",2015,"refugee",67603
+"Europe",2015,"refugee",3317
+"North America",2015,"refugee",51535
+"Oceania",2015,"refugee",37
+"South America",2015,"refugee",2346
+"Africa",2014,"refugee",21713
+"Asia",2014,"refugee",62068
+"Europe",2014,"refugee",3698
+"North America",2014,"refugee",43792
+"Oceania",2014,"refugee",30
+"South America",2014,"refugee",2864
+"Africa",2013,"refugee",20577
+"Asia",2013,"refugee",59649
+"Europe",2013,"refugee",4338
+"North America",2013,"refugee",30854
+"Oceania",2013,"refugee",40
+"South America",2013,"refugee",4101
+"Africa",2012,"refugee",26312
+"Asia",2012,"refugee",82680
+"Europe",2012,"refugee",4096
+"North America",2012,"refugee",32964
+"Oceania",2012,"refugee",74
+"South America",2012,"refugee",4310
+"Africa",2011,"refugee",23523
+"Asia",2011,"refugee",97031
+"Europe",2011,"refugee",4760
+"North America",2011,"refugee",38022
+"Oceania",2011,"refugee",49
+"South America",2011,"refugee",4868
+"Africa",2010,"refugee",22634
+"Asia",2010,"refugee",68587
+"Europe",2010,"refugee",4770
+"North America",2010,"refugee",34657
+"Oceania",2010,"refugee",52
+"South America",2010,"refugee",5362
+"Africa",2009,"refugee",45315
+"Asia",2009,"refugee",69561
+"Europe",2009,"refugee",10453
+"North America",2009,"refugee",42700
+"Oceania",2009,"refugee",139
+"South America",2009,"refugee",8926
+"Africa",2008,"refugee",38303
+"Asia",2008,"refugee",44538
+"Europe",2008,"refugee",18801
+"North America",2008,"refugee",51726
+"Oceania",2008,"refugee",116
+"South America",2008,"refugee",12643
+"Africa",2007,"refugee",26178
+"Asia",2007,"refugee",42384
+"Europe",2007,"refugee",19894
+"North America",2007,"refugee",33100
+"Oceania",2007,"refugee",315
+"South America",2007,"refugee",14000
+"Africa",2006,"refugee",44808
+"Asia",2006,"refugee",67011
+"Europe",2006,"refugee",35689
+"North America",2006,"refugee",51031
+"Oceania",2006,"refugee",678
+"South America",2006,"refugee",16857
+"Africa",2005,"refugee",25143
+"Asia",2005,"refugee",32009
+"Europe",2005,"refugee",46588
+"North America",2005,"refugee",35709
+"Oceania",2005,"refugee",55
+"South America",2005,"refugee",3312
+"Africa",2017,"other",231
+"Asia",2017,"other",21135
+"Europe",2017,"other",204
+"North America",2017,"other",19947
+"Oceania",2017,"other",16
+"South America",2017,"other",1401
+"Africa",2016,"other",344
+"Asia",2016,"other",13711
+"Europe",2016,"other",205
+"North America",2016,"other",17880
+"Oceania",2016,"other",9
+"South America",2016,"other",1345
+"Africa",2015,"other",480
+"Asia",2015,"other",8842
+"Europe",2015,"other",332
+"North America",2015,"other",16888
+"Oceania",2015,"other",19
+"South America",2015,"other",1473
+"Africa",2014,"other",533
+"Asia",2014,"other",13952
+"Europe",2014,"other",451
+"North America",2014,"other",15263
+"Oceania",2014,"other",26
+"South America",2014,"other",1357
+"Africa",2013,"other",409
+"Asia",2013,"other",3493
+"Europe",2013,"other",805
+"North America",2013,"other",8886
+"Oceania",2013,"other",24
+"South America",2013,"other",788
+"Africa",2012,"other",445
+"Asia",2012,"other",4996
+"Europe",2012,"other",960
+"North America",2012,"other",8885
+"Oceania",2012,"other",21
+"South America",2012,"other",554
+"Africa",2011,"other",556
+"Asia",2011,"other",2128
+"Europe",2011,"other",1410
+"North America",2011,"other",11110
+"Oceania",2011,"other",22
+"South America",2011,"other",790
+"Africa",2010,"other",597
+"Asia",2010,"other",4045
+"Europe",2010,"other",1804
+"North America",2010,"other",9974
+"Oceania",2010,"other",34
+"South America",2010,"other",726
+"Africa",2009,"other",633
+"Asia",2009,"other",1750
+"Europe",2009,"other",2442
+"North America",2009,"other",8841
+"Oceania",2009,"other",21
+"South America",2009,"other",406
+"Africa",2008,"other",482
+"Asia",2008,"other",1052
+"Europe",2008,"other",1305
+"North America",2008,"other",12947
+"Oceania",2008,"other",28
+"South America",2008,"other",374
+"Africa",2007,"other",429
+"Asia",2007,"other",1032
+"Europe",2007,"other",2018
+"North America",2007,"other",18214
+"Oceania",2007,"other",31
+"South America",2007,"other",403
+"Africa",2006,"other",432
+"Asia",2006,"other",2062
+"Europe",2006,"other",3999
+"North America",2006,"other",36321
+"Oceania",2006,"other",47
+"South America",2006,"other",614
+"Africa",2005,"other",365
+"Asia",2005,"other",5104
+"Europe",2005,"other",4082
+"North America",2005,"other",26688
+"Oceania",2005,"other",34
+"South America",2005,"other",687
