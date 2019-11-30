@@ -231,6 +231,11 @@ read_xlsx("raw_data/social_immigrants/english_by_country.xlsx", na = c("", "NA")
 employment_by_country <-
 read_xlsx("raw_data/social_immigrants/employment_by_country.xlsx", na = c("", "NA")) %>% clean_names()
 
+# adding columns to employment table
+employment_by_country <- employment_by_country %>%
+           mutate(population_in_labor_force = percentage_in_labor_force * total_number) %>%
+           mutate(employment_population = population_in_labor_force - unemployment_population)
+  
 # write the clean data to csv
 write.csv(immigration_country, file = "clean_data/immigration_country.csv", row.names = FALSE)
 write.csv(immigration_continent, file = "clean_data/immigration_continent.csv", row.names = FALSE)
@@ -269,15 +274,11 @@ intro_graph <- ggplot(immigration_country_top_10, aes(x = total, y = country, gr
 # save for later usage
 ggsave("Immigration_Explorer/intro_graph.png", intro_graph)
 
-
-
-  
-
-
-
-  
-  
-
-
 ```
 
+
+
+``` {r test}
+
+    
+```

@@ -15,6 +15,8 @@ library(tidyverse)
 english_continent <- read_csv("english_continent.csv")
                              
 english_country <- read_csv("english_country.csv")
+
+employment_country <- read_csv("employment_country.csv")
                             
 immigration_continent <- read_csv("immigration_continent.csv")
                                 
@@ -48,14 +50,23 @@ ui<- navbarPage("Gov1005 Final Project: US Immigration Explorer",
                 tabPanel("A Closer Look",
                          headerPanel("CLOSER LOOK INTO A SOURCE COUNTRY - PLEASE SELECT - WILL UPDATE TEXT"),
                          fluidRow(
-                          column(8, align="left",
+                          column(8, align="center",
                           selectInput("variable", "Country:",
-                                                list("China" = "China, People's Republic", 
-                                                     "Mexico" = "Mexico", 
-                                                     "India" = "India")),
+                                                list("Mexico" = "Mexico",
+                                                     "China, People's Republic" = "China, People's Republic", 
+                                                     "India" = "India",
+                                                     "Philippines" = "Philippines",
+                                                     "Dominican Republic" = "Dominican Republic",
+                                                     "Cuba" = "Cuba",
+                                                     "Vietnam" = "Vietnam",
+                                                     "Korea, South" = "Korea, South",
+                                                     "Colombia" = "Colombia",
+                                                     "Haiti" = "Haiti")),
                          plotOutput("trendchart")),
-                         column(3, align = "right",
-                         plotOutput("donut")))
+                         column(4, align = "center",
+                         plotOutput("donut_language"),
+                         plotOutput("donut_labor"),
+                         plotOutput("donut_employment")))
 ))
 
 
@@ -110,13 +121,13 @@ server <- function(input, output, session){
              title = paste0("Immigration Overview from ", input$variable,  " to US")) + 
         scale_fill_discrete(labels = c("Diversity", "Employment",
                                        "Immediate Relatives", "Other Relatives", "Refugee", "Other")) +  
-        scale_x_continuous(breaks = c(2009, 2011, 2013, 2015, 2017))
+        scale_x_continuous(breaks = c(2007, 2009, 2011, 2013, 2015, 2017))
     
     print(graph_left)
   })
  
 # render language donut chart
-  output$donut <- renderPlot({
+  output$donut_language <- renderPlot({
       
       # this chart is going to be shown on the right
       english_country_current <- english_country %>%
@@ -150,13 +161,104 @@ server <- function(input, output, session){
           xlim(c(2, 4)) + 
           scale_fill_discrete(labels = c("Not Very Well", "Very Well")) +
           labs(title = paste0(percent(english_country_current_summary$fraction[1]) ,
-                              "  immigrants from ", input$variable, " Speak English Very Well"),
+                              " Immigrants from ", input$variable, " Speak English Very Well"),
                              fill = "English Speaking Ability", 
-                        caption = "Average during 2007 - 2016") +
+                        caption = "Weighted Average, 2007 - 2017") +
           theme(axis.text.y=element_blank(), 
                 axis.ticks=element_blank())
       
       print(donut)
+  })  
+  
+  # render labor force donut chart
+  output$donut_labor <- renderPlot({
+    
+    # this chart is going to be shown on the right
+    employment_country_current <- employment_country %>%
+      filter(country == input$variable)
+    
+    # make a summary chart
+    employment_country_current_summary <- employment_country_current %>%
+      summarize(total = sum(total_number), 
+                total_in = sum(population_in_labor_force),
+                total_out = total - total_in) %>%
+      select(total_in, total_out)
+    
+    # gather information from long to short format
+    employment_country_current_summary <- employment_country_current_summary%>%
+      gather(key = "labor", value = "population",total_in:total_out)
+    
+    # compute percentages
+    employment_country_current_summary$fraction = employment_country_current_summary$population / sum(employment_country_current_summary$population)
+    
+    # compute the cumulative percentages (top of each rectangle)
+    employment_country_current_summary$ymax = cumsum(employment_country_current_summary$fraction)
+    
+    # compute the bottom of each rectangle
+    employment_country_current_summary$ymin = c(0, head(employment_country_current_summary$ymax, n=-1))
+    
+    donut <- ggplot(employment_country_current_summary, 
+                    aes(ymax = ymax, ymin= ymin, 
+                        xmax = 4, xmin = 3, fill = labor)) +
+      geom_rect() +
+      coord_polar(theta = "y") +
+      xlim(c(2, 4)) + 
+      scale_fill_discrete(labels = c("In Labor Force", "Not in Labor Force")) +
+      labs(title = paste0(percent(employment_country_current_summary$fraction[1]) ,
+                          " Immigrants from ", input$variable, " are in Labor Force"),
+           fill = "Labor Force", 
+           caption = "Weighted Average, 2007 - 2017") +
+      theme(axis.text.y=element_blank(), 
+            axis.ticks=element_blank())
+    
+    print(donut)
+  })  
+  
+  
+  
+  
+  # render employment donut chart
+  output$donut_employment <- renderPlot({
+    
+    # this chart is going to be shown on the right
+    employment_country_current <- employment_country %>%
+      filter(country == input$variable)
+    
+    # make a summary chart
+    employment_country_current_summary <- employment_country_current %>%
+      summarize(total = sum(population_in_labor_force), 
+                total_employed = sum(employment_population),
+                total_unemployed = sum(unemployment_population)) %>%
+      select(total_employed, total_unemployed)
+    
+    # gather information from long to short format
+    employment_country_current_summary <- employment_country_current_summary%>%
+      gather(key = "employment", value = "population",total_employed:total_unemployed)
+    
+    # compute percentages
+    employment_country_current_summary$fraction = employment_country_current_summary$population / sum(employment_country_current_summary$population)
+    
+    # compute the cumulative percentages (top of each rectangle)
+    employment_country_current_summary$ymax = cumsum(employment_country_current_summary$fraction)
+    
+    # compute the bottom of each rectangle
+    employment_country_current_summary$ymin = c(0, head(employment_country_current_summary$ymax, n=-1))
+    
+    donut <- ggplot(employment_country_current_summary, 
+                    aes(ymax = ymax, ymin=ymin, 
+                        xmax=4, xmin=3, fill=employment)) +
+      geom_rect() +
+      coord_polar(theta = "y") +
+      xlim(c(2, 4)) + 
+      scale_fill_discrete(labels = c("Employed", "Unemployed")) +
+      labs(title = paste0(percent(employment_country_current_summary$fraction[1]) ,
+                          " Labor Force from ", input$variable, " are Employed"),
+           fill = "Employment", 
+           caption = "Weighted Average, 2007 - 2017") +
+      theme(axis.text.y=element_blank(), 
+            axis.ticks=element_blank())
+    
+    print(donut)
   })  
   
 }
