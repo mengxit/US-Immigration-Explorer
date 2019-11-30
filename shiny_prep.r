@@ -1,6 +1,10 @@
+#copy clean data over to Shiny App folder
+
 file.copy("clean_data/english_continent.csv", "Immigration_Explorer/english_continent.csv")
 
 file.copy("clean_data/english_country.csv", "Immigration_Explorer/english_country.csv")
+
+file.copy("clean_data/employment_country.csv", "Immigration_Explorer/employment_country.csv")
 
 file.copy("clean_data/immigration_continent.csv", "Immigration_Explorer/immigration_continent.csv")
 

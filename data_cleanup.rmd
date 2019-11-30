@@ -221,13 +221,15 @@ dir.create("clean_data")
 # english speaking: only takes into consideration population 5+
 # employment status: only takes into consideration population 16+
 
-english_by_continent  <- read_xlsx("raw_data/english_speaking_immigrants/english_by_continent.xlsx", na = c("", "NA")) %>% clean_names()
+english_by_continent  <- read_xlsx("raw_data/social_immigrants/english_by_continent.xlsx", na = c("", "NA")) %>% clean_names()
 
 #load english speaking capability by country, for the top 10 country with most US immigrants
 english_by_country <-
-read_xlsx("raw_data/english_speaking_immigrants/english_by_country.xlsx", na = c("", "NA")) %>% clean_names()
+read_xlsx("raw_data/social_immigrants/english_by_country.xlsx", na = c("", "NA")) %>% clean_names()
 
-
+# load unemployment by country, for the top 10 country with most US immigrants
+employment_by_country <-
+read_xlsx("raw_data/social_immigrants/employment_by_country.xlsx", na = c("", "NA")) %>% clean_names()
 
 # write the clean data to csv
 write.csv(immigration_country, file = "clean_data/immigration_country.csv", row.names = FALSE)
@@ -236,6 +238,7 @@ write.csv(immigration_country_long, file = "clean_data/immigration_country_long.
 write.csv(immigration_continent_long, file = "clean_data/immigration_continent_long.csv", row.names = FALSE)
 write.csv(english_by_continent, file = "clean_data/english_continent.csv", row.names = FALSE)
 write.csv(english_by_country, file = "clean_data/english_country.csv", row.names = FALSE)
+write.csv(employment_by_country, file = "clean_data/employment_country.csv", row.names = FALSE)
 
 ```
 
