@@ -1,406 +1,394 @@
 "country","year","admission_class","count"
-"Afghanistan",2007,"immediate_relatives",913
-"Albania",2007,"immediate_relatives",1945
-"Algeria",2007,"immediate_relatives",449
-"American Samoa",2007,"immediate_relatives",15
-"Angola",2007,"immediate_relatives",92
-"Anguilla",2007,"immediate_relatives",11
-"Antigua-Barbuda",2007,"immediate_relatives",295
-"Argentina",2007,"immediate_relatives",3413
-"Armenia",2007,"immediate_relatives",1044
-"Aruba",2007,"immediate_relatives",27
-"Australia",2007,"immediate_relatives",1616
-"Austria",2007,"immediate_relatives",256
-"Azerbaijan",2007,"immediate_relatives",280
-"Bahamas",2007,"immediate_relatives",594
-"Bahrain",2007,"immediate_relatives",41
-"Bangladesh",2007,"immediate_relatives",5128
-"Barbados",2007,"immediate_relatives",411
-"Belarus",2007,"immediate_relatives",744
-"Belgium",2007,"immediate_relatives",323
-"Belize",2007,"immediate_relatives",742
-"Benin",2007,"immediate_relatives",170
-"Bermuda",2007,"immediate_relatives",83
-"Bhutan",2007,"immediate_relatives",14
-"Bolivia",2007,"immediate_relatives",1715
-"Bosnia-Herzegovina",2007,"immediate_relatives",728
-"Botswana",2007,"immediate_relatives",31
-"Brazil",2007,"immediate_relatives",10658
-"British Virgin Islands",2007,"immediate_relatives",21
-"Brunei",2007,"immediate_relatives",8
-"Bulgaria",2007,"immediate_relatives",1625
-"Burkina Faso",2007,"immediate_relatives",224
-"Burma",2007,"immediate_relatives",628
-"Burundi",2007,"immediate_relatives",33
-"Cambodia",2007,"immediate_relatives",3063
-"Cameroon",2007,"immediate_relatives",973
-"Canada",2007,"immediate_relatives",8203
-"Cape Verde",2007,"immediate_relatives",1327
-"Cayman Islands",2007,"immediate_relatives",32
-"Central African Republic",2007,"immediate_relatives",20
-"Chad",2007,"immediate_relatives",24
-"Chile",2007,"immediate_relatives",1531
-"China, People's Republic",2007,"immediate_relatives",23244
-"Colombia",2007,"immediate_relatives",17551
-"Congo, Democratic Republic",2007,"immediate_relatives",99
-"Congo, Republic",2007,"immediate_relatives",198
-"Costa Rica",2007,"immediate_relatives",1918
-"Cote d'Ivoire",2007,"immediate_relatives",656
-"Croatia",2007,"immediate_relatives",263
-"Cuba",2007,"immediate_relatives",3385
-"Cyprus",2007,"immediate_relatives",69
-"Czech Republic",2007,"immediate_relatives",60
-"Czechoslovakia (former)",2007,"immediate_relatives",691
-"Denmark",2007,"immediate_relatives",270
-"Djibouti",2007,"immediate_relatives",24
-"Dominica",2007,"immediate_relatives",383
-"Dominican Republic",2007,"immediate_relatives",28212
-"Ecuador",2007,"immediate_relatives",7349
-"Egypt",2007,"immediate_relatives",3175
-"El Salvador",2007,"immediate_relatives",8628
-"Equatorial Guinea",2007,"immediate_relatives",0
-"Eritrea",2007,"immediate_relatives",365
-"Estonia",2007,"immediate_relatives",172
-"Ethiopia",2007,"immediate_relatives",6503
-"Fiji",2007,"immediate_relatives",532
-"Finland",2007,"immediate_relatives",218
-"France",2007,"immediate_relatives",2043
-"French Guiana",2007,"immediate_relatives",12
-"French Polynesia",2007,"immediate_relatives",27
-"Gabon",2007,"immediate_relatives",84
-"Gambia",2007,"immediate_relatives",656
-"Georgia",2007,"immediate_relatives",755
-"Germany",2007,"immediate_relatives",4118
-"Ghana",2007,"immediate_relatives",5455
-"Greece",2007,"immediate_relatives",506
-"Grenada",2007,"immediate_relatives",559
-"Guadeloupe",2007,"immediate_relatives",23
-"Guatemala",2007,"immediate_relatives",5587
-"Guinea",2007,"immediate_relatives",424
-"Guinea-Bissau",2007,"immediate_relatives",17
-"Guyana",2007,"immediate_relatives",3140
-"Haiti",2007,"immediate_relatives",11021
-"Honduras",2007,"immediate_relatives",3737
-"Hong Kong",2007,"immediate_relatives",842
-"Hungary",2007,"immediate_relatives",912
-"Iceland",2007,"immediate_relatives",70
-"India",2007,"immediate_relatives",21532
-"Indonesia",2007,"immediate_relatives",1627
-"Iran",2007,"immediate_relatives",4054
-"Iraq",2007,"immediate_relatives",1251
-"Ireland",2007,"immediate_relatives",1066
-"Israel",2007,"immediate_relatives",3169
-"Italy",2007,"immediate_relatives",1699
-"Jamaica",2007,"immediate_relatives",16290
-"Japan",2007,"immediate_relatives",4832
-"Jordan",2007,"immediate_relatives",2728
-"Kazakhstan",2007,"immediate_relatives",907
-"Kenya",2007,"immediate_relatives",3146
-"Kiribati",2007,"immediate_relatives",6
-"Korea, North",2007,"immediate_relatives",21
-"Korea, South",2007,"immediate_relatives",9990
-"Kuwait",2007,"immediate_relatives",526
-"Kyrgyzstan",2007,"immediate_relatives",247
-"Laos",2007,"immediate_relatives",1108
-"Latvia",2007,"immediate_relatives",306
-"Lebanon",2007,"immediate_relatives",2056
+"Afghanistan",2007,"immediate_relatives",563
+"Albania",2007,"immediate_relatives",2078
+"Algeria",2007,"immediate_relatives",378
+"American Samoa",2007,"immediate_relatives",11
+"Angola",2007,"immediate_relatives",77
+"Anguilla",2007,"immediate_relatives",15
+"Antigua-Barbuda",2007,"immediate_relatives",289
+"Argentina",2007,"immediate_relatives",3208
+"Armenia",2007,"immediate_relatives",820
+"Aruba",2007,"immediate_relatives",38
+"Australia",2007,"immediate_relatives",1475
+"Austria",2007,"immediate_relatives",234
+"Azerbaijan",2007,"immediate_relatives",261
+"Bahamas",2007,"immediate_relatives",582
+"Bahrain",2007,"immediate_relatives",38
+"Bangladesh",2007,"immediate_relatives",4108
+"Barbados",2007,"immediate_relatives",432
+"Belarus",2007,"immediate_relatives",785
+"Belgium",2007,"immediate_relatives",315
+"Belize",2007,"immediate_relatives",738
+"Benin",2007,"immediate_relatives",75
+"Bermuda",2007,"immediate_relatives",84
+"Bhutan",2007,"immediate_relatives",9
+"Bolivia",2007,"immediate_relatives",1363
+"Bosnia-Herzegovina",2007,"immediate_relatives",747
+"Botswana",2007,"immediate_relatives",29
+"Brazil",2007,"immediate_relatives",9255
+"British Virgin Islands",2007,"immediate_relatives",27
+"Brunei",2007,"immediate_relatives",12
+"Bulgaria",2007,"immediate_relatives",1700
+"Burkina Faso",2007,"immediate_relatives",130
+"Burma",2007,"immediate_relatives",587
+"Burundi",2007,"immediate_relatives",28
+"Cambodia",2007,"immediate_relatives",3324
+"Cameroon",2007,"immediate_relatives",757
+"Canada",2007,"immediate_relatives",7891
+"Cape Verde",2007,"immediate_relatives",1090
+"Cayman Islands",2007,"immediate_relatives",30
+"Central African Republic",2007,"immediate_relatives",0
+"Chad",2007,"immediate_relatives",26
+"Chile",2007,"immediate_relatives",1470
+"China, People's Republic",2007,"immediate_relatives",27115
+"Colombia",2007,"immediate_relatives",17174
+"Congo, Democratic Republic",2007,"immediate_relatives",82
+"Congo, Republic",2007,"immediate_relatives",156
+"Costa Rica",2007,"immediate_relatives",1979
+"Cote d'Ivoire",2007,"immediate_relatives",598
+"Croatia",2007,"immediate_relatives",275
+"Cuba",2007,"immediate_relatives",2737
+"Cyprus",2007,"immediate_relatives",73
+"Czech Republic",2007,"immediate_relatives",110
+"Czechoslovakia (former)",2007,"immediate_relatives",792
+"Denmark",2007,"immediate_relatives",266
+"Djibouti",2007,"immediate_relatives",7
+"Dominica",2007,"immediate_relatives",331
+"Dominican Republic",2007,"immediate_relatives",14360
+"Ecuador",2007,"immediate_relatives",6848
+"Egypt",2007,"immediate_relatives",2648
+"El Salvador",2007,"immediate_relatives",6240
+"Eritrea",2007,"immediate_relatives",350
+"Estonia",2007,"immediate_relatives",241
+"Ethiopia",2007,"immediate_relatives",4940
+"Fiji",2007,"immediate_relatives",546
+"Finland",2007,"immediate_relatives",173
+"France",2007,"immediate_relatives",1806
+"French Polynesia",2007,"immediate_relatives",0
+"Gabon",2007,"immediate_relatives",55
+"Gambia",2007,"immediate_relatives",467
+"Georgia",2007,"immediate_relatives",599
+"Germany",2007,"immediate_relatives",4370
+"Ghana",2007,"immediate_relatives",5227
+"Greece",2007,"immediate_relatives",494
+"Grenada",2007,"immediate_relatives",524
+"Guadeloupe",2007,"immediate_relatives",28
+"Guatemala",2007,"immediate_relatives",8972
+"Guinea",2007,"immediate_relatives",319
+"Guinea-Bissau",2007,"immediate_relatives",16
+"Guyana",2007,"immediate_relatives",2577
+"Haiti",2007,"immediate_relatives",13569
+"Honduras",2007,"immediate_relatives",4308
+"Hong Kong",2007,"immediate_relatives",910
+"Hungary",2007,"immediate_relatives",855
+"Iceland",2007,"immediate_relatives",66
+"India",2007,"immediate_relatives",18205
+"Indonesia",2007,"immediate_relatives",1381
+"Iran",2007,"immediate_relatives",4257
+"Iraq",2007,"immediate_relatives",1023
+"Ireland",2007,"immediate_relatives",991
+"Israel",2007,"immediate_relatives",2885
+"Italy",2007,"immediate_relatives",1602
+"Jamaica",2007,"immediate_relatives",13602
+"Japan",2007,"immediate_relatives",4088
+"Jordan",2007,"immediate_relatives",2354
+"Kazakhstan",2007,"immediate_relatives",1035
+"Kenya",2007,"immediate_relatives",2330
+"Kiribati",2007,"immediate_relatives",7
+"Korea",2007,"immediate_relatives",8848
+"Kuwait",2007,"immediate_relatives",417
+"Kyrgyzstan",2007,"immediate_relatives",290
+"Laos",2007,"immediate_relatives",952
+"Latvia",2007,"immediate_relatives",370
+"Lebanon",2007,"immediate_relatives",2492
 "Lesotho",2007,"immediate_relatives",0
-"Liberia",2007,"immediate_relatives",1058
-"Libya",2007,"immediate_relatives",189
-"Lithuania",2007,"immediate_relatives",808
-"Luxembourg",2007,"immediate_relatives",9
-"Macau",2007,"immediate_relatives",40
-"Macedonia",2007,"immediate_relatives",660
-"Madagascar",2007,"immediate_relatives",39
-"Malawi",2007,"immediate_relatives",119
-"Malaysia",2007,"immediate_relatives",850
-"Mali",2007,"immediate_relatives",338
-"Malta",2007,"immediate_relatives",36
-"Marshall Islands",2007,"immediate_relatives",38
-"Martinique",2007,"immediate_relatives",8
-"Mauritania",2007,"immediate_relatives",76
-"Mauritius",2007,"immediate_relatives",47
-"Mexico",2007,"immediate_relatives",96187
-"Micronesia, Federated States",2007,"immediate_relatives",10
-"Moldova",2007,"immediate_relatives",582
-"Mongolia",2007,"immediate_relatives",357
-"Montserrat",2007,"immediate_relatives",28
-"Morocco",2007,"immediate_relatives",2834
-"Mozambique",2007,"immediate_relatives",38
-"Namibia",2007,"immediate_relatives",31
-"Nepal",2007,"immediate_relatives",1013
-"Netherlands",2007,"immediate_relatives",750
-"Netherlands Antilles",2007,"immediate_relatives",69
-"New Caledonia",2007,"immediate_relatives",13
-"New Zealand",2007,"immediate_relatives",585
-"Nicaragua",2007,"immediate_relatives",2816
-"Niger",2007,"immediate_relatives",156
-"Nigeria",2007,"immediate_relatives",9086
-"Norway",2007,"immediate_relatives",267
-"Oman",2007,"immediate_relatives",26
-"Pakistan",2007,"immediate_relatives",8800
+"Liberia",2007,"immediate_relatives",1259
+"Libya",2007,"immediate_relatives",105
+"Lithuania",2007,"immediate_relatives",890
+"Luxembourg",2007,"immediate_relatives",18
+"Macau",2007,"immediate_relatives",39
+"Macedonia",2007,"immediate_relatives",636
+"Madagascar",2007,"immediate_relatives",33
+"Malawi",2007,"immediate_relatives",76
+"Malaysia",2007,"immediate_relatives",877
+"Mali",2007,"immediate_relatives",269
+"Malta",2007,"immediate_relatives",25
+"Marshall Islands",2007,"immediate_relatives",45
+"Martinique",2007,"immediate_relatives",17
+"Mauritania",2007,"immediate_relatives",64
+"Mauritius",2007,"immediate_relatives",44
+"Mexico",2007,"immediate_relatives",87466
+"Moldova",2007,"immediate_relatives",395
+"Mongolia",2007,"immediate_relatives",262
+"Montserrat",2007,"immediate_relatives",47
+"Morocco",2007,"immediate_relatives",2160
+"Mozambique",2007,"immediate_relatives",28
+"Namibia",2007,"immediate_relatives",29
+"Nepal",2007,"immediate_relatives",643
+"Netherlands",2007,"immediate_relatives",684
+"Netherlands Antilles",2007,"immediate_relatives",53
+"New Zealand",2007,"immediate_relatives",599
+"Nicaragua",2007,"immediate_relatives",2312
+"Niger",2007,"immediate_relatives",73
+"Nigeria",2007,"immediate_relatives",7462
+"Norway",2007,"immediate_relatives",227
+"Oman",2007,"immediate_relatives",17
+"Pakistan",2007,"immediate_relatives",5868
 "Palau",2007,"immediate_relatives",0
-"Panama",2007,"immediate_relatives",1390
-"Papua New Guinea",2007,"immediate_relatives",14
-"Paraguay",2007,"immediate_relatives",402
-"Peru",2007,"immediate_relatives",11900
-"Philippines",2007,"immediate_relatives",37037
-"Poland",2007,"immediate_relatives",5688
-"Portugal",2007,"immediate_relatives",694
-"Qatar",2007,"immediate_relatives",72
-"Romania",2007,"immediate_relatives",3163
-"Russia",2007,"immediate_relatives",3596
-"Rwanda",2007,"immediate_relatives",53
-"Saint Kitts-Nevis",2007,"immediate_relatives",194
-"Saint Lucia",2007,"immediate_relatives",821
-"Saint Vincent and the Grenadines",2007,"immediate_relatives",448
-"Samoa",2007,"immediate_relatives",219
-"Sao Tome and Principe",2007,"immediate_relatives",7
-"Saudi Arabia",2007,"immediate_relatives",687
-"Senegal",2007,"immediate_relatives",1055
-"Serbia and Montenegro1",2007,"immediate_relatives",1782
-"Seychelles",2007,"immediate_relatives",6
-"Sierra Leone",2007,"immediate_relatives",905
-"Singapore",2007,"immediate_relatives",339
-"Slovakia",2007,"immediate_relatives",447
-"Slovenia",2007,"immediate_relatives",76
-"Somalia",2007,"immediate_relatives",665
-"South Africa",2007,"immediate_relatives",1497
-"Soviet Union (former)",2007,"immediate_relatives",4909
-"Spain",2007,"immediate_relatives",995
-"Sri Lanka",2007,"immediate_relatives",576
-"Sudan",2007,"immediate_relatives",685
-"Suriname",2007,"immediate_relatives",142
-"Swaziland",2007,"immediate_relatives",29
-"Sweden",2007,"immediate_relatives",647
-"Switzerland",2007,"immediate_relatives",346
-"Syria",2007,"immediate_relatives",1213
-"Taiwan",2007,"immediate_relatives",3372
-"Tajikistan",2007,"immediate_relatives",110
-"Tanzania",2007,"immediate_relatives",473
-"Thailand",2007,"immediate_relatives",4733
-"Togo",2007,"immediate_relatives",476
-"Tonga",2007,"immediate_relatives",256
-"Trinidad and Tobago",2007,"immediate_relatives",4562
-"Tunisia",2007,"immediate_relatives",297
-"Turkey",2007,"immediate_relatives",2325
-"Turkmenistan",2007,"immediate_relatives",104
-"Turks and Caicos Islands",2007,"immediate_relatives",25
-"Uganda",2007,"immediate_relatives",553
-"Ukraine",2007,"immediate_relatives",4340
-"United Arab Emirates",2007,"immediate_relatives",250
-"United Kingdom",2007,"immediate_relatives",8024
-"United States",2007,"immediate_relatives",104
-"Uruguay",2007,"immediate_relatives",1363
-"Uzbekistan",2007,"immediate_relatives",835
-"Venezuela",2007,"immediate_relatives",5435
-"Vietnam",2007,"immediate_relatives",13038
-"Yemen",2007,"immediate_relatives",2510
-"Zambia",2007,"immediate_relatives",474
-"Zimbabwe",2007,"immediate_relatives",467
-"All other countries",2007,"immediate_relatives",32
-"Unknown",2007,"immediate_relatives",736
-"Afghanistan",2008,"immediate_relatives",913
-"Albania",2008,"immediate_relatives",1945
-"Algeria",2008,"immediate_relatives",449
-"American Samoa",2008,"immediate_relatives",15
-"Angola",2008,"immediate_relatives",92
-"Anguilla",2008,"immediate_relatives",11
-"Antigua-Barbuda",2008,"immediate_relatives",295
-"Argentina",2008,"immediate_relatives",3413
-"Armenia",2008,"immediate_relatives",1044
-"Aruba",2008,"immediate_relatives",27
-"Australia",2008,"immediate_relatives",1616
-"Austria",2008,"immediate_relatives",256
-"Azerbaijan",2008,"immediate_relatives",280
-"Bahamas",2008,"immediate_relatives",594
-"Bahrain",2008,"immediate_relatives",41
-"Bangladesh",2008,"immediate_relatives",5128
-"Barbados",2008,"immediate_relatives",411
-"Belarus",2008,"immediate_relatives",744
-"Belgium",2008,"immediate_relatives",323
-"Belize",2008,"immediate_relatives",742
-"Benin",2008,"immediate_relatives",170
-"Bermuda",2008,"immediate_relatives",83
-"Bhutan",2008,"immediate_relatives",14
-"Bolivia",2008,"immediate_relatives",1715
-"Bosnia-Herzegovina",2008,"immediate_relatives",728
-"Botswana",2008,"immediate_relatives",31
-"Brazil",2008,"immediate_relatives",10658
-"British Virgin Islands",2008,"immediate_relatives",21
-"Brunei",2008,"immediate_relatives",8
-"Bulgaria",2008,"immediate_relatives",1625
-"Burkina Faso",2008,"immediate_relatives",224
-"Burma",2008,"immediate_relatives",628
-"Burundi",2008,"immediate_relatives",33
-"Cambodia",2008,"immediate_relatives",3063
-"Cameroon",2008,"immediate_relatives",973
-"Canada",2008,"immediate_relatives",8203
-"Cape Verde",2008,"immediate_relatives",1327
-"Cayman Islands",2008,"immediate_relatives",32
-"Central African Republic",2008,"immediate_relatives",20
-"Chad",2008,"immediate_relatives",24
-"Chile",2008,"immediate_relatives",1531
-"China, People's Republic",2008,"immediate_relatives",23244
-"Colombia",2008,"immediate_relatives",17551
-"Congo, Democratic Republic",2008,"immediate_relatives",99
-"Congo, Republic",2008,"immediate_relatives",198
-"Costa Rica",2008,"immediate_relatives",1918
-"Cote d'Ivoire",2008,"immediate_relatives",656
-"Croatia",2008,"immediate_relatives",263
-"Cuba",2008,"immediate_relatives",3385
-"Cyprus",2008,"immediate_relatives",69
-"Czech Republic",2008,"immediate_relatives",60
-"Czechoslovakia (former)",2008,"immediate_relatives",691
-"Denmark",2008,"immediate_relatives",270
-"Djibouti",2008,"immediate_relatives",24
-"Dominica",2008,"immediate_relatives",383
-"Dominican Republic",2008,"immediate_relatives",28212
-"Ecuador",2008,"immediate_relatives",7349
-"Egypt",2008,"immediate_relatives",3175
-"El Salvador",2008,"immediate_relatives",8628
+"Panama",2007,"immediate_relatives",1472
+"Papua New Guinea",2007,"immediate_relatives",19
+"Paraguay",2007,"immediate_relatives",345
+"Peru",2007,"immediate_relatives",10841
+"Philippines",2007,"immediate_relatives",41416
+"Poland",2007,"immediate_relatives",5545
+"Portugal",2007,"immediate_relatives",672
+"Qatar",2007,"immediate_relatives",43
+"Romania",2007,"immediate_relatives",3115
+"Russia",2007,"immediate_relatives",4502
+"Rwanda",2007,"immediate_relatives",43
+"Saint Kitts-Nevis",2007,"immediate_relatives",165
+"Saint Lucia",2007,"immediate_relatives",702
+"Saint Vincent and the Grenadines",2007,"immediate_relatives",387
+"Samoa",2007,"immediate_relatives",258
+"Saudi Arabia",2007,"immediate_relatives",480
+"Senegal",2007,"immediate_relatives",676
+"Serbia and Montenegro1",2007,"immediate_relatives",1666
+"Sierra Leone",2007,"immediate_relatives",682
+"Singapore",2007,"immediate_relatives",333
+"Slovak Republic",2007,"immediate_relatives",443
+"Slovenia",2007,"immediate_relatives",67
+"Solomon Islands",2007,"immediate_relatives",7
+"Somalia",2007,"immediate_relatives",467
+"South Africa",2007,"immediate_relatives",1329
+"Soviet Union (former)",2007,"immediate_relatives",4151
+"Spain",2007,"immediate_relatives",952
+"Sri Lanka",2007,"immediate_relatives",502
+"Sudan",2007,"immediate_relatives",569
+"Suriname",2007,"immediate_relatives",108
+"Swaziland",2007,"immediate_relatives",8
+"Sweden",2007,"immediate_relatives",645
+"Switzerland",2007,"immediate_relatives",364
+"Syria",2007,"immediate_relatives",1231
+"Taiwan",2007,"immediate_relatives",3065
+"Tajikistan",2007,"immediate_relatives",66
+"Tanzania",2007,"immediate_relatives",429
+"Thailand",2007,"immediate_relatives",4066
+"Togo",2007,"immediate_relatives",285
+"Tonga",2007,"immediate_relatives",243
+"Trinidad and Tobago",2007,"immediate_relatives",4659
+"Tunisia",2007,"immediate_relatives",288
+"Turkey",2007,"immediate_relatives",1907
+"Turkmenistan",2007,"immediate_relatives",62
+"Turks and Caicos Islands",2007,"immediate_relatives",18
+"Uganda",2007,"immediate_relatives",431
+"Ukraine",2007,"immediate_relatives",4101
+"United Arab Emirates",2007,"immediate_relatives",205
+"United Kingdom",2007,"immediate_relatives",7913
+"United States",2007,"immediate_relatives",119
+"Uruguay",2007,"immediate_relatives",1088
+"Uzbekistan",2007,"immediate_relatives",688
+"Venezuela",2007,"immediate_relatives",5469
+"Vietnam",2007,"immediate_relatives",13974
+"Yemen",2007,"immediate_relatives",1796
+"Zambia",2007,"immediate_relatives",336
+"Zimbabwe",2007,"immediate_relatives",445
+"All other countries",2007,"immediate_relatives",49
+"Unknown",2007,"immediate_relatives",822
+"Afghanistan",2008,"immediate_relatives",736
+"Albania",2008,"immediate_relatives",2041
+"Algeria",2008,"immediate_relatives",330
+"American Samoa",2008,"immediate_relatives",0
+"Angola",2008,"immediate_relatives",87
+"Anguilla",2008,"immediate_relatives",15
+"Antigua-Barbuda",2008,"immediate_relatives",244
+"Argentina",2008,"immediate_relatives",2783
+"Armenia",2008,"immediate_relatives",733
+"Aruba",2008,"immediate_relatives",24
+"Australia",2008,"immediate_relatives",1290
+"Austria",2008,"immediate_relatives",212
+"Azerbaijan",2008,"immediate_relatives",258
+"Bahamas",2008,"immediate_relatives",499
+"Bahrain",2008,"immediate_relatives",32
+"Bangladesh",2008,"immediate_relatives",3883
+"Barbados",2008,"immediate_relatives",382
+"Belarus",2008,"immediate_relatives",602
+"Belgium",2008,"immediate_relatives",288
+"Belize",2008,"immediate_relatives",687
+"Benin",2008,"immediate_relatives",111
+"Bermuda",2008,"immediate_relatives",60
+"Bhutan",2008,"immediate_relatives",11
+"Bolivia",2008,"immediate_relatives",1386
+"Bosnia-Herzegovina",2008,"immediate_relatives",577
+"Botswana",2008,"immediate_relatives",21
+"Brazil",2008,"immediate_relatives",8037
+"British Virgin Islands",2008,"immediate_relatives",33
+"Brunei",2008,"immediate_relatives",0
+"Bulgaria",2008,"immediate_relatives",1187
+"Burkina Faso",2008,"immediate_relatives",133
+"Burma",2008,"immediate_relatives",529
+"Burundi",2008,"immediate_relatives",21
+"Cambodia",2008,"immediate_relatives",2826
+"Cameroon",2008,"immediate_relatives",733
+"Canada",2008,"immediate_relatives",7044
+"Cape Verde",2008,"immediate_relatives",972
+"Cayman Islands",2008,"immediate_relatives",23
+"Central African Republic",2008,"immediate_relatives",0
+"Chad",2008,"immediate_relatives",19
+"Chile",2008,"immediate_relatives",1299
+"China, People's Republic",2008,"immediate_relatives",26515
+"Colombia",2008,"immediate_relatives",15074
+"Congo, Democratic Republic",2008,"immediate_relatives",45
+"Congo, Republic",2008,"immediate_relatives",146
+"Costa Rica",2008,"immediate_relatives",1588
+"Cote d'Ivoire",2008,"immediate_relatives",571
+"Croatia",2008,"immediate_relatives",206
+"Cuba",2008,"immediate_relatives",3183
+"Cyprus",2008,"immediate_relatives",72
+"Czech Republic",2008,"immediate_relatives",68
+"Czechoslovakia (former)",2008,"immediate_relatives",681
+"Denmark",2008,"immediate_relatives",235
+"Djibouti",2008,"immediate_relatives",15
+"Dominica",2008,"immediate_relatives",312
+"Dominican Republic",2008,"immediate_relatives",21421
+"Ecuador",2008,"immediate_relatives",6758
+"Egypt",2008,"immediate_relatives",2562
+"El Salvador",2008,"immediate_relatives",6428
 "Equatorial Guinea",2008,"immediate_relatives",0
-"Eritrea",2008,"immediate_relatives",365
-"Estonia",2008,"immediate_relatives",172
-"Ethiopia",2008,"immediate_relatives",6503
-"Fiji",2008,"immediate_relatives",532
-"Finland",2008,"immediate_relatives",218
-"France",2008,"immediate_relatives",2043
-"French Guiana",2008,"immediate_relatives",12
-"French Polynesia",2008,"immediate_relatives",27
-"Gabon",2008,"immediate_relatives",84
-"Gambia",2008,"immediate_relatives",656
-"Georgia",2008,"immediate_relatives",755
-"Germany",2008,"immediate_relatives",4118
-"Ghana",2008,"immediate_relatives",5455
-"Greece",2008,"immediate_relatives",506
-"Grenada",2008,"immediate_relatives",559
-"Guadeloupe",2008,"immediate_relatives",23
-"Guatemala",2008,"immediate_relatives",5587
-"Guinea",2008,"immediate_relatives",424
-"Guinea-Bissau",2008,"immediate_relatives",17
-"Guyana",2008,"immediate_relatives",3140
-"Haiti",2008,"immediate_relatives",11021
-"Honduras",2008,"immediate_relatives",3737
-"Hong Kong",2008,"immediate_relatives",842
-"Hungary",2008,"immediate_relatives",912
-"Iceland",2008,"immediate_relatives",70
-"India",2008,"immediate_relatives",21532
-"Indonesia",2008,"immediate_relatives",1627
-"Iran",2008,"immediate_relatives",4054
-"Iraq",2008,"immediate_relatives",1251
-"Ireland",2008,"immediate_relatives",1066
-"Israel",2008,"immediate_relatives",3169
-"Italy",2008,"immediate_relatives",1699
-"Jamaica",2008,"immediate_relatives",16290
-"Japan",2008,"immediate_relatives",4832
-"Jordan",2008,"immediate_relatives",2728
-"Kazakhstan",2008,"immediate_relatives",907
-"Kenya",2008,"immediate_relatives",3146
-"Kiribati",2008,"immediate_relatives",6
-"Korea, North",2008,"immediate_relatives",21
-"Korea, South",2008,"immediate_relatives",9990
-"Kuwait",2008,"immediate_relatives",526
-"Kyrgyzstan",2008,"immediate_relatives",247
-"Laos",2008,"immediate_relatives",1108
-"Latvia",2008,"immediate_relatives",306
-"Lebanon",2008,"immediate_relatives",2056
-"Lesotho",2008,"immediate_relatives",0
-"Liberia",2008,"immediate_relatives",1058
-"Libya",2008,"immediate_relatives",189
-"Lithuania",2008,"immediate_relatives",808
-"Luxembourg",2008,"immediate_relatives",9
-"Macau",2008,"immediate_relatives",40
-"Macedonia",2008,"immediate_relatives",660
-"Madagascar",2008,"immediate_relatives",39
-"Malawi",2008,"immediate_relatives",119
-"Malaysia",2008,"immediate_relatives",850
-"Mali",2008,"immediate_relatives",338
-"Malta",2008,"immediate_relatives",36
-"Marshall Islands",2008,"immediate_relatives",38
-"Martinique",2008,"immediate_relatives",8
-"Mauritania",2008,"immediate_relatives",76
-"Mauritius",2008,"immediate_relatives",47
-"Mexico",2008,"immediate_relatives",96187
-"Micronesia, Federated States",2008,"immediate_relatives",10
-"Moldova",2008,"immediate_relatives",582
-"Mongolia",2008,"immediate_relatives",357
-"Montserrat",2008,"immediate_relatives",28
-"Morocco",2008,"immediate_relatives",2834
-"Mozambique",2008,"immediate_relatives",38
-"Namibia",2008,"immediate_relatives",31
-"Nepal",2008,"immediate_relatives",1013
-"Netherlands",2008,"immediate_relatives",750
-"Netherlands Antilles",2008,"immediate_relatives",69
-"New Caledonia",2008,"immediate_relatives",13
-"New Zealand",2008,"immediate_relatives",585
-"Nicaragua",2008,"immediate_relatives",2816
-"Niger",2008,"immediate_relatives",156
-"Nigeria",2008,"immediate_relatives",9086
-"Norway",2008,"immediate_relatives",267
-"Oman",2008,"immediate_relatives",26
-"Pakistan",2008,"immediate_relatives",8800
-"Palau",2008,"immediate_relatives",0
-"Panama",2008,"immediate_relatives",1390
-"Papua New Guinea",2008,"immediate_relatives",14
-"Paraguay",2008,"immediate_relatives",402
-"Peru",2008,"immediate_relatives",11900
-"Philippines",2008,"immediate_relatives",37037
-"Poland",2008,"immediate_relatives",5688
-"Portugal",2008,"immediate_relatives",694
-"Qatar",2008,"immediate_relatives",72
-"Romania",2008,"immediate_relatives",3163
-"Russia",2008,"immediate_relatives",3596
-"Rwanda",2008,"immediate_relatives",53
-"Saint Kitts-Nevis",2008,"immediate_relatives",194
-"Saint Lucia",2008,"immediate_relatives",821
-"Saint Vincent and the Grenadines",2008,"immediate_relatives",448
-"Samoa",2008,"immediate_relatives",219
-"Sao Tome and Principe",2008,"immediate_relatives",7
-"Saudi Arabia",2008,"immediate_relatives",687
-"Senegal",2008,"immediate_relatives",1055
-"Serbia and Montenegro1",2008,"immediate_relatives",1782
+"Eritrea",2008,"immediate_relatives",325
+"Estonia",2008,"immediate_relatives",179
+"Ethiopia",2008,"immediate_relatives",5123
+"Fiji",2008,"immediate_relatives",402
+"Finland",2008,"immediate_relatives",139
+"France",2008,"immediate_relatives",1851
+"French Polynesia",2008,"immediate_relatives",21
+"Gabon",2008,"immediate_relatives",39
+"Gambia",2008,"immediate_relatives",456
+"Georgia",2008,"immediate_relatives",591
+"Germany",2008,"immediate_relatives",3680
+"Ghana",2008,"immediate_relatives",5665
+"Greece",2008,"immediate_relatives",416
+"Grenada",2008,"immediate_relatives",523
+"Guadeloupe",2008,"immediate_relatives",18
+"Guatemala",2008,"immediate_relatives",8287
+"Guinea",2008,"immediate_relatives",331
+"Guinea-Bissau",2008,"immediate_relatives",11
+"Guyana",2008,"immediate_relatives",2797
+"Haiti",2008,"immediate_relatives",8958
+"Honduras",2008,"immediate_relatives",3676
+"Hong Kong",2008,"immediate_relatives",682
+"Hungary",2008,"immediate_relatives",706
+"Iceland",2008,"immediate_relatives",53
+"India",2008,"immediate_relatives",19116
+"Indonesia",2008,"immediate_relatives",1273
+"Iran",2008,"immediate_relatives",4491
+"Iraq",2008,"immediate_relatives",1153
+"Ireland",2008,"immediate_relatives",936
+"Israel",2008,"immediate_relatives",2760
+"Italy",2008,"immediate_relatives",1427
+"Jamaica",2008,"immediate_relatives",11937
+"Japan",2008,"immediate_relatives",3824
+"Jordan",2008,"immediate_relatives",2233
+"Kazakhstan",2008,"immediate_relatives",882
+"Kenya",2008,"immediate_relatives",2185
+"Korea1",2008,"immediate_relatives",8423
+"Kuwait",2008,"immediate_relatives",451
+"Kyrgyzstan",2008,"immediate_relatives",282
+"Laos",2008,"immediate_relatives",812
+"Latvia",2008,"immediate_relatives",276
+"Lebanon",2008,"immediate_relatives",2047
+"Lesotho",2008,"immediate_relatives",13
+"Liberia",2008,"immediate_relatives",1211
+"Libya",2008,"immediate_relatives",168
+"Lithuania",2008,"immediate_relatives",663
+"Luxembourg",2008,"immediate_relatives",11
+"Macau",2008,"immediate_relatives",28
+"Macedonia",2008,"immediate_relatives",562
+"Madagascar",2008,"immediate_relatives",23
+"Malawi",2008,"immediate_relatives",76
+"Malaysia",2008,"immediate_relatives",801
+"Mali",2008,"immediate_relatives",280
+"Malta",2008,"immediate_relatives",43
+"Marshall Islands",2008,"immediate_relatives",0
+"Martinique",2008,"immediate_relatives",17
+"Mauritania",2008,"immediate_relatives",65
+"Mauritius",2008,"immediate_relatives",27
+"Mexico",2008,"immediate_relatives",111703
+"Micronesia, Federated States",2008,"immediate_relatives",0
+"Moldova",2008,"immediate_relatives",424
+"Mongolia",2008,"immediate_relatives",274
+"Montserrat",2008,"immediate_relatives",29
+"Morocco",2008,"immediate_relatives",2267
+"Mozambique",2008,"immediate_relatives",25
+"Namibia",2008,"immediate_relatives",29
+"Nepal",2008,"immediate_relatives",650
+"Netherlands",2008,"immediate_relatives",544
+"Netherlands Antilles",2008,"immediate_relatives",47
+"New Zealand",2008,"immediate_relatives",506
+"Nicaragua",2008,"immediate_relatives",2286
+"Niger",2008,"immediate_relatives",92
+"Nigeria",2008,"immediate_relatives",6927
+"Norway",2008,"immediate_relatives",207
+"Oman",2008,"immediate_relatives",25
+"Pakistan",2008,"immediate_relatives",7771
+"Panama",2008,"immediate_relatives",1187
+"Papua New Guinea",2008,"immediate_relatives",9
+"Paraguay",2008,"immediate_relatives",338
+"Peru",2008,"immediate_relatives",9832
+"Philippines",2008,"immediate_relatives",30662
+"Poland",2008,"immediate_relatives",4453
+"Portugal",2008,"immediate_relatives",498
+"Qatar",2008,"immediate_relatives",69
+"Romania",2008,"immediate_relatives",2532
+"Russia",2008,"immediate_relatives",4023
+"Rwanda",2008,"immediate_relatives",71
+"Saint Kitts-Nevis",2008,"immediate_relatives",169
+"Saint Lucia",2008,"immediate_relatives",709
+"Saint Vincent and the Grenadines",2008,"immediate_relatives",352
+"Samoa",2008,"immediate_relatives",186
+"Saudi Arabia",2008,"immediate_relatives",504
+"Senegal",2008,"immediate_relatives",722
+"Serbia and Montenegro2",2008,"immediate_relatives",1416
 "Seychelles",2008,"immediate_relatives",6
-"Sierra Leone",2008,"immediate_relatives",905
-"Singapore",2008,"immediate_relatives",339
-"Slovakia",2008,"immediate_relatives",447
-"Slovenia",2008,"immediate_relatives",76
-"Somalia",2008,"immediate_relatives",665
-"South Africa",2008,"immediate_relatives",1497
-"Soviet Union (former)",2008,"immediate_relatives",4909
-"Spain",2008,"immediate_relatives",995
-"Sri Lanka",2008,"immediate_relatives",576
-"Sudan",2008,"immediate_relatives",685
-"Suriname",2008,"immediate_relatives",142
-"Swaziland",2008,"immediate_relatives",29
-"Sweden",2008,"immediate_relatives",647
-"Switzerland",2008,"immediate_relatives",346
-"Syria",2008,"immediate_relatives",1213
-"Taiwan",2008,"immediate_relatives",3372
-"Tajikistan",2008,"immediate_relatives",110
-"Tanzania",2008,"immediate_relatives",473
-"Thailand",2008,"immediate_relatives",4733
-"Togo",2008,"immediate_relatives",476
-"Tonga",2008,"immediate_relatives",256
-"Trinidad and Tobago",2008,"immediate_relatives",4562
-"Tunisia",2008,"immediate_relatives",297
-"Turkey",2008,"immediate_relatives",2325
-"Turkmenistan",2008,"immediate_relatives",104
+"Sierra Leone",2008,"immediate_relatives",739
+"Singapore",2008,"immediate_relatives",320
+"Slovak Republic",2008,"immediate_relatives",373
+"Slovenia",2008,"immediate_relatives",52
+"Somalia",2008,"immediate_relatives",514
+"South Africa",2008,"immediate_relatives",1214
+"Soviet Union (former)",2008,"immediate_relatives",4172
+"Spain",2008,"immediate_relatives",805
+"Sri Lanka",2008,"immediate_relatives",456
+"Sudan",2008,"immediate_relatives",511
+"Suriname",2008,"immediate_relatives",117
+"Swaziland",2008,"immediate_relatives",10
+"Sweden",2008,"immediate_relatives",559
+"Switzerland",2008,"immediate_relatives",286
+"Syria",2008,"immediate_relatives",1154
+"Taiwan",2008,"immediate_relatives",2762
+"Tajikistan",2008,"immediate_relatives",80
+"Tanzania",2008,"immediate_relatives",403
+"Thailand",2008,"immediate_relatives",3531
+"Togo",2008,"immediate_relatives",298
+"Tonga",2008,"immediate_relatives",213
+"Trinidad and Tobago",2008,"immediate_relatives",4019
+"Tunisia",2008,"immediate_relatives",263
+"Turkey",2008,"immediate_relatives",1868
+"Turkmenistan",2008,"immediate_relatives",72
 "Turks and Caicos Islands",2008,"immediate_relatives",25
-"Uganda",2008,"immediate_relatives",553
-"Ukraine",2008,"immediate_relatives",4340
-"United Arab Emirates",2008,"immediate_relatives",250
-"United Kingdom",2008,"immediate_relatives",8024
-"United States",2008,"immediate_relatives",104
-"Uruguay",2008,"immediate_relatives",1363
-"Uzbekistan",2008,"immediate_relatives",835
-"Venezuela",2008,"immediate_relatives",5435
-"Vietnam",2008,"immediate_relatives",13038
-"Yemen",2008,"immediate_relatives",2510
-"Zambia",2008,"immediate_relatives",474
-"Zimbabwe",2008,"immediate_relatives",467
-"All other countries",2008,"immediate_relatives",32
-"Unknown",2008,"immediate_relatives",736
+"Uganda",2008,"immediate_relatives",440
+"Ukraine",2008,"immediate_relatives",3659
+"United Arab Emirates",2008,"immediate_relatives",243
+"United Kingdom",2008,"immediate_relatives",6781
+"United States",2008,"immediate_relatives",136
+"Uruguay",2008,"immediate_relatives",993
+"Uzbekistan",2008,"immediate_relatives",679
+"Venezuela",2008,"immediate_relatives",4463
+"Vietnam",2008,"immediate_relatives",12330
+"Yemen",2008,"immediate_relatives",1395
+"Zambia",2008,"immediate_relatives",351
+"Zimbabwe",2008,"immediate_relatives",350
+"All other countries",2008,"immediate_relatives",44
+"Unknown",2008,"immediate_relatives",720
 "Afghanistan",2009,"immediate_relatives",913
 "Albania",2009,"immediate_relatives",1945
 "Algeria",2009,"immediate_relatives",449
@@ -2193,408 +2181,396 @@
 "Zimbabwe",2017,"immediate_relatives",409
 "All other countries1",2017,"immediate_relatives",47
 "Unknown",2017,"immediate_relatives",907
-"Afghanistan",2007,"family",322
-"Albania",2007,"family",173
-"Algeria",2007,"family",41
+"Afghanistan",2007,"family",149
+"Albania",2007,"family",150
+"Algeria",2007,"family",14
 "American Samoa",2007,"family",0
-"Angola",2007,"family",20
-"Anguilla",2007,"family",0
-"Antigua-Barbuda",2007,"family",134
-"Argentina",2007,"family",160
-"Armenia",2007,"family",160
-"Aruba",2007,"family",0
-"Australia",2007,"family",51
-"Austria",2007,"family",14
-"Azerbaijan",2007,"family",36
-"Bahamas",2007,"family",85
-"Bahrain",2007,"family",13
-"Bangladesh",2007,"family",7326
-"Barbados",2007,"family",140
-"Belarus",2007,"family",55
-"Belgium",2007,"family",16
-"Belize",2007,"family",244
+"Angola",2007,"family",28
+"Anguilla",2007,"family",5
+"Antigua-Barbuda",2007,"family",112
+"Argentina",2007,"family",222
+"Armenia",2007,"family",113
+"Aruba",2007,"family",9
+"Australia",2007,"family",74
+"Austria",2007,"family",11
+"Azerbaijan",2007,"family",17
+"Bahamas",2007,"family",72
+"Bahrain",2007,"family",20
+"Bangladesh",2007,"family",3015
+"Barbados",2007,"family",184
+"Belarus",2007,"family",41
+"Belgium",2007,"family",22
+"Belize",2007,"family",262
 "Benin",2007,"family",0
-"Bermuda",2007,"family",3
+"Bermuda",2007,"family",7
 "Bhutan",2007,"family",0
-"Bolivia",2007,"family",332
-"Bosnia-Herzegovina",2007,"family",20
-"Botswana",2007,"family",3
-"Brazil",2007,"family",262
-"British Virgin Islands",2007,"family",20
-"Brunei",2007,"family",3
-"Bulgaria",2007,"family",84
+"Bolivia",2007,"family",254
+"Bosnia-Herzegovina",2007,"family",16
+"Botswana",2007,"family",0
+"Brazil",2007,"family",372
+"British Virgin Islands",2007,"family",0
+"Brunei",2007,"family",0
+"Bulgaria",2007,"family",72
 "Burkina Faso",2007,"family",4
-"Burma",2007,"family",399
+"Burma",2007,"family",510
 "Burundi",2007,"family",0
-"Cambodia",2007,"family",383
-"Cameroon",2007,"family",54
-"Canada",2007,"family",635
-"Cape Verde",2007,"family",880
-"Cayman Islands",2007,"family",0
+"Cambodia",2007,"family",471
+"Cameroon",2007,"family",67
+"Canada",2007,"family",602
+"Cape Verde",2007,"family",944
+"Cayman Islands",2007,"family",7
 "Central African Republic",2007,"family",0
 "Chad",2007,"family",0
-"Chile",2007,"family",144
-"China, People's Republic",2007,"family",11013
-"Colombia",2007,"family",3127
-"Congo, Democratic Republic",2007,"family",17
-"Congo, Republic",2007,"family",20
-"Costa Rica",2007,"family",134
-"Cote d'Ivoire",2007,"family",46
-"Croatia",2007,"family",11
-"Cuba",2007,"family",1022
-"Cyprus",2007,"family",10
-"Czech Republic",2007,"family",8
-"Czechoslovakia (former)",2007,"family",14
-"Denmark",2007,"family",8
+"Chile",2007,"family",217
+"China, People's Republic",2007,"family",15261
+"Colombia",2007,"family",3177
+"Congo, Democratic Republic",2007,"family",24
+"Congo, Republic",2007,"family",21
+"Costa Rica",2007,"family",217
+"Cote d'Ivoire",2007,"family",68
+"Croatia",2007,"family",16
+"Cuba",2007,"family",1794
+"Cyprus",2007,"family",5
+"Czech Republic",2007,"family",6
+"Czechoslovakia (former)",2007,"family",16
+"Denmark",2007,"family",0
 "Djibouti",2007,"family",0
-"Dominica",2007,"family",88
-"Dominican Republic",2007,"family",20611
-"Ecuador",2007,"family",3098
-"Egypt",2007,"family",668
-"El Salvador",2007,"family",6823
-"Equatorial Guinea",2007,"family",0
-"Eritrea",2007,"family",57
-"Estonia",2007,"family",15
-"Ethiopia",2007,"family",560
-"Fiji",2007,"family",222
-"Finland",2007,"family",8
-"France",2007,"family",89
-"French Guiana",2007,"family",0
+"Dominica",2007,"family",93
+"Dominican Republic",2007,"family",13250
+"Ecuador",2007,"family",2657
+"Egypt",2007,"family",778
+"El Salvador",2007,"family",6145
+"Eritrea",2007,"family",33
+"Estonia",2007,"family",5
+"Ethiopia",2007,"family",442
+"Fiji",2007,"family",435
+"Finland",2007,"family",7
+"France",2007,"family",107
 "French Polynesia",2007,"family",0
-"Gabon",2007,"family",0
-"Gambia",2007,"family",26
-"Georgia",2007,"family",19
-"Germany",2007,"family",185
-"Ghana",2007,"family",404
-"Greece",2007,"family",28
-"Grenada",2007,"family",157
-"Guadeloupe",2007,"family",0
-"Guatemala",2007,"family",2791
-"Guinea",2007,"family",15
+"Gabon",2007,"family",5
+"Gambia",2007,"family",33
+"Georgia",2007,"family",9
+"Germany",2007,"family",218
+"Ghana",2007,"family",771
+"Greece",2007,"family",60
+"Grenada",2007,"family",165
+"Guadeloupe",2007,"family",5
+"Guatemala",2007,"family",2641
+"Guinea",2007,"family",29
 "Guinea-Bissau",2007,"family",0
-"Guyana",2007,"family",3298
-"Haiti",2007,"family",7133
-"Honduras",2007,"family",1772
-"Hong Kong",2007,"family",1101
-"Hungary",2007,"family",29
+"Guyana",2007,"family",2868
+"Haiti",2007,"family",8028
+"Honduras",2007,"family",2303
+"Hong Kong",2007,"family",1818
+"Hungary",2007,"family",32
 "Iceland",2007,"family",0
-"India",2007,"family",12911
-"Indonesia",2007,"family",189
-"Iran",2007,"family",2410
-"Iraq",2007,"family",488
+"India",2007,"family",15551
+"Indonesia",2007,"family",168
+"Iran",2007,"family",2260
+"Iraq",2007,"family",778
 "Ireland",2007,"family",10
-"Israel",2007,"family",216
-"Italy",2007,"family",111
-"Jamaica",2007,"family",4833
-"Japan",2007,"family",105
-"Jordan",2007,"family",1077
-"Kazakhstan",2007,"family",22
-"Kenya",2007,"family",190
+"Israel",2007,"family",188
+"Italy",2007,"family",120
+"Jamaica",2007,"family",4988
+"Japan",2007,"family",137
+"Jordan",2007,"family",1211
+"Kazakhstan",2007,"family",21
+"Kenya",2007,"family",212
 "Kiribati",2007,"family",0
-"Korea, North",2007,"family",0
-"Korea, South",2007,"family",1660
-"Kuwait",2007,"family",278
-"Kyrgyzstan",2007,"family",5
-"Laos",2007,"family",80
-"Latvia",2007,"family",7
-"Lebanon",2007,"family",977
+"Korea",2007,"family",2222
+"Kuwait",2007,"family",296
+"Kyrgyzstan",2007,"family",9
+"Laos",2007,"family",119
+"Latvia",2007,"family",10
+"Lebanon",2007,"family",929
 "Lesotho",2007,"family",0
-"Liberia",2007,"family",210
-"Libya",2007,"family",16
-"Lithuania",2007,"family",30
+"Liberia",2007,"family",288
+"Libya",2007,"family",18
+"Lithuania",2007,"family",42
 "Luxembourg",2007,"family",0
-"Macau",2007,"family",93
-"Macedonia",2007,"family",148
+"Macau",2007,"family",123
+"Macedonia",2007,"family",227
 "Madagascar",2007,"family",0
-"Malawi",2007,"family",5
-"Malaysia",2007,"family",99
-"Mali",2007,"family",6
-"Malta",2007,"family",3
-"Marshall Islands",2007,"family",3
-"Martinique",2007,"family",7
-"Mauritania",2007,"family",0
-"Mauritius",2007,"family",9
-"Mexico",2007,"family",57177
-"Micronesia, Federated States",2007,"family",0
-"Moldova",2007,"family",34
+"Malawi",2007,"family",6
+"Malaysia",2007,"family",180
+"Mali",2007,"family",11
+"Malta",2007,"family",10
+"Marshall Islands",2007,"family",0
+"Martinique",2007,"family",0
+"Mauritania",2007,"family",3
+"Mauritius",2007,"family",0
+"Mexico",2007,"family",45422
+"Moldova",2007,"family",8
 "Mongolia",2007,"family",0
-"Montserrat",2007,"family",0
-"Morocco",2007,"family",226
+"Montserrat",2007,"family",13
+"Morocco",2007,"family",229
 "Mozambique",2007,"family",0
 "Namibia",2007,"family",0
-"Nepal",2007,"family",145
-"Netherlands",2007,"family",42
-"Netherlands Antilles",2007,"family",13
-"New Caledonia",2007,"family",0
-"New Zealand",2007,"family",22
-"Nicaragua",2007,"family",874
-"Niger",2007,"family",3
-"Nigeria",2007,"family",1394
-"Norway",2007,"family",7
-"Oman",2007,"family",3
-"Pakistan",2007,"family",8694
+"Nepal",2007,"family",128
+"Netherlands",2007,"family",39
+"Netherlands Antilles",2007,"family",22
+"New Zealand",2007,"family",43
+"Nicaragua",2007,"family",970
+"Niger",2007,"family",5
+"Nigeria",2007,"family",963
+"Norway",2007,"family",0
+"Oman",2007,"family",11
+"Pakistan",2007,"family",3209
 "Palau",2007,"family",0
-"Panama",2007,"family",252
+"Panama",2007,"family",271
 "Papua New Guinea",2007,"family",0
-"Paraguay",2007,"family",28
-"Peru",2007,"family",2714
-"Philippines",2007,"family",14286
-"Poland",2007,"family",1619
-"Portugal",2007,"family",80
-"Qatar",2007,"family",17
-"Romania",2007,"family",250
-"Russia",2007,"family",220
+"Paraguay",2007,"family",36
+"Peru",2007,"family",2676
+"Philippines",2007,"family",13535
+"Poland",2007,"family",2345
+"Portugal",2007,"family",149
+"Qatar",2007,"family",40
+"Romania",2007,"family",296
+"Russia",2007,"family",135
 "Rwanda",2007,"family",0
-"Saint Kitts-Nevis",2007,"family",101
-"Saint Lucia",2007,"family",172
-"Saint Vincent and the Grenadines",2007,"family",126
-"Samoa",2007,"family",19
-"Sao Tome and Principe",2007,"family",0
-"Saudi Arabia",2007,"family",279
-"Senegal",2007,"family",68
-"Serbia and Montenegro1",2007,"family",132
-"Seychelles",2007,"family",0
-"Sierra Leone",2007,"family",90
-"Singapore",2007,"family",42
-"Slovakia",2007,"family",20
-"Slovenia",2007,"family",0
-"Somalia",2007,"family",30
-"South Africa",2007,"family",71
-"Soviet Union (former)",2007,"family",62
-"Spain",2007,"family",26
-"Sri Lanka",2007,"family",128
-"Sudan",2007,"family",31
+"Saint Kitts-Nevis",2007,"family",168
+"Saint Lucia",2007,"family",167
+"Saint Vincent and the Grenadines",2007,"family",146
+"Samoa",2007,"family",24
+"Saudi Arabia",2007,"family",182
+"Senegal",2007,"family",43
+"Serbia and Montenegro1",2007,"family",146
+"Sierra Leone",2007,"family",122
+"Singapore",2007,"family",67
+"Slovak Republic",2007,"family",0
+"Slovenia",2007,"family",3
+"Solomon Islands",2007,"family",0
+"Somalia",2007,"family",27
+"South Africa",2007,"family",101
+"Soviet Union (former)",2007,"family",65
+"Spain",2007,"family",48
+"Sri Lanka",2007,"family",236
+"Sudan",2007,"family",52
 "Suriname",2007,"family",52
 "Swaziland",2007,"family",0
-"Sweden",2007,"family",29
-"Switzerland",2007,"family",21
-"Syria",2007,"family",652
-"Taiwan",2007,"family",1884
-"Tajikistan",2007,"family",6
-"Tanzania",2007,"family",78
-"Thailand",2007,"family",218
-"Togo",2007,"family",74
-"Tonga",2007,"family",84
-"Trinidad and Tobago",2007,"family",1199
-"Tunisia",2007,"family",11
-"Turkey",2007,"family",163
-"Turkmenistan",2007,"family",0
-"Turks and Caicos Islands",2007,"family",6
-"Uganda",2007,"family",72
-"Ukraine",2007,"family",306
-"United Arab Emirates",2007,"family",150
-"United Kingdom",2007,"family",474
-"United States",2007,"family",14
-"Uruguay",2007,"family",50
-"Uzbekistan",2007,"family",41
-"Venezuela",2007,"family",395
-"Vietnam",2007,"family",12748
-"Yemen",2007,"family",363
-"Zambia",2007,"family",22
-"Zimbabwe",2007,"family",13
-"All other countries",2007,"family",2
-"Unknown",2007,"family",127
+"Sweden",2007,"family",34
+"Switzerland",2007,"family",16
+"Syria",2007,"family",687
+"Taiwan",2007,"family",3052
+"Tajikistan",2007,"family",5
+"Tanzania",2007,"family",68
+"Thailand",2007,"family",356
+"Togo",2007,"family",27
+"Tonga",2007,"family",163
+"Trinidad and Tobago",2007,"family",1477
+"Tunisia",2007,"family",24
+"Turkey",2007,"family",248
+"Turkmenistan",2007,"family",3
+"Turks and Caicos Islands",2007,"family",0
+"Uganda",2007,"family",60
+"Ukraine",2007,"family",197
+"United Arab Emirates",2007,"family",189
+"United Kingdom",2007,"family",647
+"United States",2007,"family",18
+"Uruguay",2007,"family",0
+"Uzbekistan",2007,"family",39
+"Venezuela",2007,"family",618
+"Vietnam",2007,"family",12430
+"Yemen",2007,"family",295
+"Zambia",2007,"family",31
+"Zimbabwe",2007,"family",30
+"All other countries",2007,"family",9
+"Unknown",2007,"family",93
 "Afghanistan",2008,"family",322
-"Albania",2008,"family",173
-"Algeria",2008,"family",41
+"Albania",2008,"family",132
+"Algeria",2008,"family",31
 "American Samoa",2008,"family",0
-"Angola",2008,"family",20
+"Angola",2008,"family",36
 "Anguilla",2008,"family",0
-"Antigua-Barbuda",2008,"family",134
-"Argentina",2008,"family",160
-"Armenia",2008,"family",160
+"Antigua-Barbuda",2008,"family",189
+"Argentina",2008,"family",181
+"Armenia",2008,"family",208
 "Aruba",2008,"family",0
-"Australia",2008,"family",51
+"Australia",2008,"family",59
 "Austria",2008,"family",14
-"Azerbaijan",2008,"family",36
-"Bahamas",2008,"family",85
-"Bahrain",2008,"family",13
-"Bangladesh",2008,"family",7326
-"Barbados",2008,"family",140
-"Belarus",2008,"family",55
-"Belgium",2008,"family",16
-"Belize",2008,"family",244
-"Benin",2008,"family",0
-"Bermuda",2008,"family",3
+"Azerbaijan",2008,"family",35
+"Bahamas",2008,"family",104
+"Bahrain",2008,"family",0
+"Bangladesh",2008,"family",3210
+"Barbados",2008,"family",145
+"Belarus",2008,"family",48
+"Belgium",2008,"family",18
+"Belize",2008,"family",297
+"Benin",2008,"family",4
+"Bermuda",2008,"family",0
 "Bhutan",2008,"family",0
-"Bolivia",2008,"family",332
-"Bosnia-Herzegovina",2008,"family",20
-"Botswana",2008,"family",3
-"Brazil",2008,"family",262
-"British Virgin Islands",2008,"family",20
-"Brunei",2008,"family",3
-"Bulgaria",2008,"family",84
-"Burkina Faso",2008,"family",4
-"Burma",2008,"family",399
+"Bolivia",2008,"family",301
+"Bosnia-Herzegovina",2008,"family",15
+"Botswana",2008,"family",0
+"Brazil",2008,"family",328
+"British Virgin Islands",2008,"family",0
+"Brunei",2008,"family",7
+"Bulgaria",2008,"family",64
+"Burkina Faso",2008,"family",0
+"Burma",2008,"family",485
 "Burundi",2008,"family",0
-"Cambodia",2008,"family",383
-"Cameroon",2008,"family",54
-"Canada",2008,"family",635
-"Cape Verde",2008,"family",880
+"Cambodia",2008,"family",464
+"Cameroon",2008,"family",83
+"Canada",2008,"family",736
+"Cape Verde",2008,"family",930
 "Cayman Islands",2008,"family",0
 "Central African Republic",2008,"family",0
 "Chad",2008,"family",0
-"Chile",2008,"family",144
-"China, People's Republic",2008,"family",11013
-"Colombia",2008,"family",3127
-"Congo, Democratic Republic",2008,"family",17
-"Congo, Republic",2008,"family",20
-"Costa Rica",2008,"family",134
-"Cote d'Ivoire",2008,"family",46
-"Croatia",2008,"family",11
-"Cuba",2008,"family",1022
-"Cyprus",2008,"family",10
-"Czech Republic",2008,"family",8
-"Czechoslovakia (former)",2008,"family",14
-"Denmark",2008,"family",8
+"Chile",2008,"family",156
+"China, People's Republic",2008,"family",16403
+"Colombia",2008,"family",3633
+"Congo, Democratic Republic",2008,"family",7
+"Congo, Republic",2008,"family",22
+"Costa Rica",2008,"family",163
+"Cote d'Ivoire",2008,"family",75
+"Croatia",2008,"family",15
+"Cuba",2008,"family",2562
+"Cyprus",2008,"family",9
+"Czech Republic",2008,"family",0
+"Czechoslovakia (former)",2008,"family",6
+"Denmark",2008,"family",6
 "Djibouti",2008,"family",0
-"Dominica",2008,"family",88
-"Dominican Republic",2008,"family",20611
-"Ecuador",2008,"family",3098
-"Egypt",2008,"family",668
-"El Salvador",2008,"family",6823
+"Dominica",2008,"family",134
+"Dominican Republic",2008,"family",9956
+"Ecuador",2008,"family",2977
+"Egypt",2008,"family",794
+"El Salvador",2008,"family",6802
 "Equatorial Guinea",2008,"family",0
-"Eritrea",2008,"family",57
-"Estonia",2008,"family",15
-"Ethiopia",2008,"family",560
-"Fiji",2008,"family",222
-"Finland",2008,"family",8
-"France",2008,"family",89
-"French Guiana",2008,"family",0
+"Eritrea",2008,"family",40
+"Estonia",2008,"family",7
+"Ethiopia",2008,"family",614
+"Fiji",2008,"family",353
+"Finland",2008,"family",6
+"France",2008,"family",119
 "French Polynesia",2008,"family",0
 "Gabon",2008,"family",0
-"Gambia",2008,"family",26
-"Georgia",2008,"family",19
-"Germany",2008,"family",185
-"Ghana",2008,"family",404
-"Greece",2008,"family",28
-"Grenada",2008,"family",157
+"Gambia",2008,"family",28
+"Georgia",2008,"family",18
+"Germany",2008,"family",188
+"Ghana",2008,"family",656
+"Greece",2008,"family",51
+"Grenada",2008,"family",212
 "Guadeloupe",2008,"family",0
-"Guatemala",2008,"family",2791
-"Guinea",2008,"family",15
+"Guatemala",2008,"family",2799
+"Guinea",2008,"family",16
 "Guinea-Bissau",2008,"family",0
-"Guyana",2008,"family",3298
-"Haiti",2008,"family",7133
-"Honduras",2008,"family",1772
-"Hong Kong",2008,"family",1101
-"Hungary",2008,"family",29
+"Guyana",2008,"family",3758
+"Haiti",2008,"family",9675
+"Honduras",2008,"family",2078
+"Hong Kong",2008,"family",1939
+"Hungary",2008,"family",25
 "Iceland",2008,"family",0
-"India",2008,"family",12911
-"Indonesia",2008,"family",189
-"Iran",2008,"family",2410
-"Iraq",2008,"family",488
-"Ireland",2008,"family",10
-"Israel",2008,"family",216
-"Italy",2008,"family",111
-"Jamaica",2008,"family",4833
-"Japan",2008,"family",105
-"Jordan",2008,"family",1077
-"Kazakhstan",2008,"family",22
-"Kenya",2008,"family",190
-"Kiribati",2008,"family",0
-"Korea, North",2008,"family",0
-"Korea, South",2008,"family",1660
-"Kuwait",2008,"family",278
-"Kyrgyzstan",2008,"family",5
-"Laos",2008,"family",80
-"Latvia",2008,"family",7
-"Lebanon",2008,"family",977
+"India",2008,"family",15042
+"Indonesia",2008,"family",193
+"Iran",2008,"family",3090
+"Iraq",2008,"family",759
+"Ireland",2008,"family",15
+"Israel",2008,"family",241
+"Italy",2008,"family",107
+"Jamaica",2008,"family",5790
+"Japan",2008,"family",124
+"Jordan",2008,"family",1302
+"Kazakhstan",2008,"family",26
+"Kenya",2008,"family",235
+"Korea1",2008,"family",2042
+"Kuwait",2008,"family",292
+"Kyrgyzstan",2008,"family",9
+"Laos",2008,"family",106
+"Latvia",2008,"family",8
+"Lebanon",2008,"family",1250
 "Lesotho",2008,"family",0
-"Liberia",2008,"family",210
-"Libya",2008,"family",16
-"Lithuania",2008,"family",30
+"Liberia",2008,"family",221
+"Libya",2008,"family",26
+"Lithuania",2008,"family",26
 "Luxembourg",2008,"family",0
-"Macau",2008,"family",93
-"Macedonia",2008,"family",148
-"Madagascar",2008,"family",0
-"Malawi",2008,"family",5
-"Malaysia",2008,"family",99
-"Mali",2008,"family",6
-"Malta",2008,"family",3
-"Marshall Islands",2008,"family",3
-"Martinique",2008,"family",7
-"Mauritania",2008,"family",0
-"Mauritius",2008,"family",9
-"Mexico",2008,"family",57177
+"Macau",2008,"family",148
+"Macedonia",2008,"family",168
+"Madagascar",2008,"family",7
+"Malawi",2008,"family",6
+"Malaysia",2008,"family",155
+"Mali",2008,"family",10
+"Malta",2008,"family",0
+"Marshall Islands",2008,"family",0
+"Martinique",2008,"family",0
+"Mauritania",2008,"family",6
+"Mauritius",2008,"family",0
+"Mexico",2008,"family",66693
 "Micronesia, Federated States",2008,"family",0
-"Moldova",2008,"family",34
-"Mongolia",2008,"family",0
-"Montserrat",2008,"family",0
-"Morocco",2008,"family",226
-"Mozambique",2008,"family",0
+"Moldova",2008,"family",22
+"Mongolia",2008,"family",3
+"Montserrat",2008,"family",29
+"Morocco",2008,"family",234
+"Mozambique",2008,"family",12
 "Namibia",2008,"family",0
-"Nepal",2008,"family",145
-"Netherlands",2008,"family",42
-"Netherlands Antilles",2008,"family",13
-"New Caledonia",2008,"family",0
-"New Zealand",2008,"family",22
-"Nicaragua",2008,"family",874
-"Niger",2008,"family",3
-"Nigeria",2008,"family",1394
-"Norway",2008,"family",7
-"Oman",2008,"family",3
-"Pakistan",2008,"family",8694
-"Palau",2008,"family",0
-"Panama",2008,"family",252
+"Nepal",2008,"family",97
+"Netherlands",2008,"family",32
+"Netherlands Antilles",2008,"family",18
+"New Zealand",2008,"family",44
+"Nicaragua",2008,"family",913
+"Niger",2008,"family",0
+"Nigeria",2008,"family",1236
+"Norway",2008,"family",17
+"Oman",2008,"family",9
+"Pakistan",2008,"family",6667
+"Panama",2008,"family",331
 "Papua New Guinea",2008,"family",0
-"Paraguay",2008,"family",28
-"Peru",2008,"family",2714
-"Philippines",2008,"family",14286
-"Poland",2008,"family",1619
-"Portugal",2008,"family",80
-"Qatar",2008,"family",17
-"Romania",2008,"family",250
-"Russia",2008,"family",220
+"Paraguay",2008,"family",27
+"Peru",2008,"family",2803
+"Philippines",2008,"family",13799
+"Poland",2008,"family",1993
+"Portugal",2008,"family",89
+"Qatar",2008,"family",27
+"Romania",2008,"family",272
+"Russia",2008,"family",235
 "Rwanda",2008,"family",0
-"Saint Kitts-Nevis",2008,"family",101
-"Saint Lucia",2008,"family",172
-"Saint Vincent and the Grenadines",2008,"family",126
-"Samoa",2008,"family",19
-"Sao Tome and Principe",2008,"family",0
-"Saudi Arabia",2008,"family",279
-"Senegal",2008,"family",68
-"Serbia and Montenegro1",2008,"family",132
-"Seychelles",2008,"family",0
-"Sierra Leone",2008,"family",90
+"Saint Kitts-Nevis",2008,"family",179
+"Saint Lucia",2008,"family",196
+"Saint Vincent and the Grenadines",2008,"family",188
+"Samoa",2008,"family",35
+"Saudi Arabia",2008,"family",235
+"Senegal",2008,"family",55
+"Serbia and Montenegro2",2008,"family",115
+"Seychelles",2008,"family",6
+"Sierra Leone",2008,"family",121
 "Singapore",2008,"family",42
-"Slovakia",2008,"family",20
+"Slovak Republic",2008,"family",0
 "Slovenia",2008,"family",0
-"Somalia",2008,"family",30
-"South Africa",2008,"family",71
-"Soviet Union (former)",2008,"family",62
-"Spain",2008,"family",26
-"Sri Lanka",2008,"family",128
-"Sudan",2008,"family",31
-"Suriname",2008,"family",52
+"Somalia",2008,"family",46
+"South Africa",2008,"family",94
+"Soviet Union (former)",2008,"family",55
+"Spain",2008,"family",47
+"Sri Lanka",2008,"family",209
+"Sudan",2008,"family",53
+"Suriname",2008,"family",65
 "Swaziland",2008,"family",0
-"Sweden",2008,"family",29
-"Switzerland",2008,"family",21
-"Syria",2008,"family",652
-"Taiwan",2008,"family",1884
-"Tajikistan",2008,"family",6
-"Tanzania",2008,"family",78
-"Thailand",2008,"family",218
-"Togo",2008,"family",74
-"Tonga",2008,"family",84
-"Trinidad and Tobago",2008,"family",1199
-"Tunisia",2008,"family",11
-"Turkey",2008,"family",163
-"Turkmenistan",2008,"family",0
-"Turks and Caicos Islands",2008,"family",6
-"Uganda",2008,"family",72
-"Ukraine",2008,"family",306
-"United Arab Emirates",2008,"family",150
-"United Kingdom",2008,"family",474
-"United States",2008,"family",14
-"Uruguay",2008,"family",50
-"Uzbekistan",2008,"family",41
-"Venezuela",2008,"family",395
-"Vietnam",2008,"family",12748
-"Yemen",2008,"family",363
-"Zambia",2008,"family",22
-"Zimbabwe",2008,"family",13
-"All other countries",2008,"family",2
-"Unknown",2008,"family",127
+"Sweden",2008,"family",31
+"Switzerland",2008,"family",19
+"Syria",2008,"family",733
+"Taiwan",2008,"family",2751
+"Tajikistan",2008,"family",10
+"Tanzania",2008,"family",99
+"Thailand",2008,"family",343
+"Togo",2008,"family",38
+"Tonga",2008,"family",131
+"Trinidad and Tobago",2008,"family",1385
+"Tunisia",2008,"family",24
+"Turkey",2008,"family",130
+"Turkmenistan",2008,"family",4
+"Turks and Caicos Islands",2008,"family",5
+"Uganda",2008,"family",99
+"Ukraine",2008,"family",312
+"United Arab Emirates",2008,"family",164
+"United Kingdom",2008,"family",723
+"United States",2008,"family",21
+"Uruguay",2008,"family",48
+"Uzbekistan",2008,"family",67
+"Venezuela",2008,"family",502
+"Vietnam",2008,"family",16016
+"Yemen",2008,"family",236
+"Zambia",2008,"family",27
+"Zimbabwe",2008,"family",37
+"All other countries",2008,"family",14
+"Unknown",2008,"family",153
 "Afghanistan",2009,"family",322
 "Albania",2009,"family",173
 "Algeria",2009,"family",41
@@ -4387,408 +4363,396 @@
 "Zimbabwe",2017,"family",54
 "All other countries1",2017,"family",5
 "Unknown",2017,"family",408
-"Afghanistan",2007,"employment",934
-"Albania",2007,"employment",92
-"Algeria",2007,"employment",85
+"Afghanistan",2007,"employment",61
+"Albania",2007,"employment",78
+"Algeria",2007,"employment",93
 "American Samoa",2007,"employment",0
-"Angola",2007,"employment",13
-"Anguilla",2007,"employment",0
-"Antigua-Barbuda",2007,"employment",0
-"Argentina",2007,"employment",1635
-"Armenia",2007,"employment",190
-"Aruba",2007,"employment",4
-"Australia",2007,"employment",759
-"Austria",2007,"employment",169
-"Azerbaijan",2007,"employment",55
-"Bahamas",2007,"employment",49
-"Bahrain",2007,"employment",60
-"Bangladesh",2007,"employment",957
-"Barbados",2007,"employment",47
-"Belarus",2007,"employment",205
-"Belgium",2007,"employment",291
-"Belize",2007,"employment",42
-"Benin",2007,"employment",16
-"Bermuda",2007,"employment",21
-"Bhutan",2007,"employment",9
-"Bolivia",2007,"employment",563
-"Bosnia-Herzegovina",2007,"employment",98
-"Botswana",2007,"employment",10
-"Brazil",2007,"employment",3292
-"British Virgin Islands",2007,"employment",4
-"Brunei",2007,"employment",12
-"Bulgaria",2007,"employment",444
-"Burkina Faso",2007,"employment",20
-"Burma",2007,"employment",111
-"Burundi",2007,"employment",5
-"Cambodia",2007,"employment",63
-"Cameroon",2007,"employment",122
-"Canada",2007,"employment",6927
-"Cape Verde",2007,"employment",17
-"Cayman Islands",2007,"employment",7
+"Angola",2007,"employment",34
+"Anguilla",2007,"employment",5
+"Antigua-Barbuda",2007,"employment",14
+"Argentina",2007,"employment",1837
+"Armenia",2007,"employment",153
+"Aruba",2007,"employment",0
+"Australia",2007,"employment",708
+"Austria",2007,"employment",187
+"Azerbaijan",2007,"employment",41
+"Bahamas",2007,"employment",54
+"Bahrain",2007,"employment",70
+"Bangladesh",2007,"employment",1165
+"Barbados",2007,"employment",65
+"Belarus",2007,"employment",170
+"Belgium",2007,"employment",264
+"Belize",2007,"employment",60
+"Benin",2007,"employment",34
+"Bermuda",2007,"employment",16
+"Bhutan",2007,"employment",0
+"Bolivia",2007,"employment",815
+"Bosnia-Herzegovina",2007,"employment",66
+"Botswana",2007,"employment",15
+"Brazil",2007,"employment",4142
+"British Virgin Islands",2007,"employment",0
+"Brunei",2007,"employment",15
+"Bulgaria",2007,"employment",588
+"Burkina Faso",2007,"employment",23
+"Burma",2007,"employment",109
+"Burundi",2007,"employment",10
+"Cambodia",2007,"employment",53
+"Cameroon",2007,"employment",73
+"Canada",2007,"employment",6674
+"Cape Verde",2007,"employment",5
+"Cayman Islands",2007,"employment",3
 "Central African Republic",2007,"employment",0
-"Chad",2007,"employment",4
-"Chile",2007,"employment",435
-"China, People's Republic",2007,"employment",11295
-"Colombia",2007,"employment",2850
-"Congo, Democratic Republic",2007,"employment",34
-"Congo, Republic",2007,"employment",26
-"Costa Rica",2007,"employment",227
-"Cote d'Ivoire",2007,"employment",47
-"Croatia",2007,"employment",105
-"Cuba",2007,"employment",13
-"Cyprus",2007,"employment",55
-"Czech Republic",2007,"employment",55
-"Czechoslovakia (former)",2007,"employment",125
-"Denmark",2007,"employment",304
+"Chad",2007,"employment",0
+"Chile",2007,"employment",451
+"China, People's Republic",2007,"employment",13886
+"Colombia",2007,"employment",2641
+"Congo, Democratic Republic",2007,"employment",14
+"Congo, Republic",2007,"employment",23
+"Costa Rica",2007,"employment",238
+"Cote d'Ivoire",2007,"employment",61
+"Croatia",2007,"employment",82
+"Cuba",2007,"employment",14
+"Cyprus",2007,"employment",53
+"Czech Republic",2007,"employment",148
+"Czechoslovakia (former)",2007,"employment",93
+"Denmark",2007,"employment",221
 "Djibouti",2007,"employment",0
-"Dominica",2007,"employment",0
-"Dominican Republic",2007,"employment",408
-"Ecuador",2007,"employment",1339
-"Egypt",2007,"employment",755
-"El Salvador",2007,"employment",836
-"Equatorial Guinea",2007,"employment",0
-"Eritrea",2007,"employment",63
-"Estonia",2007,"employment",32
-"Ethiopia",2007,"employment",169
-"Fiji",2007,"employment",21
-"Finland",2007,"employment",174
-"France",2007,"employment",2061
-"French Guiana",2007,"employment",0
-"French Polynesia",2007,"employment",3
-"Gabon",2007,"employment",10
-"Gambia",2007,"employment",37
-"Georgia",2007,"employment",135
-"Germany",2007,"employment",2251
-"Ghana",2007,"employment",369
-"Greece",2007,"employment",169
-"Grenada",2007,"employment",28
+"Dominica",2007,"employment",4
+"Dominican Republic",2007,"employment",308
+"Ecuador",2007,"employment",2429
+"Egypt",2007,"employment",731
+"El Salvador",2007,"employment",1276
+"Eritrea",2007,"employment",23
+"Estonia",2007,"employment",43
+"Ethiopia",2007,"employment",120
+"Fiji",2007,"employment",36
+"Finland",2007,"employment",226
+"France",2007,"employment",1234
+"French Polynesia",2007,"employment",0
+"Gabon",2007,"employment",3
+"Gambia",2007,"employment",38
+"Georgia",2007,"employment",116
+"Germany",2007,"employment",2288
+"Ghana",2007,"employment",365
+"Greece",2007,"employment",221
+"Grenada",2007,"employment",0
 "Guadeloupe",2007,"employment",0
-"Guatemala",2007,"employment",700
-"Guinea",2007,"employment",32
+"Guatemala",2007,"employment",801
+"Guinea",2007,"employment",42
 "Guinea-Bissau",2007,"employment",0
-"Guyana",2007,"employment",161
-"Haiti",2007,"employment",149
-"Honduras",2007,"employment",463
-"Hong Kong",2007,"employment",657
-"Hungary",2007,"employment",244
-"Iceland",2007,"employment",56
-"India",2007,"employment",20264
-"Indonesia",2007,"employment",626
-"Iran",2007,"employment",1200
-"Iraq",2007,"employment",2347
-"Ireland",2007,"employment",494
-"Israel",2007,"employment",2034
-"Italy",2007,"employment",845
-"Jamaica",2007,"employment",593
-"Japan",2007,"employment",2502
-"Jordan",2007,"employment",178
-"Kazakhstan",2007,"employment",129
-"Kenya",2007,"employment",521
+"Guyana",2007,"employment",241
+"Haiti",2007,"employment",102
+"Honduras",2007,"employment",599
+"Hong Kong",2007,"employment",749
+"Hungary",2007,"employment",286
+"Iceland",2007,"employment",24
+"India",2007,"employment",28703
+"Indonesia",2007,"employment",742
+"Iran",2007,"employment",720
+"Iraq",2007,"employment",481
+"Ireland",2007,"employment",436
+"Israel",2007,"employment",1256
+"Italy",2007,"employment",736
+"Jamaica",2007,"employment",732
+"Japan",2007,"employment",2285
+"Jordan",2007,"employment",231
+"Kazakhstan",2007,"employment",85
+"Kenya",2007,"employment",501
 "Kiribati",2007,"employment",0
-"Korea, North",2007,"employment",0
-"Korea, South",2007,"employment",14147
-"Kuwait",2007,"employment",165
-"Kyrgyzstan",2007,"employment",26
-"Laos",2007,"employment",69
-"Latvia",2007,"employment",39
-"Lebanon",2007,"employment",574
+"Korea",2007,"employment",11308
+"Kuwait",2007,"employment",196
+"Kyrgyzstan",2007,"employment",29
+"Laos",2007,"employment",0
+"Latvia",2007,"employment",56
+"Lebanon",2007,"employment",642
 "Lesotho",2007,"employment",0
-"Liberia",2007,"employment",57
-"Libya",2007,"employment",34
-"Lithuania",2007,"employment",102
-"Luxembourg",2007,"employment",18
-"Macau",2007,"employment",22
-"Macedonia",2007,"employment",65
-"Madagascar",2007,"employment",11
-"Malawi",2007,"employment",20
-"Malaysia",2007,"employment",751
-"Mali",2007,"employment",20
-"Malta",2007,"employment",16
-"Marshall Islands",2007,"employment",7
-"Martinique",2007,"employment",9
-"Mauritania",2007,"employment",5
-"Mauritius",2007,"employment",40
-"Mexico",2007,"employment",8660
-"Micronesia, Federated States",2007,"employment",6
-"Moldova",2007,"employment",93
-"Mongolia",2007,"employment",88
-"Montserrat",2007,"employment",0
-"Morocco",2007,"employment",258
-"Mozambique",2007,"employment",22
-"Namibia",2007,"employment",11
-"Nepal",2007,"employment",751
-"Netherlands",2007,"employment",607
-"Netherlands Antilles",2007,"employment",9
-"New Caledonia",2007,"employment",0
-"New Zealand",2007,"employment",264
-"Nicaragua",2007,"employment",73
-"Niger",2007,"employment",5
-"Nigeria",2007,"employment",793
-"Norway",2007,"employment",114
-"Oman",2007,"employment",26
-"Pakistan",2007,"employment",3184
+"Liberia",2007,"employment",47
+"Libya",2007,"employment",32
+"Lithuania",2007,"employment",163
+"Luxembourg",2007,"employment",17
+"Macau",2007,"employment",0
+"Macedonia",2007,"employment",70
+"Madagascar",2007,"employment",14
+"Malawi",2007,"employment",28
+"Malaysia",2007,"employment",1009
+"Mali",2007,"employment",16
+"Malta",2007,"employment",18
+"Marshall Islands",2007,"employment",3
+"Martinique",2007,"employment",0
+"Mauritania",2007,"employment",0
+"Mauritius",2007,"employment",31
+"Mexico",2007,"employment",11900
+"Moldova",2007,"employment",53
+"Mongolia",2007,"employment",75
+"Montserrat",2007,"employment",4
+"Morocco",2007,"employment",212
+"Mozambique",2007,"employment",15
+"Namibia",2007,"employment",18
+"Nepal",2007,"employment",837
+"Netherlands",2007,"employment",581
+"Netherlands Antilles",2007,"employment",0
+"New Zealand",2007,"employment",309
+"Nicaragua",2007,"employment",57
+"Niger",2007,"employment",4
+"Nigeria",2007,"employment",916
+"Norway",2007,"employment",86
+"Oman",2007,"employment",64
+"Pakistan",2007,"employment",3257
 "Palau",2007,"employment",0
-"Panama",2007,"employment",96
+"Panama",2007,"employment",117
 "Papua New Guinea",2007,"employment",0
-"Paraguay",2007,"employment",76
-"Peru",2007,"employment",1361
-"Philippines",2007,"employment",8516
-"Poland",2007,"employment",1351
-"Portugal",2007,"employment",147
-"Qatar",2007,"employment",28
-"Romania",2007,"employment",962
-"Russia",2007,"employment",1916
-"Rwanda",2007,"employment",5
-"Saint Kitts-Nevis",2007,"employment",0
-"Saint Lucia",2007,"employment",29
-"Saint Vincent and the Grenadines",2007,"employment",0
-"Samoa",2007,"employment",5
-"Sao Tome and Principe",2007,"employment",0
-"Saudi Arabia",2007,"employment",226
-"Senegal",2007,"employment",78
-"Serbia and Montenegro1",2007,"employment",255
-"Seychelles",2007,"employment",0
-"Sierra Leone",2007,"employment",26
-"Singapore",2007,"employment",426
-"Slovakia",2007,"employment",184
-"Slovenia",2007,"employment",20
-"Somalia",2007,"employment",11
-"South Africa",2007,"employment",1307
-"Soviet Union (former)",2007,"employment",232
-"Spain",2007,"employment",598
-"Sri Lanka",2007,"employment",506
-"Sudan",2007,"employment",28
-"Suriname",2007,"employment",0
-"Swaziland",2007,"employment",8
-"Sweden",2007,"employment",403
-"Switzerland",2007,"employment",335
-"Syria",2007,"employment",372
-"Taiwan",2007,"employment",2519
-"Tajikistan",2007,"employment",14
-"Tanzania",2007,"employment",120
-"Thailand",2007,"employment",585
-"Togo",2007,"employment",18
-"Tonga",2007,"employment",3
-"Trinidad and Tobago",2007,"employment",382
-"Tunisia",2007,"employment",50
-"Turkey",2007,"employment",1295
-"Turkmenistan",2007,"employment",0
-"Turks and Caicos Islands",2007,"employment",0
+"Paraguay",2007,"employment",137
+"Peru",2007,"employment",1688
+"Philippines",2007,"employment",17182
+"Poland",2007,"employment",2095
+"Portugal",2007,"employment",179
+"Qatar",2007,"employment",43
+"Romania",2007,"employment",1234
+"Russia",2007,"employment",1466
+"Rwanda",2007,"employment",18
+"Saint Kitts-Nevis",2007,"employment",12
+"Saint Lucia",2007,"employment",0
+"Saint Vincent and the Grenadines",2007,"employment",34
+"Samoa",2007,"employment",0
+"Saudi Arabia",2007,"employment",327
+"Senegal",2007,"employment",98
+"Serbia and Montenegro1",2007,"employment",210
+"Sierra Leone",2007,"employment",75
+"Singapore",2007,"employment",552
+"Slovak Republic",2007,"employment",190
+"Slovenia",2007,"employment",13
+"Solomon Islands",2007,"employment",3
+"Somalia",2007,"employment",14
+"South Africa",2007,"employment",1350
+"Soviet Union (former)",2007,"employment",134
+"Spain",2007,"employment",458
+"Sri Lanka",2007,"employment",615
+"Sudan",2007,"employment",33
+"Suriname",2007,"employment",21
+"Swaziland",2007,"employment",0
+"Sweden",2007,"employment",381
+"Switzerland",2007,"employment",266
+"Syria",2007,"employment",268
+"Taiwan",2007,"employment",2598
+"Tajikistan",2007,"employment",22
+"Tanzania",2007,"employment",125
+"Thailand",2007,"employment",639
+"Togo",2007,"employment",37
+"Tonga",2007,"employment",0
+"Trinidad and Tobago",2007,"employment",590
+"Tunisia",2007,"employment",44
+"Turkey",2007,"employment",1383
+"Turkmenistan",2007,"employment",4
+"Turks and Caicos Islands",2007,"employment",7
 "Uganda",2007,"employment",114
-"Ukraine",2007,"employment",808
-"United Arab Emirates",2007,"employment",185
-"United Kingdom",2007,"employment",7044
-"United States",2007,"employment",23
-"Uruguay",2007,"employment",196
-"Uzbekistan",2007,"employment",118
-"Venezuela",2007,"employment",2915
+"Ukraine",2007,"employment",753
+"United Arab Emirates",2007,"employment",280
+"United Kingdom",2007,"employment",5821
+"United States",2007,"employment",12
+"Uruguay",2007,"employment",207
+"Uzbekistan",2007,"employment",112
+"Venezuela",2007,"employment",2352
 "Vietnam",2007,"employment",0
-"Yemen",2007,"employment",28
-"Zambia",2007,"employment",86
-"Zimbabwe",2007,"employment",217
-"All other countries",2007,"employment",14
-"Unknown",2007,"employment",147
-"Afghanistan",2008,"employment",934
-"Albania",2008,"employment",92
-"Algeria",2008,"employment",85
+"Yemen",2007,"employment",44
+"Zambia",2007,"employment",124
+"Zimbabwe",2007,"employment",224
+"All other countries",2007,"employment",11
+"Unknown",2007,"employment",145
+"Afghanistan",2008,"employment",631
+"Albania",2008,"employment",72
+"Algeria",2008,"employment",136
 "American Samoa",2008,"employment",0
-"Angola",2008,"employment",13
+"Angola",2008,"employment",32
 "Anguilla",2008,"employment",0
 "Antigua-Barbuda",2008,"employment",0
-"Argentina",2008,"employment",1635
-"Armenia",2008,"employment",190
-"Aruba",2008,"employment",4
-"Australia",2008,"employment",759
-"Austria",2008,"employment",169
-"Azerbaijan",2008,"employment",55
-"Bahamas",2008,"employment",49
-"Bahrain",2008,"employment",60
-"Bangladesh",2008,"employment",957
-"Barbados",2008,"employment",47
-"Belarus",2008,"employment",205
-"Belgium",2008,"employment",291
-"Belize",2008,"employment",42
-"Benin",2008,"employment",16
-"Bermuda",2008,"employment",21
-"Bhutan",2008,"employment",9
-"Bolivia",2008,"employment",563
-"Bosnia-Herzegovina",2008,"employment",98
-"Botswana",2008,"employment",10
-"Brazil",2008,"employment",3292
-"British Virgin Islands",2008,"employment",4
-"Brunei",2008,"employment",12
-"Bulgaria",2008,"employment",444
-"Burkina Faso",2008,"employment",20
-"Burma",2008,"employment",111
-"Burundi",2008,"employment",5
-"Cambodia",2008,"employment",63
-"Cameroon",2008,"employment",122
-"Canada",2008,"employment",6927
-"Cape Verde",2008,"employment",17
-"Cayman Islands",2008,"employment",7
+"Argentina",2008,"employment",1944
+"Armenia",2008,"employment",245
+"Aruba",2008,"employment",0
+"Australia",2008,"employment",897
+"Austria",2008,"employment",184
+"Azerbaijan",2008,"employment",113
+"Bahamas",2008,"employment",52
+"Bahrain",2008,"employment",37
+"Bangladesh",2008,"employment",1304
+"Barbados",2008,"employment",0
+"Belarus",2008,"employment",357
+"Belgium",2008,"employment",290
+"Belize",2008,"employment",76
+"Benin",2008,"employment",37
+"Bermuda",2008,"employment",22
+"Bhutan",2008,"employment",4
+"Bolivia",2008,"employment",584
+"Bosnia-Herzegovina",2008,"employment",77
+"Botswana",2008,"employment",0
+"Brazil",2008,"employment",3493
+"British Virgin Islands",2008,"employment",0
+"Brunei",2008,"employment",7
+"Bulgaria",2008,"employment",478
+"Burkina Faso",2008,"employment",14
+"Burma",2008,"employment",98
+"Burundi",2008,"employment",0
+"Cambodia",2008,"employment",65
+"Cameroon",2008,"employment",106
+"Canada",2008,"employment",6998
+"Cape Verde",2008,"employment",0
+"Cayman Islands",2008,"employment",9
 "Central African Republic",2008,"employment",0
-"Chad",2008,"employment",4
-"Chile",2008,"employment",435
-"China, People's Republic",2008,"employment",11295
-"Colombia",2008,"employment",2850
-"Congo, Democratic Republic",2008,"employment",34
-"Congo, Republic",2008,"employment",26
-"Costa Rica",2008,"employment",227
-"Cote d'Ivoire",2008,"employment",47
-"Croatia",2008,"employment",105
-"Cuba",2008,"employment",13
-"Cyprus",2008,"employment",55
-"Czech Republic",2008,"employment",55
-"Czechoslovakia (former)",2008,"employment",125
-"Denmark",2008,"employment",304
+"Chad",2008,"employment",0
+"Chile",2008,"employment",429
+"China, People's Republic",2008,"employment",15329
+"Colombia",2008,"employment",3208
+"Congo, Democratic Republic",2008,"employment",25
+"Congo, Republic",2008,"employment",17
+"Costa Rica",2008,"employment",218
+"Cote d'Ivoire",2008,"employment",53
+"Croatia",2008,"employment",103
+"Cuba",2008,"employment",12
+"Cyprus",2008,"employment",52
+"Czech Republic",2008,"employment",104
+"Czechoslovakia (former)",2008,"employment",116
+"Denmark",2008,"employment",238
 "Djibouti",2008,"employment",0
-"Dominica",2008,"employment",0
-"Dominican Republic",2008,"employment",408
-"Ecuador",2008,"employment",1339
-"Egypt",2008,"employment",755
-"El Salvador",2008,"employment",836
+"Dominica",2008,"employment",5
+"Dominican Republic",2008,"employment",370
+"Ecuador",2008,"employment",1602
+"Egypt",2008,"employment",991
+"El Salvador",2008,"employment",1038
 "Equatorial Guinea",2008,"employment",0
-"Eritrea",2008,"employment",63
-"Estonia",2008,"employment",32
-"Ethiopia",2008,"employment",169
-"Fiji",2008,"employment",21
-"Finland",2008,"employment",174
-"France",2008,"employment",2061
-"French Guiana",2008,"employment",0
-"French Polynesia",2008,"employment",3
-"Gabon",2008,"employment",10
-"Gambia",2008,"employment",37
-"Georgia",2008,"employment",135
-"Germany",2008,"employment",2251
-"Ghana",2008,"employment",369
-"Greece",2008,"employment",169
-"Grenada",2008,"employment",28
+"Eritrea",2008,"employment",40
+"Estonia",2008,"employment",48
+"Ethiopia",2008,"employment",147
+"Fiji",2008,"employment",23
+"Finland",2008,"employment",145
+"France",2008,"employment",2559
+"French Polynesia",2008,"employment",0
+"Gabon",2008,"employment",5
+"Gambia",2008,"employment",16
+"Georgia",2008,"employment",208
+"Germany",2008,"employment",2340
+"Ghana",2008,"employment",403
+"Greece",2008,"employment",178
+"Grenada",2008,"employment",44
 "Guadeloupe",2008,"employment",0
-"Guatemala",2008,"employment",700
-"Guinea",2008,"employment",32
+"Guatemala",2008,"employment",758
+"Guinea",2008,"employment",19
 "Guinea-Bissau",2008,"employment",0
-"Guyana",2008,"employment",161
-"Haiti",2008,"employment",149
-"Honduras",2008,"employment",463
-"Hong Kong",2008,"employment",657
-"Hungary",2008,"employment",244
-"Iceland",2008,"employment",56
-"India",2008,"employment",20264
-"Indonesia",2008,"employment",626
-"Iran",2008,"employment",1200
-"Iraq",2008,"employment",2347
-"Ireland",2008,"employment",494
-"Israel",2008,"employment",2034
-"Italy",2008,"employment",845
-"Jamaica",2008,"employment",593
-"Japan",2008,"employment",2502
-"Jordan",2008,"employment",178
-"Kazakhstan",2008,"employment",129
-"Kenya",2008,"employment",521
-"Kiribati",2008,"employment",0
-"Korea, North",2008,"employment",0
-"Korea, South",2008,"employment",14147
-"Kuwait",2008,"employment",165
-"Kyrgyzstan",2008,"employment",26
-"Laos",2008,"employment",69
-"Latvia",2008,"employment",39
-"Lebanon",2008,"employment",574
+"Guyana",2008,"employment",199
+"Haiti",2008,"employment",117
+"Honduras",2008,"employment",445
+"Hong Kong",2008,"employment",705
+"Hungary",2008,"employment",299
+"Iceland",2008,"employment",59
+"India",2008,"employment",25577
+"Indonesia",2008,"employment",765
+"Iran",2008,"employment",2017
+"Iraq",2008,"employment",1361
+"Ireland",2008,"employment",448
+"Israel",2008,"employment",2674
+"Italy",2008,"employment",806
+"Jamaica",2008,"employment",697
+"Japan",2008,"employment",2566
+"Jordan",2008,"employment",297
+"Kazakhstan",2008,"employment",189
+"Kenya",2008,"employment",486
+"Korea1",2008,"employment",16165
+"Kuwait",2008,"employment",265
+"Kyrgyzstan",2008,"employment",53
+"Laos",2008,"employment",52
+"Latvia",2008,"employment",72
+"Lebanon",2008,"employment",754
 "Lesotho",2008,"employment",0
-"Liberia",2008,"employment",57
-"Libya",2008,"employment",34
-"Lithuania",2008,"employment",102
-"Luxembourg",2008,"employment",18
-"Macau",2008,"employment",22
-"Macedonia",2008,"employment",65
-"Madagascar",2008,"employment",11
-"Malawi",2008,"employment",20
-"Malaysia",2008,"employment",751
-"Mali",2008,"employment",20
-"Malta",2008,"employment",16
-"Marshall Islands",2008,"employment",7
-"Martinique",2008,"employment",9
-"Mauritania",2008,"employment",5
-"Mauritius",2008,"employment",40
-"Mexico",2008,"employment",8660
-"Micronesia, Federated States",2008,"employment",6
-"Moldova",2008,"employment",93
-"Mongolia",2008,"employment",88
-"Montserrat",2008,"employment",0
-"Morocco",2008,"employment",258
-"Mozambique",2008,"employment",22
-"Namibia",2008,"employment",11
-"Nepal",2008,"employment",751
-"Netherlands",2008,"employment",607
-"Netherlands Antilles",2008,"employment",9
-"New Caledonia",2008,"employment",0
-"New Zealand",2008,"employment",264
-"Nicaragua",2008,"employment",73
-"Niger",2008,"employment",5
-"Nigeria",2008,"employment",793
-"Norway",2008,"employment",114
-"Oman",2008,"employment",26
-"Pakistan",2008,"employment",3184
-"Palau",2008,"employment",0
-"Panama",2008,"employment",96
+"Liberia",2008,"employment",40
+"Libya",2008,"employment",55
+"Lithuania",2008,"employment",119
+"Luxembourg",2008,"employment",13
+"Macau",2008,"employment",18
+"Macedonia",2008,"employment",67
+"Madagascar",2008,"employment",32
+"Malawi",2008,"employment",31
+"Malaysia",2008,"employment",916
+"Mali",2008,"employment",36
+"Malta",2008,"employment",19
+"Marshall Islands",2008,"employment",0
+"Martinique",2008,"employment",3
+"Mauritania",2008,"employment",0
+"Mauritius",2008,"employment",32
+"Mexico",2008,"employment",8767
+"Micronesia, Federated States",2008,"employment",0
+"Moldova",2008,"employment",141
+"Mongolia",2008,"employment",77
+"Montserrat",2008,"employment",3
+"Morocco",2008,"employment",262
+"Mozambique",2008,"employment",13
+"Namibia",2008,"employment",0
+"Nepal",2008,"employment",765
+"Netherlands",2008,"employment",579
+"Netherlands Antilles",2008,"employment",0
+"New Zealand",2008,"employment",252
+"Nicaragua",2008,"employment",67
+"Niger",2008,"employment",4
+"Nigeria",2008,"employment",798
+"Norway",2008,"employment",115
+"Oman",2008,"employment",32
+"Pakistan",2008,"employment",4224
+"Panama",2008,"employment",106
 "Papua New Guinea",2008,"employment",0
-"Paraguay",2008,"employment",76
-"Peru",2008,"employment",1361
-"Philippines",2008,"employment",8516
-"Poland",2008,"employment",1351
-"Portugal",2008,"employment",147
-"Qatar",2008,"employment",28
-"Romania",2008,"employment",962
-"Russia",2008,"employment",1916
-"Rwanda",2008,"employment",5
+"Paraguay",2008,"employment",99
+"Peru",2008,"employment",1481
+"Philippines",2008,"employment",9193
+"Poland",2008,"employment",1782
+"Portugal",2008,"employment",166
+"Qatar",2008,"employment",39
+"Romania",2008,"employment",1174
+"Russia",2008,"employment",4045
+"Rwanda",2008,"employment",0
 "Saint Kitts-Nevis",2008,"employment",0
-"Saint Lucia",2008,"employment",29
-"Saint Vincent and the Grenadines",2008,"employment",0
-"Samoa",2008,"employment",5
-"Sao Tome and Principe",2008,"employment",0
-"Saudi Arabia",2008,"employment",226
-"Senegal",2008,"employment",78
-"Serbia and Montenegro1",2008,"employment",255
+"Saint Lucia",2008,"employment",0
+"Saint Vincent and the Grenadines",2008,"employment",25
+"Samoa",2008,"employment",0
+"Saudi Arabia",2008,"employment",302
+"Senegal",2008,"employment",92
+"Serbia and Montenegro2",2008,"employment",432
 "Seychelles",2008,"employment",0
-"Sierra Leone",2008,"employment",26
-"Singapore",2008,"employment",426
-"Slovakia",2008,"employment",184
-"Slovenia",2008,"employment",20
-"Somalia",2008,"employment",11
-"South Africa",2008,"employment",1307
-"Soviet Union (former)",2008,"employment",232
-"Spain",2008,"employment",598
-"Sri Lanka",2008,"employment",506
-"Sudan",2008,"employment",28
-"Suriname",2008,"employment",0
-"Swaziland",2008,"employment",8
-"Sweden",2008,"employment",403
-"Switzerland",2008,"employment",335
-"Syria",2008,"employment",372
-"Taiwan",2008,"employment",2519
-"Tajikistan",2008,"employment",14
-"Tanzania",2008,"employment",120
-"Thailand",2008,"employment",585
-"Togo",2008,"employment",18
-"Tonga",2008,"employment",3
-"Trinidad and Tobago",2008,"employment",382
-"Tunisia",2008,"employment",50
-"Turkey",2008,"employment",1295
-"Turkmenistan",2008,"employment",0
+"Sierra Leone",2008,"employment",70
+"Singapore",2008,"employment",516
+"Slovak Republic",2008,"employment",180
+"Slovenia",2008,"employment",14
+"Somalia",2008,"employment",18
+"South Africa",2008,"employment",1216
+"Soviet Union (former)",2008,"employment",467
+"Spain",2008,"employment",606
+"Sri Lanka",2008,"employment",634
+"Sudan",2008,"employment",67
+"Suriname",2008,"employment",21
+"Swaziland",2008,"employment",0
+"Sweden",2008,"employment",373
+"Switzerland",2008,"employment",337
+"Syria",2008,"employment",594
+"Taiwan",2008,"employment",3281
+"Tajikistan",2008,"employment",20
+"Tanzania",2008,"employment",131
+"Thailand",2008,"employment",591
+"Togo",2008,"employment",28
+"Tonga",2008,"employment",0
+"Trinidad and Tobago",2008,"employment",444
+"Tunisia",2008,"employment",80
+"Turkey",2008,"employment",1290
+"Turkmenistan",2008,"employment",16
 "Turks and Caicos Islands",2008,"employment",0
-"Uganda",2008,"employment",114
-"Ukraine",2008,"employment",808
-"United Arab Emirates",2008,"employment",185
-"United Kingdom",2008,"employment",7044
-"United States",2008,"employment",23
-"Uruguay",2008,"employment",196
-"Uzbekistan",2008,"employment",118
-"Venezuela",2008,"employment",2915
-"Vietnam",2008,"employment",0
-"Yemen",2008,"employment",28
-"Zambia",2008,"employment",86
-"Zimbabwe",2008,"employment",217
-"All other countries",2008,"employment",14
-"Unknown",2008,"employment",147
+"Uganda",2008,"employment",83
+"Ukraine",2008,"employment",1334
+"United Arab Emirates",2008,"employment",212
+"United Kingdom",2008,"employment",6630
+"United States",2008,"employment",24
+"Uruguay",2008,"employment",272
+"Uzbekistan",2008,"employment",189
+"Venezuela",2008,"employment",2882
+"Vietnam",2008,"employment",420
+"Yemen",2008,"employment",52
+"Zambia",2008,"employment",115
+"Zimbabwe",2008,"employment",209
+"All other countries",2008,"employment",7
+"Unknown",2008,"employment",187
 "Afghanistan",2009,"employment",934
 "Albania",2009,"employment",92
 "Algeria",2009,"employment",85
@@ -6581,408 +6545,396 @@
 "Zimbabwe",2017,"employment",150
 "All other countries1",2017,"employment",12
 "Unknown",2017,"employment",43
-"Afghanistan",2007,"diversity",38
-"Albania",2007,"diversity",1948
-"Algeria",2007,"diversity",837
+"Afghanistan",2007,"diversity",18
+"Albania",2007,"diversity",1174
+"Algeria",2007,"diversity",444
 "American Samoa",2007,"diversity",0
-"Angola",2007,"diversity",6
+"Angola",2007,"diversity",0
 "Anguilla",2007,"diversity",0
 "Antigua-Barbuda",2007,"diversity",0
-"Argentina",2007,"diversity",52
-"Armenia",2007,"diversity",911
-"Aruba",2007,"diversity",4
-"Australia",2007,"diversity",187
-"Austria",2007,"diversity",50
-"Azerbaijan",2007,"diversity",152
-"Bahamas",2007,"diversity",3
+"Argentina",2007,"diversity",54
+"Armenia",2007,"diversity",593
+"Aruba",2007,"diversity",0
+"Australia",2007,"diversity",246
+"Austria",2007,"diversity",39
+"Azerbaijan",2007,"diversity",88
+"Bahamas",2007,"diversity",6
 "Bahrain",2007,"diversity",0
-"Bangladesh",2007,"diversity",2928
-"Barbados",2007,"diversity",3
-"Belarus",2007,"diversity",664
-"Belgium",2007,"diversity",42
+"Bangladesh",2007,"diversity",3254
+"Barbados",2007,"diversity",4
+"Belarus",2007,"diversity",490
+"Belgium",2007,"diversity",24
 "Belize",2007,"diversity",3
-"Benin",2007,"diversity",161
+"Benin",2007,"diversity",125
 "Bermuda",2007,"diversity",0
-"Bhutan",2007,"diversity",6
-"Bolivia",2007,"diversity",46
-"Bosnia-Herzegovina",2007,"diversity",53
-"Botswana",2007,"diversity",5
-"Brazil",2007,"diversity",6
+"Bhutan",2007,"diversity",0
+"Bolivia",2007,"diversity",85
+"Bosnia-Herzegovina",2007,"diversity",32
+"Botswana",2007,"diversity",0
+"Brazil",2007,"diversity",255
 "British Virgin Islands",2007,"diversity",0
 "Brunei",2007,"diversity",0
-"Bulgaria",2007,"diversity",765
-"Burkina Faso",2007,"diversity",94
-"Burma",2007,"diversity",258
-"Burundi",2007,"diversity",20
-"Cambodia",2007,"diversity",72
-"Cameroon",2007,"diversity",1386
-"Canada",2007,"diversity",67
-"Cape Verde",2007,"diversity",8
+"Bulgaria",2007,"diversity",1368
+"Burkina Faso",2007,"diversity",45
+"Burma",2007,"diversity",148
+"Burundi",2007,"diversity",0
+"Cambodia",2007,"diversity",56
+"Cameroon",2007,"diversity",923
+"Canada",2007,"diversity",56
+"Cape Verde",2007,"diversity",0
 "Cayman Islands",2007,"diversity",0
 "Central African Republic",2007,"diversity",0
-"Chad",2007,"diversity",12
-"Chile",2007,"diversity",19
-"China, People's Republic",2007,"diversity",28
-"Colombia",2007,"diversity",10
-"Congo, Democratic Republic",2007,"diversity",419
-"Congo, Republic",2007,"diversity",300
-"Costa Rica",2007,"diversity",0
-"Cote d'Ivoire",2007,"diversity",207
-"Croatia",2007,"diversity",33
-"Cuba",2007,"diversity",183
-"Cyprus",2007,"diversity",0
-"Czech Republic",2007,"diversity",15
-"Czechoslovakia (former)",2007,"diversity",20
-"Denmark",2007,"diversity",17
-"Djibouti",2007,"diversity",0
-"Dominica",2007,"diversity",9
-"Dominican Republic",2007,"diversity",16
-"Ecuador",2007,"diversity",18
-"Egypt",2007,"diversity",3336
+"Chad",2007,"diversity",3
+"Chile",2007,"diversity",32
+"China, People's Republic",2007,"diversity",22
+"Colombia",2007,"diversity",11
+"Congo, Democratic Republic",2007,"diversity",207
+"Congo, Republic",2007,"diversity",126
+"Costa Rica",2007,"diversity",6
+"Cote d'Ivoire",2007,"diversity",147
+"Croatia",2007,"diversity",24
+"Cuba",2007,"diversity",229
+"Cyprus",2007,"diversity",5
+"Czech Republic",2007,"diversity",19
+"Czechoslovakia (former)",2007,"diversity",14
+"Denmark",2007,"diversity",15
+"Djibouti",2007,"diversity",6
+"Dominica",2007,"diversity",0
+"Dominican Republic",2007,"diversity",0
+"Ecuador",2007,"diversity",107
+"Egypt",2007,"diversity",3826
 "El Salvador",2007,"diversity",0
-"Equatorial Guinea",2007,"diversity",0
-"Eritrea",2007,"diversity",293
+"Eritrea",2007,"diversity",170
 "Estonia",2007,"diversity",18
-"Ethiopia",2007,"diversity",3829
-"Fiji",2007,"diversity",282
-"Finland",2007,"diversity",18
-"France",2007,"diversity",241
-"French Guiana",2007,"diversity",0
+"Ethiopia",2007,"diversity",3419
+"Fiji",2007,"diversity",299
+"Finland",2007,"diversity",19
+"France",2007,"diversity",206
 "French Polynesia",2007,"diversity",0
-"Gabon",2007,"diversity",8
-"Gambia",2007,"diversity",13
-"Georgia",2007,"diversity",306
-"Germany",2007,"diversity",908
-"Ghana",2007,"diversity",1819
-"Greece",2007,"diversity",71
+"Gabon",2007,"diversity",12
+"Gambia",2007,"diversity",8
+"Georgia",2007,"diversity",212
+"Germany",2007,"diversity",580
+"Ghana",2007,"diversity",1135
+"Greece",2007,"diversity",67
 "Grenada",2007,"diversity",0
 "Guadeloupe",2007,"diversity",0
-"Guatemala",2007,"diversity",0
-"Guinea",2007,"diversity",100
+"Guatemala",2007,"diversity",7
+"Guinea",2007,"diversity",49
 "Guinea-Bissau",2007,"diversity",0
-"Guyana",2007,"diversity",24
+"Guyana",2007,"diversity",5
 "Haiti",2007,"diversity",0
-"Honduras",2007,"diversity",12
-"Hong Kong",2007,"diversity",37
-"Hungary",2007,"diversity",108
-"Iceland",2007,"diversity",0
-"India",2007,"diversity",63
-"Indonesia",2007,"diversity",111
-"Iran",2007,"diversity",1057
-"Iraq",2007,"diversity",64
-"Ireland",2007,"diversity",53
-"Israel",2007,"diversity",84
-"Italy",2007,"diversity",167
-"Jamaica",2007,"diversity",6
-"Japan",2007,"diversity",217
-"Jordan",2007,"diversity",51
-"Kazakhstan",2007,"diversity",159
-"Kenya",2007,"diversity",2324
-"Kiribati",2007,"diversity",4
-"Korea, North",2007,"diversity",0
-"Korea, South",2007,"diversity",7
-"Kuwait",2007,"diversity",37
-"Kyrgyzstan",2007,"diversity",126
+"Honduras",2007,"diversity",11
+"Hong Kong",2007,"diversity",34
+"Hungary",2007,"diversity",75
+"Iceland",2007,"diversity",5
+"India",2007,"diversity",57
+"Indonesia",2007,"diversity",130
+"Iran",2007,"diversity",639
+"Iraq",2007,"diversity",30
+"Ireland",2007,"diversity",55
+"Israel",2007,"diversity",100
+"Italy",2007,"diversity",66
+"Jamaica",2007,"diversity",0
+"Japan",2007,"diversity",201
+"Jordan",2007,"diversity",26
+"Kazakhstan",2007,"diversity",111
+"Kenya",2007,"diversity",1787
+"Kiribati",2007,"diversity",0
+"Korea",2007,"diversity",0
+"Kuwait",2007,"diversity",24
+"Kyrgyzstan",2007,"diversity",84
 "Laos",2007,"diversity",0
-"Latvia",2007,"diversity",30
-"Lebanon",2007,"diversity",82
+"Latvia",2007,"diversity",36
+"Lebanon",2007,"diversity",43
 "Lesotho",2007,"diversity",0
-"Liberia",2007,"diversity",751
-"Libya",2007,"diversity",32
-"Lithuania",2007,"diversity",96
+"Liberia",2007,"diversity",550
+"Libya",2007,"diversity",16
+"Lithuania",2007,"diversity",206
 "Luxembourg",2007,"diversity",0
 "Macau",2007,"diversity",0
-"Macedonia",2007,"diversity",192
-"Madagascar",2007,"diversity",12
-"Malawi",2007,"diversity",13
-"Malaysia",2007,"diversity",24
-"Mali",2007,"diversity",36
+"Macedonia",2007,"diversity",194
+"Madagascar",2007,"diversity",0
+"Malawi",2007,"diversity",7
+"Malaysia",2007,"diversity",34
+"Mali",2007,"diversity",19
 "Malta",2007,"diversity",0
 "Marshall Islands",2007,"diversity",0
 "Martinique",2007,"diversity",0
 "Mauritania",2007,"diversity",0
-"Mauritius",2007,"diversity",9
-"Mexico",2007,"diversity",12
-"Micronesia, Federated States",2007,"diversity",0
-"Moldova",2007,"diversity",240
-"Mongolia",2007,"diversity",146
+"Mauritius",2007,"diversity",0
+"Mexico",2007,"diversity",10
+"Moldova",2007,"diversity",184
+"Mongolia",2007,"diversity",61
 "Montserrat",2007,"diversity",0
-"Morocco",2007,"diversity",2100
+"Morocco",2007,"diversity",1869
 "Mozambique",2007,"diversity",0
-"Namibia",2007,"diversity",0
-"Nepal",2007,"diversity",1778
-"Netherlands",2007,"diversity",87
-"Netherlands Antilles",2007,"diversity",6
-"New Caledonia",2007,"diversity",0
-"New Zealand",2007,"diversity",72
-"Nicaragua",2007,"diversity",20
-"Niger",2007,"diversity",14
-"Nigeria",2007,"diversity",3720
-"Norway",2007,"diversity",15
-"Oman",2007,"diversity",16
-"Pakistan",2007,"diversity",14
+"Namibia",2007,"diversity",5
+"Nepal",2007,"diversity",1175
+"Netherlands",2007,"diversity",50
+"Netherlands Antilles",2007,"diversity",0
+"New Zealand",2007,"diversity",93
+"Nicaragua",2007,"diversity",9
+"Niger",2007,"diversity",12
+"Nigeria",2007,"diversity",2726
+"Norway",2007,"diversity",16
+"Oman",2007,"diversity",4
+"Pakistan",2007,"diversity",3
 "Palau",2007,"diversity",0
-"Panama",2007,"diversity",9
-"Papua New Guinea",2007,"diversity",0
-"Paraguay",2007,"diversity",3
-"Peru",2007,"diversity",5
+"Panama",2007,"diversity",11
+"Papua New Guinea",2007,"diversity",6
+"Paraguay",2007,"diversity",8
+"Peru",2007,"diversity",1482
 "Philippines",2007,"diversity",4
-"Poland",2007,"diversity",11
-"Portugal",2007,"diversity",12
-"Qatar",2007,"diversity",3
-"Romania",2007,"diversity",389
-"Russia",2007,"diversity",208
-"Rwanda",2007,"diversity",29
+"Poland",2007,"diversity",280
+"Portugal",2007,"diversity",5
+"Qatar",2007,"diversity",8
+"Romania",2007,"diversity",962
+"Russia",2007,"diversity",182
+"Rwanda",2007,"diversity",14
 "Saint Kitts-Nevis",2007,"diversity",0
-"Saint Lucia",2007,"diversity",4
+"Saint Lucia",2007,"diversity",0
 "Saint Vincent and the Grenadines",2007,"diversity",0
-"Samoa",2007,"diversity",6
-"Sao Tome and Principe",2007,"diversity",0
-"Saudi Arabia",2007,"diversity",104
-"Senegal",2007,"diversity",129
-"Serbia and Montenegro1",2007,"diversity",297
-"Seychelles",2007,"diversity",0
-"Sierra Leone",2007,"diversity",499
-"Singapore",2007,"diversity",15
-"Slovakia",2007,"diversity",49
-"Slovenia",2007,"diversity",5
-"Somalia",2007,"diversity",42
-"South Africa",2007,"diversity",272
-"Soviet Union (former)",2007,"diversity",10
-"Spain",2007,"diversity",60
-"Sri Lanka",2007,"diversity",524
-"Sudan",2007,"diversity",443
+"Samoa",2007,"diversity",0
+"Saudi Arabia",2007,"diversity",66
+"Senegal",2007,"diversity",72
+"Serbia and Montenegro1",2007,"diversity",309
+"Sierra Leone",2007,"diversity",208
+"Singapore",2007,"diversity",12
+"Slovak Republic",2007,"diversity",98
+"Slovenia",2007,"diversity",0
+"Solomon Islands",2007,"diversity",0
+"Somalia",2007,"diversity",21
+"South Africa",2007,"diversity",160
+"Soviet Union (former)",2007,"diversity",17
+"Spain",2007,"diversity",46
+"Sri Lanka",2007,"diversity",237
+"Sudan",2007,"diversity",329
 "Suriname",2007,"diversity",0
 "Swaziland",2007,"diversity",0
-"Sweden",2007,"diversity",47
-"Switzerland",2007,"diversity",81
-"Syria",2007,"diversity",25
-"Taiwan",2007,"diversity",251
-"Tajikistan",2007,"diversity",79
-"Tanzania",2007,"diversity",90
-"Thailand",2007,"diversity",49
-"Togo",2007,"diversity",411
-"Tonga",2007,"diversity",29
-"Trinidad and Tobago",2007,"diversity",66
-"Tunisia",2007,"diversity",48
-"Turkey",2007,"diversity",1036
-"Turkmenistan",2007,"diversity",71
+"Sweden",2007,"diversity",69
+"Switzerland",2007,"diversity",42
+"Syria",2007,"diversity",17
+"Taiwan",2007,"diversity",258
+"Tajikistan",2007,"diversity",26
+"Tanzania",2007,"diversity",118
+"Thailand",2007,"diversity",38
+"Togo",2007,"diversity",485
+"Tonga",2007,"diversity",23
+"Trinidad and Tobago",2007,"diversity",57
+"Tunisia",2007,"diversity",54
+"Turkey",2007,"diversity",724
+"Turkmenistan",2007,"diversity",43
 "Turks and Caicos Islands",2007,"diversity",0
-"Uganda",2007,"diversity",158
-"Ukraine",2007,"diversity",1579
-"United Arab Emirates",2007,"diversity",55
-"United Kingdom",2007,"diversity",136
-"United States",2007,"diversity",4
-"Uruguay",2007,"diversity",3
-"Uzbekistan",2007,"diversity",2492
-"Venezuela",2007,"diversity",227
+"Uganda",2007,"diversity",91
+"Ukraine",2007,"diversity",2798
+"United Arab Emirates",2007,"diversity",41
+"United Kingdom",2007,"diversity",96
+"United States",2007,"diversity",0
+"Uruguay",2007,"diversity",0
+"Uzbekistan",2007,"diversity",964
+"Venezuela",2007,"diversity",167
 "Vietnam",2007,"diversity",0
-"Yemen",2007,"diversity",40
-"Zambia",2007,"diversity",44
-"Zimbabwe",2007,"diversity",66
-"All other countries",2007,"diversity",4
-"Unknown",2007,"diversity",51
-"Afghanistan",2008,"diversity",38
-"Albania",2008,"diversity",1948
-"Algeria",2008,"diversity",837
+"Yemen",2007,"diversity",13
+"Zambia",2007,"diversity",26
+"Zimbabwe",2007,"diversity",43
+"All other countries",2007,"diversity",8
+"Unknown",2007,"diversity",40
+"Afghanistan",2008,"diversity",22
+"Albania",2008,"diversity",2037
+"Algeria",2008,"diversity",473
 "American Samoa",2008,"diversity",0
-"Angola",2008,"diversity",6
+"Angola",2008,"diversity",7
 "Anguilla",2008,"diversity",0
 "Antigua-Barbuda",2008,"diversity",0
-"Argentina",2008,"diversity",52
-"Armenia",2008,"diversity",911
-"Aruba",2008,"diversity",4
-"Australia",2008,"diversity",187
-"Austria",2008,"diversity",50
-"Azerbaijan",2008,"diversity",152
-"Bahamas",2008,"diversity",3
+"Argentina",2008,"diversity",64
+"Armenia",2008,"diversity",675
+"Aruba",2008,"diversity",6
+"Australia",2008,"diversity",197
+"Austria",2008,"diversity",23
+"Azerbaijan",2008,"diversity",123
+"Bahamas",2008,"diversity",4
 "Bahrain",2008,"diversity",0
-"Bangladesh",2008,"diversity",2928
-"Barbados",2008,"diversity",3
-"Belarus",2008,"diversity",664
-"Belgium",2008,"diversity",42
-"Belize",2008,"diversity",3
-"Benin",2008,"diversity",161
+"Bangladesh",2008,"diversity",2930
+"Barbados",2008,"diversity",0
+"Belarus",2008,"diversity",641
+"Belgium",2008,"diversity",30
+"Belize",2008,"diversity",0
+"Benin",2008,"diversity",139
 "Bermuda",2008,"diversity",0
-"Bhutan",2008,"diversity",6
-"Bolivia",2008,"diversity",46
-"Bosnia-Herzegovina",2008,"diversity",53
-"Botswana",2008,"diversity",5
-"Brazil",2008,"diversity",6
+"Bhutan",2008,"diversity",5
+"Bolivia",2008,"diversity",73
+"Bosnia-Herzegovina",2008,"diversity",45
+"Botswana",2008,"diversity",9
+"Brazil",2008,"diversity",50
 "British Virgin Islands",2008,"diversity",0
 "Brunei",2008,"diversity",0
-"Bulgaria",2008,"diversity",765
-"Burkina Faso",2008,"diversity",94
-"Burma",2008,"diversity",258
-"Burundi",2008,"diversity",20
-"Cambodia",2008,"diversity",72
-"Cameroon",2008,"diversity",1386
-"Canada",2008,"diversity",67
-"Cape Verde",2008,"diversity",8
+"Bulgaria",2008,"diversity",1027
+"Burkina Faso",2008,"diversity",48
+"Burma",2008,"diversity",90
+"Burundi",2008,"diversity",9
+"Cambodia",2008,"diversity",106
+"Cameroon",2008,"diversity",747
+"Canada",2008,"diversity",60
+"Cape Verde",2008,"diversity",0
 "Cayman Islands",2008,"diversity",0
 "Central African Republic",2008,"diversity",0
-"Chad",2008,"diversity",12
-"Chile",2008,"diversity",19
-"China, People's Republic",2008,"diversity",28
-"Colombia",2008,"diversity",10
-"Congo, Democratic Republic",2008,"diversity",419
-"Congo, Republic",2008,"diversity",300
-"Costa Rica",2008,"diversity",0
-"Cote d'Ivoire",2008,"diversity",207
-"Croatia",2008,"diversity",33
-"Cuba",2008,"diversity",183
+"Chad",2008,"diversity",0
+"Chile",2008,"diversity",21
+"China, People's Republic",2008,"diversity",25
+"Colombia",2008,"diversity",9
+"Congo, Democratic Republic",2008,"diversity",145
+"Congo, Republic",2008,"diversity",194
+"Costa Rica",2008,"diversity",7
+"Cote d'Ivoire",2008,"diversity",166
+"Croatia",2008,"diversity",24
+"Cuba",2008,"diversity",224
 "Cyprus",2008,"diversity",0
-"Czech Republic",2008,"diversity",15
-"Czechoslovakia (former)",2008,"diversity",20
+"Czech Republic",2008,"diversity",33
+"Czechoslovakia (former)",2008,"diversity",40
 "Denmark",2008,"diversity",17
-"Djibouti",2008,"diversity",0
-"Dominica",2008,"diversity",9
-"Dominican Republic",2008,"diversity",16
-"Ecuador",2008,"diversity",18
-"Egypt",2008,"diversity",3336
+"Djibouti",2008,"diversity",8
+"Dominica",2008,"diversity",3
+"Dominican Republic",2008,"diversity",0
+"Ecuador",2008,"diversity",94
+"Egypt",2008,"diversity",3344
 "El Salvador",2008,"diversity",0
 "Equatorial Guinea",2008,"diversity",0
-"Eritrea",2008,"diversity",293
-"Estonia",2008,"diversity",18
-"Ethiopia",2008,"diversity",3829
-"Fiji",2008,"diversity",282
-"Finland",2008,"diversity",18
-"France",2008,"diversity",241
-"French Guiana",2008,"diversity",0
+"Eritrea",2008,"diversity",201
+"Estonia",2008,"diversity",16
+"Ethiopia",2008,"diversity",2926
+"Fiji",2008,"diversity",281
+"Finland",2008,"diversity",5
+"France",2008,"diversity",273
 "French Polynesia",2008,"diversity",0
-"Gabon",2008,"diversity",8
-"Gambia",2008,"diversity",13
-"Georgia",2008,"diversity",306
-"Germany",2008,"diversity",908
-"Ghana",2008,"diversity",1819
-"Greece",2008,"diversity",71
+"Gabon",2008,"diversity",14
+"Gambia",2008,"diversity",12
+"Georgia",2008,"diversity",279
+"Germany",2008,"diversity",753
+"Ghana",2008,"diversity",1142
+"Greece",2008,"diversity",96
 "Grenada",2008,"diversity",0
 "Guadeloupe",2008,"diversity",0
-"Guatemala",2008,"diversity",0
-"Guinea",2008,"diversity",100
+"Guatemala",2008,"diversity",34
+"Guinea",2008,"diversity",64
 "Guinea-Bissau",2008,"diversity",0
-"Guyana",2008,"diversity",24
+"Guyana",2008,"diversity",13
 "Haiti",2008,"diversity",0
-"Honduras",2008,"diversity",12
-"Hong Kong",2008,"diversity",37
-"Hungary",2008,"diversity",108
+"Honduras",2008,"diversity",15
+"Hong Kong",2008,"diversity",30
+"Hungary",2008,"diversity",76
 "Iceland",2008,"diversity",0
-"India",2008,"diversity",63
-"Indonesia",2008,"diversity",111
-"Iran",2008,"diversity",1057
-"Iraq",2008,"diversity",64
+"India",2008,"diversity",65
+"Indonesia",2008,"diversity",182
+"Iran",2008,"diversity",762
+"Iraq",2008,"diversity",71
 "Ireland",2008,"diversity",53
-"Israel",2008,"diversity",84
-"Italy",2008,"diversity",167
-"Jamaica",2008,"diversity",6
-"Japan",2008,"diversity",217
-"Jordan",2008,"diversity",51
+"Israel",2008,"diversity",108
+"Italy",2008,"diversity",127
+"Jamaica",2008,"diversity",4
+"Japan",2008,"diversity",266
+"Jordan",2008,"diversity",31
 "Kazakhstan",2008,"diversity",159
-"Kenya",2008,"diversity",2324
-"Kiribati",2008,"diversity",4
-"Korea, North",2008,"diversity",0
-"Korea, South",2008,"diversity",7
-"Kuwait",2008,"diversity",37
+"Kenya",2008,"diversity",1476
+"Korea1",2008,"diversity",7
+"Kuwait",2008,"diversity",20
 "Kyrgyzstan",2008,"diversity",126
-"Laos",2008,"diversity",0
-"Latvia",2008,"diversity",30
-"Lebanon",2008,"diversity",82
+"Laos",2008,"diversity",4
+"Latvia",2008,"diversity",19
+"Lebanon",2008,"diversity",51
 "Lesotho",2008,"diversity",0
-"Liberia",2008,"diversity",751
-"Libya",2008,"diversity",32
-"Lithuania",2008,"diversity",96
+"Liberia",2008,"diversity",468
+"Libya",2008,"diversity",24
+"Lithuania",2008,"diversity",124
 "Luxembourg",2008,"diversity",0
-"Macau",2008,"diversity",0
-"Macedonia",2008,"diversity",192
-"Madagascar",2008,"diversity",12
-"Malawi",2008,"diversity",13
-"Malaysia",2008,"diversity",24
-"Mali",2008,"diversity",36
+"Macau",2008,"diversity",11
+"Macedonia",2008,"diversity",210
+"Madagascar",2008,"diversity",15
+"Malawi",2008,"diversity",12
+"Malaysia",2008,"diversity",32
+"Mali",2008,"diversity",34
 "Malta",2008,"diversity",0
 "Marshall Islands",2008,"diversity",0
 "Martinique",2008,"diversity",0
 "Mauritania",2008,"diversity",0
-"Mauritius",2008,"diversity",9
-"Mexico",2008,"diversity",12
+"Mauritius",2008,"diversity",18
+"Mexico",2008,"diversity",11
 "Micronesia, Federated States",2008,"diversity",0
-"Moldova",2008,"diversity",240
-"Mongolia",2008,"diversity",146
+"Moldova",2008,"diversity",247
+"Mongolia",2008,"diversity",154
 "Montserrat",2008,"diversity",0
-"Morocco",2008,"diversity",2100
+"Morocco",2008,"diversity",1626
 "Mozambique",2008,"diversity",0
 "Namibia",2008,"diversity",0
-"Nepal",2008,"diversity",1778
-"Netherlands",2008,"diversity",87
-"Netherlands Antilles",2008,"diversity",6
-"New Caledonia",2008,"diversity",0
-"New Zealand",2008,"diversity",72
-"Nicaragua",2008,"diversity",20
-"Niger",2008,"diversity",14
-"Nigeria",2008,"diversity",3720
-"Norway",2008,"diversity",15
-"Oman",2008,"diversity",16
-"Pakistan",2008,"diversity",14
-"Palau",2008,"diversity",0
-"Panama",2008,"diversity",9
+"Nepal",2008,"diversity",1663
+"Netherlands",2008,"diversity",70
+"Netherlands Antilles",2008,"diversity",0
+"New Zealand",2008,"diversity",89
+"Nicaragua",2008,"diversity",18
+"Niger",2008,"diversity",8
+"Nigeria",2008,"diversity",3219
+"Norway",2008,"diversity",0
+"Oman",2008,"diversity",0
+"Pakistan",2008,"diversity",5
+"Panama",2008,"diversity",8
 "Papua New Guinea",2008,"diversity",0
-"Paraguay",2008,"diversity",3
-"Peru",2008,"diversity",5
-"Philippines",2008,"diversity",4
-"Poland",2008,"diversity",11
-"Portugal",2008,"diversity",12
-"Qatar",2008,"diversity",3
-"Romania",2008,"diversity",389
-"Russia",2008,"diversity",208
-"Rwanda",2008,"diversity",29
+"Paraguay",2008,"diversity",5
+"Peru",2008,"diversity",192
+"Philippines",2008,"diversity",8
+"Poland",2008,"diversity",21
+"Portugal",2008,"diversity",0
+"Qatar",2008,"diversity",5
+"Romania",2008,"diversity",793
+"Russia",2008,"diversity",200
+"Rwanda",2008,"diversity",32
 "Saint Kitts-Nevis",2008,"diversity",0
-"Saint Lucia",2008,"diversity",4
+"Saint Lucia",2008,"diversity",0
 "Saint Vincent and the Grenadines",2008,"diversity",0
-"Samoa",2008,"diversity",6
-"Sao Tome and Principe",2008,"diversity",0
-"Saudi Arabia",2008,"diversity",104
-"Senegal",2008,"diversity",129
-"Serbia and Montenegro1",2008,"diversity",297
+"Samoa",2008,"diversity",0
+"Saudi Arabia",2008,"diversity",72
+"Senegal",2008,"diversity",94
+"Serbia and Montenegro2",2008,"diversity",302
 "Seychelles",2008,"diversity",0
-"Sierra Leone",2008,"diversity",499
-"Singapore",2008,"diversity",15
-"Slovakia",2008,"diversity",49
-"Slovenia",2008,"diversity",5
-"Somalia",2008,"diversity",42
-"South Africa",2008,"diversity",272
-"Soviet Union (former)",2008,"diversity",10
-"Spain",2008,"diversity",60
-"Sri Lanka",2008,"diversity",524
-"Sudan",2008,"diversity",443
+"Sierra Leone",2008,"diversity",263
+"Singapore",2008,"diversity",18
+"Slovak Republic",2008,"diversity",60
+"Slovenia",2008,"diversity",7
+"Somalia",2008,"diversity",22
+"South Africa",2008,"diversity",156
+"Soviet Union (former)",2008,"diversity",16
+"Spain",2008,"diversity",50
+"Sri Lanka",2008,"diversity",389
+"Sudan",2008,"diversity",267
 "Suriname",2008,"diversity",0
 "Swaziland",2008,"diversity",0
-"Sweden",2008,"diversity",47
-"Switzerland",2008,"diversity",81
-"Syria",2008,"diversity",25
-"Taiwan",2008,"diversity",251
-"Tajikistan",2008,"diversity",79
-"Tanzania",2008,"diversity",90
-"Thailand",2008,"diversity",49
-"Togo",2008,"diversity",411
-"Tonga",2008,"diversity",29
-"Trinidad and Tobago",2008,"diversity",66
-"Tunisia",2008,"diversity",48
-"Turkey",2008,"diversity",1036
-"Turkmenistan",2008,"diversity",71
+"Sweden",2008,"diversity",33
+"Switzerland",2008,"diversity",68
+"Syria",2008,"diversity",39
+"Taiwan",2008,"diversity",263
+"Tajikistan",2008,"diversity",70
+"Tanzania",2008,"diversity",68
+"Thailand",2008,"diversity",36
+"Togo",2008,"diversity",382
+"Tonga",2008,"diversity",19
+"Trinidad and Tobago",2008,"diversity",55
+"Tunisia",2008,"diversity",29
+"Turkey",2008,"diversity",814
+"Turkmenistan",2008,"diversity",62
 "Turks and Caicos Islands",2008,"diversity",0
-"Uganda",2008,"diversity",158
-"Ukraine",2008,"diversity",1579
-"United Arab Emirates",2008,"diversity",55
-"United Kingdom",2008,"diversity",136
-"United States",2008,"diversity",4
-"Uruguay",2008,"diversity",3
-"Uzbekistan",2008,"diversity",2492
-"Venezuela",2008,"diversity",227
-"Vietnam",2008,"diversity",0
-"Yemen",2008,"diversity",40
-"Zambia",2008,"diversity",44
-"Zimbabwe",2008,"diversity",66
-"All other countries",2008,"diversity",4
-"Unknown",2008,"diversity",51
+"Uganda",2008,"diversity",107
+"Ukraine",2008,"diversity",2445
+"United Arab Emirates",2008,"diversity",34
+"United Kingdom",2008,"diversity",106
+"United States",2008,"diversity",0
+"Uruguay",2008,"diversity",4
+"Uzbekistan",2008,"diversity",1980
+"Venezuela",2008,"diversity",134
+"Vietnam",2008,"diversity",3
+"Yemen",2008,"diversity",21
+"Zambia",2008,"diversity",41
+"Zimbabwe",2008,"diversity",44
+"All other countries",2008,"diversity",2
+"Unknown",2008,"diversity",39
 "Afghanistan",2009,"diversity",38
 "Albania",2009,"diversity",1948
 "Algeria",2009,"diversity",837
@@ -8775,408 +8727,396 @@
 "Zimbabwe",2017,"diversity",62
 "All other countries1",2017,"diversity",4
 "Unknown",2017,"diversity",26
-"Afghanistan",2007,"refugee",950
-"Albania",2007,"refugee",966
-"Algeria",2007,"refugee",62
+"Afghanistan",2007,"refugee",960
+"Albania",2007,"refugee",2255
+"Algeria",2007,"refugee",104
 "American Samoa",2007,"refugee",0
-"Angola",2007,"refugee",42
+"Angola",2007,"refugee",60
 "Anguilla",2007,"refugee",0
 "Antigua-Barbuda",2007,"refugee",0
-"Argentina",2007,"refugee",498
-"Armenia",2007,"refugee",1100
+"Argentina",2007,"refugee",305
+"Armenia",2007,"refugee",2637
 "Aruba",2007,"refugee",0
-"Australia",2007,"refugee",4
-"Austria",2007,"refugee",17
-"Azerbaijan",2007,"refugee",299
+"Australia",2007,"refugee",3
+"Austria",2007,"refugee",6
+"Azerbaijan",2007,"refugee",741
 "Bahamas",2007,"refugee",5
-"Bahrain",2007,"refugee",0
-"Bangladesh",2007,"refugee",232
+"Bahrain",2007,"refugee",5
+"Bangladesh",2007,"refugee",475
 "Barbados",2007,"refugee",0
-"Belarus",2007,"refugee",623
-"Belgium",2007,"refugee",13
-"Belize",2007,"refugee",3
-"Benin",2007,"refugee",50
+"Belarus",2007,"refugee",680
+"Belgium",2007,"refugee",11
+"Belize",2007,"refugee",5
+"Benin",2007,"refugee",0
 "Bermuda",2007,"refugee",0
-"Bhutan",2007,"refugee",565
-"Bolivia",2007,"refugee",169
-"Bosnia-Herzegovina",2007,"refugee",596
-"Botswana",2007,"refugee",6
-"Brazil",2007,"refugee",422
+"Bhutan",2007,"refugee",38
+"Bolivia",2007,"refugee",63
+"Bosnia-Herzegovina",2007,"refugee",707
+"Botswana",2007,"refugee",0
+"Brazil",2007,"refugee",220
 "British Virgin Islands",2007,"refugee",0
 "Brunei",2007,"refugee",0
-"Bulgaria",2007,"refugee",200
-"Burkina Faso",2007,"refugee",68
-"Burma",2007,"refugee",12221
-"Burundi",2007,"refugee",1442
-"Cambodia",2007,"refugee",166
-"Cameroon",2007,"refugee",912
-"Canada",2007,"refugee",38
-"Cape Verde",2007,"refugee",3
+"Bulgaria",2007,"refugee",237
+"Burkina Faso",2007,"refugee",32
+"Burma",2007,"refugee",1774
+"Burundi",2007,"refugee",214
+"Cambodia",2007,"refugee",281
+"Cameroon",2007,"refugee",1563
+"Canada",2007,"refugee",42
+"Cape Verde",2007,"refugee",0
 "Cayman Islands",2007,"refugee",0
-"Central African Republic",2007,"refugee",84
-"Chad",2007,"refugee",61
-"Chile",2007,"refugee",112
-"China, People's Republic",2007,"refugee",18486
-"Colombia",2007,"refugee",4227
-"Congo, Democratic Republic",2007,"refugee",1550
-"Congo, Republic",2007,"refugee",1013
-"Costa Rica",2007,"refugee",95
-"Cote d'Ivoire",2007,"refugee",1120
+"Central African Republic",2007,"refugee",38
+"Chad",2007,"refugee",45
+"Chile",2007,"refugee",89
+"China, People's Republic",2007,"refugee",20352
+"Colombia",2007,"refugee",10091
+"Congo, Democratic Republic",2007,"refugee",802
+"Congo, Republic",2007,"refugee",643
+"Costa Rica",2007,"refugee",83
+"Cote d'Ivoire",2007,"refugee",274
 "Croatia",2007,"refugee",81
-"Cuba",2007,"refugee",34301
+"Cuba",2007,"refugee",24261
 "Cyprus",2007,"refugee",0
 "Czech Republic",2007,"refugee",4
-"Czechoslovakia (former)",2007,"refugee",13
+"Czechoslovakia (former)",2007,"refugee",12
 "Denmark",2007,"refugee",0
-"Djibouti",2007,"refugee",14
+"Djibouti",2007,"refugee",7
 "Dominica",2007,"refugee",0
-"Dominican Republic",2007,"refugee",135
-"Ecuador",2007,"refugee",250
-"Egypt",2007,"refugee",867
-"El Salvador",2007,"refugee",705
-"Equatorial Guinea",2007,"refugee",23
-"Eritrea",2007,"refugee",1146
-"Estonia",2007,"refugee",39
-"Ethiopia",2007,"refugee",4382
-"Fiji",2007,"refugee",134
-"Finland",2007,"refugee",4
-"France",2007,"refugee",43
-"French Guiana",2007,"refugee",0
+"Dominican Republic",2007,"refugee",0
+"Ecuador",2007,"refugee",128
+"Egypt",2007,"refugee",1245
+"El Salvador",2007,"refugee",493
+"Eritrea",2007,"refugee",503
+"Estonia",2007,"refugee",56
+"Ethiopia",2007,"refugee",3851
+"Fiji",2007,"refugee",310
+"Finland",2007,"refugee",0
+"France",2007,"refugee",51
 "French Polynesia",2007,"refugee",0
-"Gabon",2007,"refugee",69
-"Gambia",2007,"refugee",195
-"Georgia",2007,"refugee",348
-"Germany",2007,"refugee",89
-"Ghana",2007,"refugee",342
-"Greece",2007,"refugee",18
+"Gabon",2007,"refugee",19
+"Gambia",2007,"refugee",192
+"Georgia",2007,"refugee",607
+"Germany",2007,"refugee",99
+"Ghana",2007,"refugee",93
+"Greece",2007,"refugee",34
 "Grenada",2007,"refugee",0
 "Guadeloupe",2007,"refugee",0
-"Guatemala",2007,"refugee",1002
-"Guinea",2007,"refugee",1099
-"Guinea-Bissau",2007,"refugee",3
-"Guyana",2007,"refugee",28
-"Haiti",2007,"refugee",5402
-"Honduras",2007,"refugee",245
-"Hong Kong",2007,"refugee",7
-"Hungary",2007,"refugee",12
+"Guatemala",2007,"refugee",1061
+"Guinea",2007,"refugee",603
+"Guinea-Bissau",2007,"refugee",0
+"Guyana",2007,"refugee",32
+"Haiti",2007,"refugee",6261
+"Honduras",2007,"refugee",219
+"Hong Kong",2007,"refugee",5
+"Hungary",2007,"refugee",13
 "Iceland",2007,"refugee",0
-"India",2007,"refugee",2228
-"Indonesia",2007,"refugee",1086
-"Iran",2007,"refugee",9804
-"Iraq",2007,"refugee",7948
-"Ireland",2007,"refugee",3
-"Israel",2007,"refugee",87
-"Italy",2007,"refugee",54
-"Jamaica",2007,"refugee",24
-"Japan",2007,"refugee",18
-"Jordan",2007,"refugee",228
-"Kazakhstan",2007,"refugee",269
-"Kenya",2007,"refugee",3677
+"India",2007,"refugee",2680
+"Indonesia",2007,"refugee",1255
+"Iran",2007,"refugee",2570
+"Iraq",2007,"refugee",1422
+"Ireland",2007,"refugee",5
+"Israel",2007,"refugee",50
+"Italy",2007,"refugee",34
+"Jamaica",2007,"refugee",0
+"Japan",2007,"refugee",15
+"Jordan",2007,"refugee",76
+"Kazakhstan",2007,"refugee",290
+"Kenya",2007,"refugee",2187
 "Kiribati",2007,"refugee",0
-"Korea, North",2007,"refugee",42
-"Korea, South",2007,"refugee",12
-"Kuwait",2007,"refugee",116
-"Kyrgyzstan",2007,"refugee",128
-"Laos",2007,"refugee",427
-"Latvia",2007,"refugee",51
-"Lebanon",2007,"refugee",137
+"Korea",2007,"refugee",0
+"Kuwait",2007,"refugee",82
+"Kyrgyzstan",2007,"refugee",160
+"Laos",2007,"refugee",1472
+"Latvia",2007,"refugee",90
+"Lebanon",2007,"refugee",154
 "Lesotho",2007,"refugee",0
-"Liberia",2007,"refugee",5524
-"Libya",2007,"refugee",23
-"Lithuania",2007,"refugee",26
+"Liberia",2007,"refugee",1949
+"Libya",2007,"refugee",15
+"Lithuania",2007,"refugee",56
 "Luxembourg",2007,"refugee",0
 "Macau",2007,"refugee",0
-"Macedonia",2007,"refugee",55
-"Madagascar",2007,"refugee",0
-"Malawi",2007,"refugee",6
-"Malaysia",2007,"refugee",287
-"Mali",2007,"refugee",110
-"Malta",2007,"refugee",3
+"Macedonia",2007,"refugee",93
+"Madagascar",2007,"refugee",3
+"Malawi",2007,"refugee",4
+"Malaysia",2007,"refugee",44
+"Mali",2007,"refugee",61
+"Malta",2007,"refugee",0
 "Marshall Islands",2007,"refugee",0
 "Martinique",2007,"refugee",0
-"Mauritania",2007,"refugee",506
-"Mauritius",2007,"refugee",5
-"Mexico",2007,"refugee",466
-"Micronesia, Federated States",2007,"refugee",0
-"Moldova",2007,"refugee",969
-"Mongolia",2007,"refugee",233
+"Mauritania",2007,"refugee",581
+"Mauritius",2007,"refugee",6
+"Mexico",2007,"refugee",396
+"Moldova",2007,"refugee",555
+"Mongolia",2007,"refugee",132
 "Montserrat",2007,"refugee",0
-"Morocco",2007,"refugee",21
-"Mozambique",2007,"refugee",0
-"Namibia",2007,"refugee",11
-"Nepal",2007,"refugee",812
-"Netherlands",2007,"refugee",6
+"Morocco",2007,"refugee",35
+"Mozambique",2007,"refugee",28
+"Namibia",2007,"refugee",5
+"Nepal",2007,"refugee",683
+"Netherlands",2007,"refugee",10
 "Netherlands Antilles",2007,"refugee",0
-"New Caledonia",2007,"refugee",0
 "New Zealand",2007,"refugee",0
-"Nicaragua",2007,"refugee",192
-"Niger",2007,"refugee",5
-"Nigeria",2007,"refugee",215
+"Nicaragua",2007,"refugee",133
+"Niger",2007,"refugee",3
+"Nigeria",2007,"refugee",345
 "Norway",2007,"refugee",0
-"Oman",2007,"refugee",3
-"Pakistan",2007,"refugee",808
+"Oman",2007,"refugee",6
+"Pakistan",2007,"refugee",1087
 "Palau",2007,"refugee",0
-"Panama",2007,"refugee",54
+"Panama",2007,"refugee",41
 "Papua New Guinea",2007,"refugee",0
-"Paraguay",2007,"refugee",19
-"Peru",2007,"refugee",887
-"Philippines",2007,"refugee",108
-"Poland",2007,"refugee",30
-"Portugal",2007,"refugee",7
-"Qatar",2007,"refugee",14
-"Romania",2007,"refugee",126
-"Russia",2007,"refugee",2214
-"Rwanda",2007,"refugee",865
+"Paraguay",2007,"refugee",16
+"Peru",2007,"refugee",919
+"Philippines",2007,"refugee",372
+"Poland",2007,"refugee",34
+"Portugal",2007,"refugee",6
+"Qatar",2007,"refugee",4
+"Romania",2007,"refugee",175
+"Russia",2007,"refugee",3065
+"Rwanda",2007,"refugee",282
 "Saint Kitts-Nevis",2007,"refugee",0
 "Saint Lucia",2007,"refugee",0
 "Saint Vincent and the Grenadines",2007,"refugee",0
 "Samoa",2007,"refugee",0
-"Sao Tome and Principe",2007,"refugee",0
-"Saudi Arabia",2007,"refugee",117
-"Senegal",2007,"refugee",162
-"Serbia and Montenegro1",2007,"refugee",684
-"Seychelles",2007,"refugee",0
-"Sierra Leone",2007,"refugee",1147
-"Singapore",2007,"refugee",6
-"Slovakia",2007,"refugee",3
-"Slovenia",2007,"refugee",6
-"Somalia",2007,"refugee",12628
-"South Africa",2007,"refugee",14
-"Soviet Union (former)",2007,"refugee",413
-"Spain",2007,"refugee",86
-"Sri Lanka",2007,"refugee",271
-"Sudan",2007,"refugee",2380
+"Saudi Arabia",2007,"refugee",110
+"Senegal",2007,"refugee",125
+"Serbia and Montenegro1",2007,"refugee",1226
+"Sierra Leone",2007,"refugee",901
+"Singapore",2007,"refugee",17
+"Slovak Republic",2007,"refugee",0
+"Slovenia",2007,"refugee",0
+"Solomon Islands",2007,"refugee",0
+"Somalia",2007,"refugee",5721
+"South Africa",2007,"refugee",40
+"Soviet Union (former)",2007,"refugee",476
+"Spain",2007,"refugee",68
+"Sri Lanka",2007,"refugee",236
+"Sudan",2007,"refugee",1944
 "Suriname",2007,"refugee",0
 "Swaziland",2007,"refugee",0
 "Sweden",2007,"refugee",9
-"Switzerland",2007,"refugee",10
-"Syria",2007,"refugee",173
-"Taiwan",2007,"refugee",5
-"Tajikistan",2007,"refugee",45
-"Tanzania",2007,"refugee",2008
-"Thailand",2007,"refugee",4827
-"Togo",2007,"refugee",698
+"Switzerland",2007,"refugee",11
+"Syria",2007,"refugee",180
+"Taiwan",2007,"refugee",8
+"Tajikistan",2007,"refugee",52
+"Tanzania",2007,"refugee",91
+"Thailand",2007,"refugee",3631
+"Togo",2007,"refugee",724
 "Tonga",2007,"refugee",0
-"Trinidad and Tobago",2007,"refugee",15
-"Tunisia",2007,"refugee",7
-"Turkey",2007,"refugee",129
-"Turkmenistan",2007,"refugee",87
+"Trinidad and Tobago",2007,"refugee",17
+"Tunisia",2007,"refugee",5
+"Turkey",2007,"refugee",153
+"Turkmenistan",2007,"refugee",105
 "Turks and Caicos Islands",2007,"refugee",0
-"Uganda",2007,"refugee",461
-"Ukraine",2007,"refugee",2964
-"United Arab Emirates",2007,"refugee",53
-"United Kingdom",2007,"refugee",14
-"United States",2007,"refugee",14
-"Uruguay",2007,"refugee",161
-"Uzbekistan",2007,"refugee",1951
-"Venezuela",2007,"refugee",2152
-"Vietnam",2007,"refugee",2535
-"Yemen",2007,"refugee",186
-"Zambia",2007,"refugee",70
-"Zimbabwe",2007,"refugee",210
-"All other countries",2007,"refugee",2
-"Unknown",2007,"refugee",274
-"Afghanistan",2008,"refugee",950
-"Albania",2008,"refugee",966
-"Algeria",2008,"refugee",62
+"Uganda",2007,"refugee",425
+"Ukraine",2007,"refugee",2322
+"United Arab Emirates",2007,"refugee",35
+"United Kingdom",2007,"refugee",22
+"United States",2007,"refugee",0
+"Uruguay",2007,"refugee",70
+"Uzbekistan",2007,"refugee",2792
+"Venezuela",2007,"refugee",2056
+"Vietnam",2007,"refugee",1768
+"Yemen",2007,"refugee",245
+"Zambia",2007,"refugee",56
+"Zimbabwe",2007,"refugee",315
+"All other countries",2007,"refugee",8
+"Unknown",2007,"refugee",254
+"Afghanistan",2008,"refugee",1092
+"Albania",2008,"refugee",1465
+"Algeria",2008,"refugee",65
 "American Samoa",2008,"refugee",0
-"Angola",2008,"refugee",42
+"Angola",2008,"refugee",57
 "Anguilla",2008,"refugee",0
 "Antigua-Barbuda",2008,"refugee",0
-"Argentina",2008,"refugee",498
-"Armenia",2008,"refugee",1100
+"Argentina",2008,"refugee",362
+"Armenia",2008,"refugee",1701
 "Aruba",2008,"refugee",0
-"Australia",2008,"refugee",4
-"Austria",2008,"refugee",17
-"Azerbaijan",2008,"refugee",299
-"Bahamas",2008,"refugee",5
+"Australia",2008,"refugee",3
+"Austria",2008,"refugee",3
+"Azerbaijan",2008,"refugee",532
+"Bahamas",2008,"refugee",10
 "Bahrain",2008,"refugee",0
-"Bangladesh",2008,"refugee",232
+"Bangladesh",2008,"refugee",385
 "Barbados",2008,"refugee",0
-"Belarus",2008,"refugee",623
+"Belarus",2008,"refugee",711
 "Belgium",2008,"refugee",13
-"Belize",2008,"refugee",3
-"Benin",2008,"refugee",50
+"Belize",2008,"refugee",0
+"Benin",2008,"refugee",25
 "Bermuda",2008,"refugee",0
-"Bhutan",2008,"refugee",565
-"Bolivia",2008,"refugee",169
-"Bosnia-Herzegovina",2008,"refugee",596
-"Botswana",2008,"refugee",6
-"Brazil",2008,"refugee",422
+"Bhutan",2008,"refugee",22
+"Bolivia",2008,"refugee",83
+"Bosnia-Herzegovina",2008,"refugee",772
+"Botswana",2008,"refugee",0
+"Brazil",2008,"refugee",229
 "British Virgin Islands",2008,"refugee",0
 "Brunei",2008,"refugee",0
-"Bulgaria",2008,"refugee",200
-"Burkina Faso",2008,"refugee",68
-"Burma",2008,"refugee",12221
-"Burundi",2008,"refugee",1442
-"Cambodia",2008,"refugee",166
-"Cameroon",2008,"refugee",912
-"Canada",2008,"refugee",38
-"Cape Verde",2008,"refugee",3
+"Bulgaria",2008,"refugee",190
+"Burkina Faso",2008,"refugee",39
+"Burma",2008,"refugee",2199
+"Burundi",2008,"refugee",218
+"Cambodia",2008,"refugee",209
+"Cameroon",2008,"refugee",2094
+"Canada",2008,"refugee",51
+"Cape Verde",2008,"refugee",0
 "Cayman Islands",2008,"refugee",0
-"Central African Republic",2008,"refugee",84
-"Chad",2008,"refugee",61
-"Chile",2008,"refugee",112
-"China, People's Republic",2008,"refugee",18486
-"Colombia",2008,"refugee",4227
-"Congo, Democratic Republic",2008,"refugee",1550
-"Congo, Republic",2008,"refugee",1013
-"Costa Rica",2008,"refugee",95
-"Cote d'Ivoire",2008,"refugee",1120
-"Croatia",2008,"refugee",81
-"Cuba",2008,"refugee",34301
+"Central African Republic",2008,"refugee",74
+"Chad",2008,"refugee",71
+"Chile",2008,"refugee",105
+"China, People's Republic",2008,"refugee",21891
+"Colombia",2008,"refugee",8194
+"Congo, Democratic Republic",2008,"refugee",1038
+"Congo, Republic",2008,"refugee",570
+"Costa Rica",2008,"refugee",106
+"Cote d'Ivoire",2008,"refugee",716
+"Croatia",2008,"refugee",106
+"Cuba",2008,"refugee",43455
 "Cyprus",2008,"refugee",0
-"Czech Republic",2008,"refugee",4
+"Czech Republic",2008,"refugee",0
 "Czechoslovakia (former)",2008,"refugee",13
 "Denmark",2008,"refugee",0
-"Djibouti",2008,"refugee",14
+"Djibouti",2008,"refugee",13
 "Dominica",2008,"refugee",0
-"Dominican Republic",2008,"refugee",135
-"Ecuador",2008,"refugee",250
-"Egypt",2008,"refugee",867
-"El Salvador",2008,"refugee",705
-"Equatorial Guinea",2008,"refugee",23
-"Eritrea",2008,"refugee",1146
-"Estonia",2008,"refugee",39
-"Ethiopia",2008,"refugee",4382
-"Fiji",2008,"refugee",134
-"Finland",2008,"refugee",4
-"France",2008,"refugee",43
-"French Guiana",2008,"refugee",0
+"Dominican Republic",2008,"refugee",0
+"Ecuador",2008,"refugee",170
+"Egypt",2008,"refugee",992
+"El Salvador",2008,"refugee",590
+"Equatorial Guinea",2008,"refugee",8
+"Eritrea",2008,"refugee",662
+"Estonia",2008,"refugee",35
+"Ethiopia",2008,"refugee",4086
+"Fiji",2008,"refugee",113
+"Finland",2008,"refugee",5
+"France",2008,"refugee",50
 "French Polynesia",2008,"refugee",0
-"Gabon",2008,"refugee",69
-"Gambia",2008,"refugee",195
-"Georgia",2008,"refugee",348
-"Germany",2008,"refugee",89
-"Ghana",2008,"refugee",342
-"Greece",2008,"refugee",18
+"Gabon",2008,"refugee",22
+"Gambia",2008,"refugee",162
+"Georgia",2008,"refugee",517
+"Germany",2008,"refugee",101
+"Ghana",2008,"refugee",309
+"Greece",2008,"refugee",25
 "Grenada",2008,"refugee",0
 "Guadeloupe",2008,"refugee",0
-"Guatemala",2008,"refugee",1002
-"Guinea",2008,"refugee",1099
-"Guinea-Bissau",2008,"refugee",3
-"Guyana",2008,"refugee",28
-"Haiti",2008,"refugee",5402
-"Honduras",2008,"refugee",245
-"Hong Kong",2008,"refugee",7
-"Hungary",2008,"refugee",12
+"Guatemala",2008,"refugee",951
+"Guinea",2008,"refugee",1247
+"Guinea-Bissau",2008,"refugee",0
+"Guyana",2008,"refugee",43
+"Haiti",2008,"refugee",5620
+"Honduras",2008,"refugee",182
+"Hong Kong",2008,"refugee",12
+"Hungary",2008,"refugee",11
 "Iceland",2008,"refugee",0
-"India",2008,"refugee",2228
-"Indonesia",2008,"refugee",1086
-"Iran",2008,"refugee",9804
-"Iraq",2008,"refugee",7948
+"India",2008,"refugee",3423
+"Indonesia",2008,"refugee",1171
+"Iran",2008,"refugee",3465
+"Iraq",2008,"refugee",1420
 "Ireland",2008,"refugee",3
-"Israel",2008,"refugee",87
-"Italy",2008,"refugee",54
-"Jamaica",2008,"refugee",24
-"Japan",2008,"refugee",18
-"Jordan",2008,"refugee",228
-"Kazakhstan",2008,"refugee",269
-"Kenya",2008,"refugee",3677
-"Kiribati",2008,"refugee",0
-"Korea, North",2008,"refugee",42
-"Korea, South",2008,"refugee",12
-"Kuwait",2008,"refugee",116
-"Kyrgyzstan",2008,"refugee",128
-"Laos",2008,"refugee",427
-"Latvia",2008,"refugee",51
-"Lebanon",2008,"refugee",137
+"Israel",2008,"refugee",48
+"Italy",2008,"refugee",43
+"Jamaica",2008,"refugee",15
+"Japan",2008,"refugee",24
+"Jordan",2008,"refugee",58
+"Kazakhstan",2008,"refugee",329
+"Kenya",2008,"refugee",2610
+"Korea1",2008,"refugee",8
+"Kuwait",2008,"refugee",69
+"Kyrgyzstan",2008,"refugee",150
+"Laos",2008,"refugee",1218
+"Latvia",2008,"refugee",76
+"Lebanon",2008,"refugee",143
 "Lesotho",2008,"refugee",0
-"Liberia",2008,"refugee",5524
-"Libya",2008,"refugee",23
-"Lithuania",2008,"refugee",26
+"Liberia",2008,"refugee",5240
+"Libya",2008,"refugee",12
+"Lithuania",2008,"refugee",32
 "Luxembourg",2008,"refugee",0
 "Macau",2008,"refugee",0
-"Macedonia",2008,"refugee",55
+"Macedonia",2008,"refugee",92
 "Madagascar",2008,"refugee",0
-"Malawi",2008,"refugee",6
-"Malaysia",2008,"refugee",287
-"Mali",2008,"refugee",110
-"Malta",2008,"refugee",3
+"Malawi",2008,"refugee",8
+"Malaysia",2008,"refugee",35
+"Mali",2008,"refugee",122
+"Malta",2008,"refugee",4
 "Marshall Islands",2008,"refugee",0
 "Martinique",2008,"refugee",0
-"Mauritania",2008,"refugee",506
-"Mauritius",2008,"refugee",5
-"Mexico",2008,"refugee",466
+"Mauritania",2008,"refugee",765
+"Mauritius",2008,"refugee",0
+"Mexico",2008,"refugee",416
 "Micronesia, Federated States",2008,"refugee",0
-"Moldova",2008,"refugee",969
-"Mongolia",2008,"refugee",233
+"Moldova",2008,"refugee",721
+"Mongolia",2008,"refugee",150
 "Montserrat",2008,"refugee",0
-"Morocco",2008,"refugee",21
-"Mozambique",2008,"refugee",0
-"Namibia",2008,"refugee",11
-"Nepal",2008,"refugee",812
+"Morocco",2008,"refugee",20
+"Mozambique",2008,"refugee",19
+"Namibia",2008,"refugee",0
+"Nepal",2008,"refugee",911
 "Netherlands",2008,"refugee",6
 "Netherlands Antilles",2008,"refugee",0
-"New Caledonia",2008,"refugee",0
 "New Zealand",2008,"refugee",0
-"Nicaragua",2008,"refugee",192
-"Niger",2008,"refugee",5
-"Nigeria",2008,"refugee",215
+"Nicaragua",2008,"refugee",169
+"Niger",2008,"refugee",3
+"Nigeria",2008,"refugee",253
 "Norway",2008,"refugee",0
-"Oman",2008,"refugee",3
-"Pakistan",2008,"refugee",808
-"Palau",2008,"refugee",0
-"Panama",2008,"refugee",54
+"Oman",2008,"refugee",0
+"Pakistan",2008,"refugee",999
+"Panama",2008,"refugee",37
 "Papua New Guinea",2008,"refugee",0
-"Paraguay",2008,"refugee",19
-"Peru",2008,"refugee",887
-"Philippines",2008,"refugee",108
-"Poland",2008,"refugee",30
-"Portugal",2008,"refugee",7
-"Qatar",2008,"refugee",14
-"Romania",2008,"refugee",126
-"Russia",2008,"refugee",2214
-"Rwanda",2008,"refugee",865
+"Paraguay",2008,"refugee",12
+"Peru",2008,"refugee",812
+"Philippines",2008,"refugee",304
+"Poland",2008,"refugee",33
+"Portugal",2008,"refugee",0
+"Qatar",2008,"refugee",10
+"Romania",2008,"refugee",147
+"Russia",2008,"refugee",3114
+"Rwanda",2008,"refugee",265
 "Saint Kitts-Nevis",2008,"refugee",0
 "Saint Lucia",2008,"refugee",0
 "Saint Vincent and the Grenadines",2008,"refugee",0
 "Samoa",2008,"refugee",0
-"Sao Tome and Principe",2008,"refugee",0
-"Saudi Arabia",2008,"refugee",117
-"Senegal",2008,"refugee",162
-"Serbia and Montenegro1",2008,"refugee",684
+"Saudi Arabia",2008,"refugee",75
+"Senegal",2008,"refugee",156
+"Serbia and Montenegro2",2008,"refugee",969
 "Seychelles",2008,"refugee",0
-"Sierra Leone",2008,"refugee",1147
-"Singapore",2008,"refugee",6
-"Slovakia",2008,"refugee",3
-"Slovenia",2008,"refugee",6
-"Somalia",2008,"refugee",12628
-"South Africa",2008,"refugee",14
-"Soviet Union (former)",2008,"refugee",413
-"Spain",2008,"refugee",86
-"Sri Lanka",2008,"refugee",271
-"Sudan",2008,"refugee",2380
+"Sierra Leone",2008,"refugee",1584
+"Singapore",2008,"refugee",22
+"Slovak Republic",2008,"refugee",0
+"Slovenia",2008,"refugee",0
+"Somalia",2008,"refugee",10141
+"South Africa",2008,"refugee",36
+"Soviet Union (former)",2008,"refugee",382
+"Spain",2008,"refugee",103
+"Sri Lanka",2008,"refugee",241
+"Sudan",2008,"refugee",2693
 "Suriname",2008,"refugee",0
 "Swaziland",2008,"refugee",0
-"Sweden",2008,"refugee",9
-"Switzerland",2008,"refugee",10
-"Syria",2008,"refugee",173
-"Taiwan",2008,"refugee",5
-"Tajikistan",2008,"refugee",45
-"Tanzania",2008,"refugee",2008
-"Thailand",2008,"refugee",4827
-"Togo",2008,"refugee",698
+"Sweden",2008,"refugee",20
+"Switzerland",2008,"refugee",7
+"Syria",2008,"refugee",115
+"Taiwan",2008,"refugee",6
+"Tajikistan",2008,"refugee",50
+"Tanzania",2008,"refugee",133
+"Thailand",2008,"refugee",2122
+"Togo",2008,"refugee",913
 "Tonga",2008,"refugee",0
-"Trinidad and Tobago",2008,"refugee",15
-"Tunisia",2008,"refugee",7
-"Turkey",2008,"refugee",129
-"Turkmenistan",2008,"refugee",87
+"Trinidad and Tobago",2008,"refugee",5
+"Tunisia",2008,"refugee",13
+"Turkey",2008,"refugee",89
+"Turkmenistan",2008,"refugee",119
 "Turks and Caicos Islands",2008,"refugee",0
-"Uganda",2008,"refugee",461
-"Ukraine",2008,"refugee",2964
-"United Arab Emirates",2008,"refugee",53
-"United Kingdom",2008,"refugee",14
-"United States",2008,"refugee",14
-"Uruguay",2008,"refugee",161
-"Uzbekistan",2008,"refugee",1951
-"Venezuela",2008,"refugee",2152
-"Vietnam",2008,"refugee",2535
-"Yemen",2008,"refugee",186
-"Zambia",2008,"refugee",70
-"Zimbabwe",2008,"refugee",210
-"All other countries",2008,"refugee",2
-"Unknown",2008,"refugee",274
+"Uganda",2008,"refugee",442
+"Ukraine",2008,"refugee",2690
+"United Arab Emirates",2008,"refugee",30
+"United Kingdom",2008,"refugee",33
+"United States",2008,"refugee",0
+"Uruguay",2008,"refugee",128
+"Uzbekistan",2008,"refugee",3416
+"Venezuela",2008,"refugee",2497
+"Vietnam",2008,"refugee",2404
+"Yemen",2008,"refugee",163
+"Zambia",2008,"refugee",78
+"Zimbabwe",2008,"refugee",310
+"All other countries",2008,"refugee",3
+"Unknown",2008,"refugee",265
 "Afghanistan",2009,"refugee",950
 "Albania",2009,"refugee",966
 "Algeria",2009,"refugee",62
@@ -10969,408 +10909,396 @@
 "Zimbabwe",2017,"refugee",133
 "All other countries1",2017,"refugee",0
 "Unknown",2017,"refugee",47
-"Afghanistan",2007,"other",8
-"Albania",2007,"other",13
-"Algeria",2007,"other",11
-"American Samoa",2007,"other",1
+"Afghanistan",2007,"other",2
+"Albania",2007,"other",2
+"Algeria",2007,"other",3
+"American Samoa",2007,"other",0
 "Angola",2007,"other",0
 "Anguilla",2007,"other",0
-"Antigua-Barbuda",2007,"other",1
-"Argentina",2007,"other",22
-"Armenia",2007,"other",37
+"Antigua-Barbuda",2007,"other",0
+"Argentina",2007,"other",19
+"Armenia",2007,"other",35
 "Aruba",2007,"other",0
-"Australia",2007,"other",5
-"Austria",2007,"other",6
-"Azerbaijan",2007,"other",12
-"Bahamas",2007,"other",15
+"Australia",2007,"other",12
+"Austria",2007,"other",8
+"Azerbaijan",2007,"other",18
+"Bahamas",2007,"other",19
 "Bahrain",2007,"other",0
-"Bangladesh",2007,"other",80
-"Barbados",2007,"other",2
-"Belarus",2007,"other",116
-"Belgium",2007,"other",1
-"Belize",2007,"other",7
+"Bangladesh",2007,"other",57
+"Barbados",2007,"other",4
+"Belarus",2007,"other",162
+"Belgium",2007,"other",2
+"Belize",2007,"other",5
 "Benin",2007,"other",0
 "Bermuda",2007,"other",1
 "Bhutan",2007,"other",0
-"Bolivia",2007,"other",12
-"Bosnia-Herzegovina",2007,"other",6
+"Bolivia",2007,"other",10
+"Bosnia-Herzegovina",2007,"other",1
 "Botswana",2007,"other",0
-"Brazil",2007,"other",61
-"British Virgin Islands",2007,"other",1
+"Brazil",2007,"other",51
+"British Virgin Islands",2007,"other",0
 "Brunei",2007,"other",0
-"Bulgaria",2007,"other",15
-"Burkina Faso",2007,"other",6
-"Burma",2007,"other",4
-"Burundi",2007,"other",5
-"Cambodia",2007,"other",24
-"Cameroon",2007,"other",16
-"Canada",2007,"other",270
+"Bulgaria",2007,"other",16
+"Burkina Faso",2007,"other",4
+"Burma",2007,"other",2
+"Burundi",2007,"other",0
+"Cambodia",2007,"other",61
+"Cameroon",2007,"other",9
+"Canada",2007,"other",230
 "Cape Verde",2007,"other",3
 "Cayman Islands",2007,"other",0
 "Central African Republic",2007,"other",0
-"Chad",2007,"other",1
-"Chile",2007,"other",9
-"China, People's Republic",2007,"other",172
-"Colombia",2007,"other",84
-"Congo, Democratic Republic",2007,"other",3
-"Congo, Republic",2007,"other",6
-"Costa Rica",2007,"other",0
-"Cote d'Ivoire",2007,"other",83
-"Croatia",2007,"other",3
-"Cuba",2007,"other",50
-"Cyprus",2007,"other",0
-"Czech Republic",2007,"other",4
-"Czechoslovakia (former)",2007,"other",2
-"Denmark",2007,"other",0
+"Chad",2007,"other",0
+"Chile",2007,"other",15
+"China, People's Republic",2007,"other",19
+"Colombia",2007,"other",93
+"Congo, Democratic Republic",2007,"other",0
+"Congo, Republic",2007,"other",3
+"Costa Rica",2007,"other",17
+"Cote d'Ivoire",2007,"other",45
+"Croatia",2007,"other",4
+"Cuba",2007,"other",69
+"Cyprus",2007,"other",1
+"Czech Republic",2007,"other",0
+"Czechoslovakia (former)",2007,"other",0
+"Denmark",2007,"other",4
 "Djibouti",2007,"other",0
-"Dominica",2007,"other",1
-"Dominican Republic",2007,"other",32
-"Ecuador",2007,"other",74
-"Egypt",2007,"other",43
-"El Salvador",2007,"other",2917
-"Equatorial Guinea",2007,"other",0
-"Eritrea",2007,"other",4
-"Estonia",2007,"other",6
-"Ethiopia",2007,"other",19
-"Fiji",2007,"other",3
+"Dominica",2007,"other",0
+"Dominican Republic",2007,"other",44
+"Ecuador",2007,"other",79
+"Egypt",2007,"other",39
+"El Salvador",2007,"other",6973
+"Eritrea",2007,"other",2
+"Estonia",2007,"other",5
+"Ethiopia",2007,"other",14
+"Fiji",2007,"other",11
 "Finland",2007,"other",1
-"France",2007,"other",14
-"French Guiana",2007,"other",0
-"French Polynesia",2007,"other",0
-"Gabon",2007,"other",0
-"Gambia",2007,"other",51
-"Georgia",2007,"other",15
-"Germany",2007,"other",32
-"Ghana",2007,"other",12
+"France",2007,"other",19
+"French Polynesia",2007,"other",1
+"Gabon",2007,"other",1
+"Gambia",2007,"other",88
+"Georgia",2007,"other",11
+"Germany",2007,"other",27
+"Ghana",2007,"other",19
 "Greece",2007,"other",6
 "Grenada",2007,"other",0
-"Guadeloupe",2007,"other",0
-"Guatemala",2007,"other",2107
-"Guinea",2007,"other",55
-"Guinea-Bissau",2007,"other",0
-"Guyana",2007,"other",19
-"Haiti",2007,"other",575
-"Honduras",2007,"other",175
-"Hong Kong",2007,"other",7
-"Hungary",2007,"other",9
+"Guadeloupe",2007,"other",2
+"Guatemala",2007,"other",4426
+"Guinea",2007,"other",46
+"Guinea-Bissau",2007,"other",1
+"Guyana",2007,"other",3
+"Haiti",2007,"other",2445
+"Honduras",2007,"other",206
+"Hong Kong",2007,"other",11
+"Hungary",2007,"other",5
 "Iceland",2007,"other",0
-"India",2007,"other",306
+"India",2007,"other",157
 "Indonesia",2007,"other",40
-"Iran",2007,"other",28
-"Iraq",2007,"other",12
-"Ireland",2007,"other",11
-"Israel",2007,"other",22
-"Italy",2007,"other",16
-"Jamaica",2007,"other",37
-"Japan",2007,"other",16
-"Jordan",2007,"other",20
-"Kazakhstan",2007,"other",76
-"Kenya",2007,"other",22
+"Iran",2007,"other",14
+"Iraq",2007,"other",31
+"Ireland",2007,"other",6
+"Israel",2007,"other",17
+"Italy",2007,"other",11
+"Jamaica",2007,"other",41
+"Japan",2007,"other",22
+"Jordan",2007,"other",19
+"Kazakhstan",2007,"other",62
+"Kenya",2007,"other",13
 "Kiribati",2007,"other",0
-"Korea, North",2007,"other",0
-"Korea, South",2007,"other",43
+"Korea",2007,"other",15
 "Kuwait",2007,"other",2
-"Kyrgyzstan",2007,"other",42
-"Laos",2007,"other",0
-"Latvia",2007,"other",11
-"Lebanon",2007,"other",5
-"Lesotho",2007,"other",1
-"Liberia",2007,"other",41
-"Libya",2007,"other",2
-"Lithuania",2007,"other",7
+"Kyrgyzstan",2007,"other",25
+"Laos",2007,"other",3
+"Latvia",2007,"other",6
+"Lebanon",2007,"other",7
+"Lesotho",2007,"other",0
+"Liberia",2007,"other",9
+"Libya",2007,"other",0
+"Lithuania",2007,"other",4
 "Luxembourg",2007,"other",0
 "Macau",2007,"other",0
-"Macedonia",2007,"other",8
+"Macedonia",2007,"other",7
 "Madagascar",2007,"other",0
-"Malawi",2007,"other",1
-"Malaysia",2007,"other",3
-"Mali",2007,"other",66
+"Malawi",2007,"other",2
+"Malaysia",2007,"other",5
+"Mali",2007,"other",36
 "Malta",2007,"other",0
 "Marshall Islands",2007,"other",0
-"Martinique",2007,"other",0
-"Mauritania",2007,"other",4
-"Mauritius",2007,"other",0
-"Mexico",2007,"other",2418
-"Micronesia, Federated States",2007,"other",0
-"Moldova",2007,"other",377
+"Martinique",2007,"other",1
+"Mauritania",2007,"other",0
+"Mauritius",2007,"other",1
+"Mexico",2007,"other",3446
+"Moldova",2007,"other",161
 "Mongolia",2007,"other",0
-"Montserrat",2007,"other",0
+"Montserrat",2007,"other",2
 "Morocco",2007,"other",8
-"Mozambique",2007,"other",2
+"Mozambique",2007,"other",0
 "Namibia",2007,"other",0
-"Nepal",2007,"other",15
-"Netherlands",2007,"other",7
+"Nepal",2007,"other",6
+"Netherlands",2007,"other",4
 "Netherlands Antilles",2007,"other",0
-"New Caledonia",2007,"other",0
-"New Zealand",2007,"other",0
-"Nicaragua",2007,"other",162
+"New Zealand",2007,"other",3
+"Nicaragua",2007,"other",235
 "Niger",2007,"other",0
-"Nigeria",2007,"other",45
-"Norway",2007,"other",0
-"Oman",2007,"other",0
-"Pakistan",2007,"other",55
+"Nigeria",2007,"other",36
+"Norway",2007,"other",2
+"Oman",2007,"other",1
+"Pakistan",2007,"other",68
 "Palau",2007,"other",0
-"Panama",2007,"other",5
+"Panama",2007,"other",4
 "Papua New Guinea",2007,"other",0
-"Paraguay",2007,"other",2
-"Peru",2007,"other",90
-"Philippines",2007,"other",78
-"Poland",2007,"other",55
-"Portugal",2007,"other",6
+"Paraguay",2007,"other",3
+"Peru",2007,"other",93
+"Philippines",2007,"other",87
+"Poland",2007,"other",56
+"Portugal",2007,"other",8
 "Qatar",2007,"other",0
 "Romania",2007,"other",20
-"Russia",2007,"other",84
+"Russia",2007,"other",76
 "Rwanda",2007,"other",0
-"Saint Kitts-Nevis",2007,"other",0
+"Saint Kitts-Nevis",2007,"other",2
 "Saint Lucia",2007,"other",1
 "Saint Vincent and the Grenadines",2007,"other",0
-"Samoa",2007,"other",1
-"Sao Tome and Principe",2007,"other",0
-"Saudi Arabia",2007,"other",5
-"Senegal",2007,"other",32
-"Serbia and Montenegro1",2007,"other",16
-"Seychelles",2007,"other",0
-"Sierra Leone",2007,"other",20
+"Samoa",2007,"other",0
+"Saudi Arabia",2007,"other",6
+"Senegal",2007,"other",10
+"Serbia and Montenegro1",2007,"other",29
+"Sierra Leone",2007,"other",11
 "Singapore",2007,"other",4
-"Slovakia",2007,"other",3
-"Slovenia",2007,"other",1
-"Somalia",2007,"other",14
-"South Africa",2007,"other",10
-"Soviet Union (former)",2007,"other",285
-"Spain",2007,"other",4
-"Sri Lanka",2007,"other",4
-"Sudan",2007,"other",10
-"Suriname",2007,"other",1
+"Slovak Republic",2007,"other",2
+"Slovenia",2007,"other",0
+"Solomon Islands",2007,"other",0
+"Somalia",2007,"other",1
+"South Africa",2007,"other",8
+"Soviet Union (former)",2007,"other",247
+"Spain",2007,"other",6
+"Sri Lanka",2007,"other",5
+"Sudan",2007,"other",3
+"Suriname",2007,"other",4
 "Swaziland",2007,"other",0
-"Sweden",2007,"other",3
-"Switzerland",2007,"other",5
-"Syria",2007,"other",7
-"Taiwan",2007,"other",7
-"Tajikistan",2007,"other",11
-"Tanzania",2007,"other",4
-"Thailand",2007,"other",32
-"Togo",2007,"other",3
-"Tonga",2007,"other",7
-"Trinidad and Tobago",2007,"other",32
-"Tunisia",2007,"other",3
+"Sweden",2007,"other",7
+"Switzerland",2007,"other",6
+"Syria",2007,"other",2
+"Taiwan",2007,"other",9
+"Tajikistan",2007,"other",1
+"Tanzania",2007,"other",1
+"Thailand",2007,"other",21
+"Togo",2007,"other",7
+"Tonga",2007,"other",4
+"Trinidad and Tobago",2007,"other",29
+"Tunisia",2007,"other",2
 "Turkey",2007,"other",10
-"Turkmenistan",2007,"other",1
+"Turkmenistan",2007,"other",0
 "Turks and Caicos Islands",2007,"other",0
-"Uganda",2007,"other",6
-"Ukraine",2007,"other",1226
-"United Arab Emirates",2007,"other",4
-"United Kingdom",2007,"other",56
-"United States",2007,"other",22
-"Uruguay",2007,"other",2
-"Uzbekistan",2007,"other",30
+"Uganda",2007,"other",1
+"Ukraine",2007,"other",830
+"United Arab Emirates",2007,"other",8
+"United Kingdom",2007,"other",46
+"United States",2007,"other",12
+"Uruguay",2007,"other",3
+"Uzbekistan",2007,"other",70
 "Venezuela",2007,"other",30
-"Vietnam",2007,"other",498
-"Yemen",2007,"other",7
-"Zambia",2007,"other",8
-"Zimbabwe",2007,"other",10
-"All other countries",2007,"other",1
-"Unknown",2007,"other",31
-"Afghanistan",2008,"other",8
-"Albania",2008,"other",13
-"Algeria",2008,"other",11
-"American Samoa",2008,"other",1
-"Angola",2008,"other",0
+"Vietnam",2007,"other",317
+"Yemen",2007,"other",3
+"Zambia",2007,"other",3
+"Zimbabwe",2007,"other",0
+"All other countries",2007,"other",0
+"Unknown",2007,"other",40
+"Afghanistan",2008,"other",10
+"Albania",2008,"other",7
+"Algeria",2008,"other",2
+"American Samoa",2008,"other",0
+"Angola",2008,"other",2
 "Anguilla",2008,"other",0
 "Antigua-Barbuda",2008,"other",1
-"Argentina",2008,"other",22
-"Armenia",2008,"other",37
+"Argentina",2008,"other",19
+"Armenia",2008,"other",24
 "Aruba",2008,"other",0
-"Australia",2008,"other",5
-"Austria",2008,"other",6
-"Azerbaijan",2008,"other",12
-"Bahamas",2008,"other",15
-"Bahrain",2008,"other",0
-"Bangladesh",2008,"other",80
-"Barbados",2008,"other",2
-"Belarus",2008,"other",116
-"Belgium",2008,"other",1
-"Belize",2008,"other",7
-"Benin",2008,"other",0
+"Australia",2008,"other",18
+"Austria",2008,"other",7
+"Azerbaijan",2008,"other",10
+"Bahamas",2008,"other",13
+"Bahrain",2008,"other",2
+"Bangladesh",2008,"other",41
+"Barbados",2008,"other",1
+"Belarus",2008,"other",31
+"Belgium",2008,"other",3
+"Belize",2008,"other",11
+"Benin",2008,"other",1
 "Bermuda",2008,"other",1
 "Bhutan",2008,"other",0
-"Bolivia",2008,"other",12
-"Bosnia-Herzegovina",2008,"other",6
+"Bolivia",2008,"other",9
+"Bosnia-Herzegovina",2008,"other",5
 "Botswana",2008,"other",0
-"Brazil",2008,"other",61
+"Brazil",2008,"other",58
 "British Virgin Islands",2008,"other",1
 "Brunei",2008,"other",0
-"Bulgaria",2008,"other",15
-"Burkina Faso",2008,"other",6
-"Burma",2008,"other",4
-"Burundi",2008,"other",5
-"Cambodia",2008,"other",24
-"Cameroon",2008,"other",16
-"Canada",2008,"other",270
-"Cape Verde",2008,"other",3
-"Cayman Islands",2008,"other",0
+"Bulgaria",2008,"other",14
+"Burkina Faso",2008,"other",4
+"Burma",2008,"other",2
+"Burundi",2008,"other",1
+"Cambodia",2008,"other",43
+"Cameroon",2008,"other",8
+"Canada",2008,"other",220
+"Cape Verde",2008,"other",2
+"Cayman Islands",2008,"other",1
 "Central African Republic",2008,"other",0
-"Chad",2008,"other",1
-"Chile",2008,"other",9
-"China, People's Republic",2008,"other",172
-"Colombia",2008,"other",84
-"Congo, Democratic Republic",2008,"other",3
-"Congo, Republic",2008,"other",6
-"Costa Rica",2008,"other",0
-"Cote d'Ivoire",2008,"other",83
-"Croatia",2008,"other",3
-"Cuba",2008,"other",50
-"Cyprus",2008,"other",0
+"Chad",2008,"other",0
+"Chile",2008,"other",7
+"China, People's Republic",2008,"other",108
+"Colombia",2008,"other",95
+"Congo, Democratic Republic",2008,"other",1
+"Congo, Republic",2008,"other",1
+"Costa Rica",2008,"other",8
+"Cote d'Ivoire",2008,"other",64
+"Croatia",2008,"other",1
+"Cuba",2008,"other",64
+"Cyprus",2008,"other",1
 "Czech Republic",2008,"other",4
-"Czechoslovakia (former)",2008,"other",2
-"Denmark",2008,"other",0
+"Czechoslovakia (former)",2008,"other",6
+"Denmark",2008,"other",2
 "Djibouti",2008,"other",0
-"Dominica",2008,"other",1
-"Dominican Republic",2008,"other",32
-"Ecuador",2008,"other",74
-"Egypt",2008,"other",43
-"El Salvador",2008,"other",2917
+"Dominica",2008,"other",0
+"Dominican Republic",2008,"other",36
+"Ecuador",2008,"other",62
+"Egypt",2008,"other",29
+"El Salvador",2008,"other",4801
 "Equatorial Guinea",2008,"other",0
-"Eritrea",2008,"other",4
-"Estonia",2008,"other",6
-"Ethiopia",2008,"other",19
-"Fiji",2008,"other",3
-"Finland",2008,"other",1
-"France",2008,"other",14
-"French Guiana",2008,"other",0
+"Eritrea",2008,"other",2
+"Estonia",2008,"other",2
+"Ethiopia",2008,"other",21
+"Fiji",2008,"other",4
+"Finland",2008,"other",2
+"France",2008,"other",20
 "French Polynesia",2008,"other",0
-"Gabon",2008,"other",0
-"Gambia",2008,"other",51
-"Georgia",2008,"other",15
-"Germany",2008,"other",32
-"Ghana",2008,"other",12
-"Greece",2008,"other",6
-"Grenada",2008,"other",0
+"Gabon",2008,"other",2
+"Gambia",2008,"other",65
+"Georgia",2008,"other",7
+"Germany",2008,"other",29
+"Ghana",2008,"other",20
+"Greece",2008,"other",3
+"Grenada",2008,"other",2
 "Guadeloupe",2008,"other",0
-"Guatemala",2008,"other",2107
-"Guinea",2008,"other",55
+"Guatemala",2008,"other",3353
+"Guinea",2008,"other",58
 "Guinea-Bissau",2008,"other",0
-"Guyana",2008,"other",19
-"Haiti",2008,"other",575
-"Honduras",2008,"other",175
-"Hong Kong",2008,"other",7
-"Hungary",2008,"other",9
-"Iceland",2008,"other",0
-"India",2008,"other",306
-"Indonesia",2008,"other",40
-"Iran",2008,"other",28
-"Iraq",2008,"other",12
-"Ireland",2008,"other",11
-"Israel",2008,"other",22
-"Italy",2008,"other",16
-"Jamaica",2008,"other",37
-"Japan",2008,"other",16
-"Jordan",2008,"other",20
-"Kazakhstan",2008,"other",76
-"Kenya",2008,"other",22
-"Kiribati",2008,"other",0
-"Korea, North",2008,"other",0
-"Korea, South",2008,"other",43
-"Kuwait",2008,"other",2
-"Kyrgyzstan",2008,"other",42
-"Laos",2008,"other",0
-"Latvia",2008,"other",11
-"Lebanon",2008,"other",5
-"Lesotho",2008,"other",1
-"Liberia",2008,"other",41
-"Libya",2008,"other",2
-"Lithuania",2008,"other",7
+"Guyana",2008,"other",13
+"Haiti",2008,"other",1637
+"Honduras",2008,"other",144
+"Hong Kong",2008,"other",5
+"Hungary",2008,"other",10
+"Iceland",2008,"other",3
+"India",2008,"other",129
+"Indonesia",2008,"other",22
+"Iran",2008,"other",27
+"Iraq",2008,"other",31
+"Ireland",2008,"other",10
+"Israel",2008,"other",20
+"Italy",2008,"other",4
+"Jamaica",2008,"other",34
+"Japan",2008,"other",17
+"Jordan",2008,"other",15
+"Kazakhstan",2008,"other",45
+"Kenya",2008,"other",6
+"Korea1",2008,"other",21
+"Kuwait",2008,"other",7
+"Kyrgyzstan",2008,"other",12
+"Laos",2008,"other",6
+"Latvia",2008,"other",4
+"Lebanon",2008,"other",9
+"Lesotho",2008,"other",0
+"Liberia",2008,"other",13
+"Libya",2008,"other",0
+"Lithuania",2008,"other",3
 "Luxembourg",2008,"other",0
 "Macau",2008,"other",0
 "Macedonia",2008,"other",8
 "Madagascar",2008,"other",0
-"Malawi",2008,"other",1
-"Malaysia",2008,"other",3
-"Mali",2008,"other",66
+"Malawi",2008,"other",0
+"Malaysia",2008,"other",6
+"Mali",2008,"other",41
 "Malta",2008,"other",0
 "Marshall Islands",2008,"other",0
-"Martinique",2008,"other",0
-"Mauritania",2008,"other",4
+"Martinique",2008,"other",1
+"Mauritania",2008,"other",1
 "Mauritius",2008,"other",0
-"Mexico",2008,"other",2418
+"Mexico",2008,"other",2399
 "Micronesia, Federated States",2008,"other",0
-"Moldova",2008,"other",377
-"Mongolia",2008,"other",0
+"Moldova",2008,"other",137
+"Mongolia",2008,"other",1
 "Montserrat",2008,"other",0
-"Morocco",2008,"other",8
-"Mozambique",2008,"other",2
+"Morocco",2008,"other",16
+"Mozambique",2008,"other",0
 "Namibia",2008,"other",0
-"Nepal",2008,"other",15
-"Netherlands",2008,"other",7
-"Netherlands Antilles",2008,"other",0
-"New Caledonia",2008,"other",0
-"New Zealand",2008,"other",0
-"Nicaragua",2008,"other",162
+"Nepal",2008,"other",7
+"Netherlands",2008,"other",9
+"Netherlands Antilles",2008,"other",1
+"New Zealand",2008,"other",2
+"Nicaragua",2008,"other",161
 "Niger",2008,"other",0
-"Nigeria",2008,"other",45
-"Norway",2008,"other",0
+"Nigeria",2008,"other",42
+"Norway",2008,"other",2
 "Oman",2008,"other",0
-"Pakistan",2008,"other",55
-"Palau",2008,"other",0
-"Panama",2008,"other",5
+"Pakistan",2008,"other",53
+"Panama",2008,"other",9
 "Papua New Guinea",2008,"other",0
-"Paraguay",2008,"other",2
-"Peru",2008,"other",90
-"Philippines",2008,"other",78
-"Poland",2008,"other",55
-"Portugal",2008,"other",6
-"Qatar",2008,"other",0
-"Romania",2008,"other",20
-"Russia",2008,"other",84
+"Paraguay",2008,"other",0
+"Peru",2008,"other",64
+"Philippines",2008,"other",64
+"Poland",2008,"other",72
+"Portugal",2008,"other",5
+"Qatar",2008,"other",1
+"Romania",2008,"other",12
+"Russia",2008,"other",78
 "Rwanda",2008,"other",0
 "Saint Kitts-Nevis",2008,"other",0
 "Saint Lucia",2008,"other",1
 "Saint Vincent and the Grenadines",2008,"other",0
-"Samoa",2008,"other",1
-"Sao Tome and Principe",2008,"other",0
-"Saudi Arabia",2008,"other",5
-"Senegal",2008,"other",32
-"Serbia and Montenegro1",2008,"other",16
+"Samoa",2008,"other",2
+"Saudi Arabia",2008,"other",6
+"Senegal",2008,"other",30
+"Serbia and Montenegro2",2008,"other",21
 "Seychelles",2008,"other",0
-"Sierra Leone",2008,"other",20
+"Sierra Leone",2008,"other",18
 "Singapore",2008,"other",4
-"Slovakia",2008,"other",3
+"Slovak Republic",2008,"other",4
 "Slovenia",2008,"other",1
-"Somalia",2008,"other",14
-"South Africa",2008,"other",10
-"Soviet Union (former)",2008,"other",285
-"Spain",2008,"other",4
-"Sri Lanka",2008,"other",4
-"Sudan",2008,"other",10
-"Suriname",2008,"other",1
+"Somalia",2008,"other",4
+"South Africa",2008,"other",7
+"Soviet Union (former)",2008,"other",178
+"Spain",2008,"other",10
+"Sri Lanka",2008,"other",6
+"Sudan",2008,"other",7
+"Suriname",2008,"other",5
 "Swaziland",2008,"other",0
 "Sweden",2008,"other",3
-"Switzerland",2008,"other",5
-"Syria",2008,"other",7
-"Taiwan",2008,"other",7
-"Tajikistan",2008,"other",11
+"Switzerland",2008,"other",3
+"Syria",2008,"other",6
+"Taiwan",2008,"other",10
+"Tajikistan",2008,"other",1
 "Tanzania",2008,"other",4
-"Thailand",2008,"other",32
-"Togo",2008,"other",3
-"Tonga",2008,"other",7
-"Trinidad and Tobago",2008,"other",32
-"Tunisia",2008,"other",3
-"Turkey",2008,"other",10
+"Thailand",2008,"other",14
+"Togo",2008,"other",2
+"Tonga",2008,"other",2
+"Trinidad and Tobago",2008,"other",29
+"Tunisia",2008,"other",1
+"Turkey",2008,"other",19
 "Turkmenistan",2008,"other",1
 "Turks and Caicos Islands",2008,"other",0
-"Uganda",2008,"other",6
-"Ukraine",2008,"other",1226
-"United Arab Emirates",2008,"other",4
-"United Kingdom",2008,"other",56
-"United States",2008,"other",22
-"Uruguay",2008,"other",2
-"Uzbekistan",2008,"other",30
-"Venezuela",2008,"other",30
-"Vietnam",2008,"other",498
-"Yemen",2008,"other",7
-"Zambia",2008,"other",8
-"Zimbabwe",2008,"other",10
-"All other countries",2008,"other",1
-"Unknown",2008,"other",31
+"Uganda",2008,"other",3
+"Ukraine",2008,"other",373
+"United Arab Emirates",2008,"other",10
+"United Kingdom",2008,"other",75
+"United States",2008,"other",18
+"Uruguay",2008,"other",6
+"Uzbekistan",2008,"other",44
+"Venezuela",2008,"other",36
+"Vietnam",2008,"other",324
+"Yemen",2008,"other",5
+"Zambia",2008,"other",1
+"Zimbabwe",2008,"other",3
+"All other countries",2008,"other",0
+"Unknown",2008,"other",30
 "Afghanistan",2009,"other",8
 "Albania",2009,"other",13
 "Algeria",2009,"other",11

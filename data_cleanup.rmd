@@ -61,6 +61,11 @@ library(cowplot)
 library(ggridges)
 library(rstanarm)
 library(broom)
+library(rnaturalearth)
+library(rnaturalearthdata)
+library(sf)
+library(rgeos)
+library(fuzzyjoin)
 library(tidyverse)
 
 #####
@@ -129,11 +134,11 @@ immigration_country_2009 <- read_xlsx("raw_data/immigration_yearbook/2009_table1
   clean_names()%>%
   mutate(year = 2009)
 
-immigration_country_2008 <- read_xlsx("raw_data/immigration_yearbook/2009_table10d.xlsx", na = c("", "NA")) %>%
+immigration_country_2008 <- read_xlsx("raw_data/immigration_yearbook/2008_table10d.xlsx", na = c("", "NA")) %>%
   clean_names()%>%
   mutate(year = 2008)
 
-immigration_country_2007 <- read_xlsx("raw_data/immigration_yearbook/2009_table10d.xlsx", na = c("", "NA")) %>%
+immigration_country_2007 <- read_xlsx("raw_data/immigration_yearbook/2007_table10d.xlsx", na = c("", "NA")) %>%
   clean_names()%>%
   mutate(year = 2007)
 
@@ -258,27 +263,170 @@ write.csv(employment_by_country, file = "clean_data/employment_country.csv", row
 # Dominican Republic
 # Cuba 
 # Vietnam  
-# Korea, South
 # Colombia
 # Haiti
+# Jamaica
 top10 <- immigration_country %>%
           group_by(country) %>%
           summarize(total = sum(total)) %>%
-          arrange(desc(total))
+          arrange(desc(total)) %>%
           head(10)
 
-# create a intro_graph
+# filter out to be top 10 countries only
+immigration_country_10 <- immigration_country %>%
+  filter(country %in% top10$country)
 
-intro_graph <- ggplot(immigration_country_top_10, aes(x = total, y = country, group = country)) + geom_density_ridges(fill = "orange") + labs(x = "Total Immigrants", y = "Country", title = "Top 10 Countries with Most Immigration into US ", caption = "2009 - 2017")
+# create the top 10 countries gif
+gif <- 
+ggplot(immigration_country_10, aes(x = country, y = total, color = country, fill = country)) +
+ geom_col(alpha = 0.75) +
+ transition_time(year) +
+ theme(legend.position = "none") +
+ labs(title = "Immigration into US: {(frame_time)}", subtitle = "Among Top 10 Source Countries",
+      y = "Immigrants",
+      caption = "Data Source: US Homeland Security, rnaturalearth Library") +
+ theme(axis.text.x = element_text(angle = 90, hjust = 1)) 
 
-# save for later usage
-ggsave("Immigration_Explorer/intro_graph.png", intro_graph)
+#save the gif 
+anim_save("images/top_10.gif", gif)
 
 ```
 
 
 
-``` {r test}
+``` {r graph - world map trial}
 
+# load worldmap
+world <- ne_countries(scale = "medium", returnclass = "sf")
+class(world)
+
+# first, summarize total immigration over the 10 years
+immigration_country_sum <- immigration_country %>%
+  group_by(country) %>%
+  summarize(total = sum(total))
+
+# anti_join result in 36 records that are in immigration_country_sum but can't be mapped
+# examine the 36 records
+anti_join(immigration_country_sum, world, by = c("country" = "name_long"))
+
+# prepare for cleaning
+# first, define not in
+`%notin%` <- Negate(`%in%`)
+
+# filter out other/unknown country
+
+immigration_country_sum_clean <- immigration_country_sum %>%
+  filter(country %notin% c("All other countries", 
+                           "All other countries 1", 
+                           "All other countries1", 
+                           "Unknown"))
+
+# compared manually to update the country names
+# not using fuzzy match here, since unmatch could be of political/historical events
+anti_join(immigration_country_sum_clean, world, by = c("country" = "name_long")) %>%
+  arrange(desc(total))
+
+# first, rename the regions
+immigration_country_sum_clean$country <- 
+  revalue(immigration_country_sum_clean$country, 
+          c("China, People's Republic" = "China",
+            "Korea, South" = "Republic of Korea",
+            "Burma" = "Myanmar",
+            "Russia" = "Russian Federation",
+            "Congo, Democratic Republic" = "Democratic Republic of the Congo",
+            "Cote d'Ivoire" = "Côte d'Ivoire",
+            "Laos" = "Lao PDR",
+            "Congo, Republic" = "Republic of Congo",
+            "Gambia" = "The Gambia",
+            "Bosnia-Herzegovina" = "Bosnia and Herzegovina",
+            "Cabo Verde" = "Cape Verde", 
+            "Antigua-Barbuda" = "Antigua and Barbuda",
+            "Saint Kitts-Nevis" = "Saint Kitts and Nevis",
+            "Macau" = "Macao",
+            "Netherlands Antilles" = "Netherlands",
+            "Korea, North" = "Dem. Rep. Korea",
+            "Brunei" = "Brunei Darussalam",
+            "Guadeloupe" = "France",
+            "Curacao" = "Netherlands",
+            "Martinique" = "France",
+            "Netherlands Antilles (former)" = "Netherlands",
+            "Micronesia, Federated States" = "Federated States of Micronesia",
+            "Sao Tome and Principe" = "São Tomé and Principe",
+            "Virgin Islands, British" = "British Virgin Islands",
+            "French Guiana" = "France"))
+
+# then, reallocate certain regions according to population before/after politcial event
+# "Soviet Union (former)": mainly Russia and Urkanie, 7473 to Ukraine, 25624 to Russia Federation
+# "Czechoslovakia (former)": 2860 to Czech Republic, 1430 to Slovakia
+# "Czechia":: 1232 to Czech Republic
+# "Serbia and Montenegro 1":  11694 to Serbia
+# "Serbia and Montenegro1": 2199 to Serbia
+# "Serbia and Montenegro": 920 to Serbia
+# "Serbia and Montenegro (former)" : 578 to Serbia
+
+immigration_country_sum_clean <- immigration_country_sum_clean %>%
+  mutate(total = ifelse(country == "Russian Federation", total + 25624, total))
+
+immigration_country_sum_clean <- immigration_country_sum_clean %>%
+  mutate(total = ifelse(country == "Ukraine", total + 7473, total))
+
+immigration_country_sum_clean <- immigration_country_sum_clean %>%
+  mutate(total = ifelse(country == "Czech Republic", total + 2860 + 1232, total))
+
+immigration_country_sum_clean <- immigration_country_sum_clean %>%
+  mutate(total = ifelse(country == "Slovakia", total + 1430, total))
+
+immigration_country_sum_clean <- immigration_country_sum_clean %>%
+  mutate(total = ifelse(country == "Serbia", total + 11694 + 2199 + 920 + 578, total))
+
+# filter out the regions processed in the last chunk
+immigration_country_sum_clean <- immigration_country_sum_clean %>%
+  filter(country %notin% c("Soviet Union (former)",
+                           "Czechoslovakia (former)",
+                           "Czechia",
+                           "Serbia and Montenegro 1",
+                           "Serbia and Montenegro1",
+                           "Serbia and Montenegro",
+                           "Serbia and Montenegro (former)"))
+
+# rename the immigration column
+immigration_country_sum_clean <- immigration_country_sum_clean %>%
+                  mutate(immigration = total)
+
+# reexamine again to make sure data is clean
+anti_join(immigration_country_sum_clean, world, by = c("country" = "name_long"))
+
+# join data onto world map
+world_immigration <- left_join(world, immigration_country_sum_clean, by = c("name_long" = "country"))
+
+# create an immigration percetentage map
+world_immigration <- world_immigration %>%
+  mutate(immigration_percap = immigration/11/(pop_est /10000))
+
+
+
+# map out overall immigration status
+# US will be photoshopped out later
+map_overall <- ggplot(data = world_immigration) +
+          geom_sf(aes(fill = immigration)) +
+          scale_fill_viridis_c(option = "plasma", trans = "sqrt") +
+          labs(title = "Total Immigration into US", subtitle = "Sum over 2007 - 2017, Top 5: Mexico, China, India, Philippines and Dominican Republic",
+               caption = "Data Source: US Homeland Security, rnaturalearth Library",
+               fill = "Immigrants")
+
+# save image to file         
+ggsave("images/map_overall.png", map_overall)
+
+# map out perCap immigration status
+# US will be photoshopped out later         
+map_perCap <- ggplot(data = world_immigration) +
+          geom_sf(aes(fill = immigration_percap)) +
+          scale_fill_viridis_c(option = "plasma", trans = "sqrt") +
+          labs(title = "US Immigrants per 10,000 People", subtitle = "Annual Average 2007 - 2017, Top 5: Guyana, Bhutan, Grenada, Jamaica, Saint Kitts and Nevis",
+               caption = "Data Source: US Homeland Security, rnaturalearth Library",
+               fill = "per 10,000")
+
+# save image to file         
+ggsave("images/map_percap.png", map_perCap)
     
 ```
