@@ -5,41 +5,10 @@ date: "10/18/2019"
 output: html_document
 ---
 
-**#About This Project**
-
-Every year, there are roughly ~1M immigrants coming to the US from various origins and through different admission channels. How are these immigrants fitting in once they are in the US? Is there a certain a certain group that needs particular help in fitting into the American society?
-
-One important metrics for fitting into the American society, is English speaking capability. According to the US census bureau, in 2017, while 91% of all US citizens self-identified as speaking English "very well", the number among all foreigh-born citizens was only 52%.
-
-Would this impairment in English-speaking capability among immigrants differ by origin, channel of admission, or time? This visualization project aims to provide users with a tool to explore this issue, during the time span of 2007 - 2017.
-
-*time span determined by data availability
-
-
-**#Raw Data Source**
-
-My raw data comes from two sources: 
-
-1. Homeland Security: 
-https://www.dhs.gov/immigration-statistics/yearbook
-
-    covering annual immigration count by different characteristics (visa type, country of origin etc.)
-
-2. American Fact Finder(US Census Bureau): https://factfinder.census.gov/faces/nav/jsf/pages/searchresults.xhtml?refresh=t#none
-
-    covering US resident census data(immigration status, english speaking capability, in labor force or not, etc.)
-    
-Both data sets address the issue of immigrants to US, segmented by country and state of origin. Note that the US Census Bureau data covers all immigrants *living* in US in that particular year, while the Homeland Security data covers immigrants *moving* to US in that year. Therefore, there is strong connection between the two datasets, yet the Homeland Security sample population is only part of the US Census Bureau sample population.
-
-**#Data Storage and Cleaning: for TF only, will not be shown to users**
-
-Homeland Security data are stored under: raw_data > immigration_yearbook
-
-US Census Bureau data are stored under: raw_data > english_speaking_immigrants
-
-Relevant data that may or may not be used later is under: raw_data > parkinglot_4data
-
-All data loading is finished at this stage
+**About this document**
+This file is used for 
+1) cleaning and reading raw data.
+2) create certain non-interactive graphs for the final display
 
 
 ```{r setup, include=FALSE}
@@ -81,6 +50,7 @@ immigration_continent <- read_xlsx("raw_data/immigration_yearbook/Immigration_By
   mutate(year = as.integer(year))
 
 # rename columns
+
 setnames(immigration_continent, "immediate_relatives_of_u_s_citizens", "immediate_relatives")
 
 setnames(immigration_continent, "family_sponsored_preferences", "family")
@@ -90,6 +60,7 @@ setnames(immigration_continent, "employment_based_preferences", "employment")
 setnames(immigration_continent, "refugees_and_asylees", "refugee")
 
 # create a long format for continent level data
+
 immigration_continent_long <- immigration_continent %>%
       select(region, year, immediate_relatives, family,employment, diversity, refugee, other) %>%
       gather(key = "admission_class", value = "count", immediate_relatives: other)
@@ -144,6 +115,7 @@ immigration_country_2007 <- read_xlsx("raw_data/immigration_yearbook/2007_table1
 
 
 #Combine the country tables together
+
 immigration_country <- rbind(immigration_country_2007,
                              immigration_country_2008,
                              immigration_country_2009,
@@ -158,12 +130,14 @@ immigration_country <- rbind(immigration_country_2007,
 
 # clean up table
 # convert year to integer for graphing later
+
 immigration_country <- immigration_country %>%
                           filter(region_and_country_of_birth != "Total") %>%
                           drop_na %>%
                           mutate(year = as.integer(year))
 
 # rename columns
+
 setnames(immigration_country, "region_and_country_of_birth", "country")
 
 setnames(immigration_country, "immediate_relatives_of_u_s_citizens", "immediate_relatives")
@@ -179,11 +153,13 @@ setnames(immigration_country, "refugees_and_asylees", "refugee")
 # convert to numeric value
 
 # family column
+
 immigration_country$family <- revalue(immigration_country$family, c("-"= "0"))
 immigration_country$family <- revalue(immigration_country$family, c("D"= "0"))
 immigration_country$family <- as.numeric(immigration_country$family)
 
 # employment column
+
 immigration_country$employment <- revalue(immigration_country$employment, c("-"= "0"))
 immigration_country$employment <- revalue(immigration_country$employment, c("D"= "0"))
 immigration_country$employment <- as.numeric(immigration_country$employment)
@@ -194,29 +170,35 @@ immigration_country$immediate_relatives <- revalue(immigration_country$immediate
 immigration_country$immediate_relatives <- as.numeric(immigration_country$immediate_relatives)
 
 # diversity column
+
 immigration_country$diversity <- revalue(immigration_country$diversity, c("-"= "0"))
 immigration_country$diversity <- revalue(immigration_country$diversity, c("D"= "0"))
 immigration_country$diversity <- as.numeric(immigration_country$diversity)
 
 # refugee column
+
 immigration_country$refugee <- revalue(immigration_country$refugee, c("-"= "0"))
 immigration_country$refugee <- revalue(immigration_country$refugee, c("D"= "0"))
 immigration_country$refugee <- as.numeric(immigration_country$refugee)
 
 # other column
+
 immigration_country$other <- revalue(immigration_country$other, c("-"= "0"))
 immigration_country$other <- revalue(immigration_country$other, c("D"= "0"))
 immigration_country$other <- as.numeric(immigration_country$other)
 
 # create a long format for continent level data
+
 immigration_country_long <- immigration_country %>%
       select(country, year, immediate_relatives, family,employment, diversity, refugee, other) %>%
       gather(key = "admission_class", value = "count", immediate_relatives: other)
 
 # rearrange the order of categorical variables for labelling later
+
 immigration_country_long$admission_class <- factor(immigration_country_long$admission_class, levels = c("diversity", "employment", "immediate_relatives", "family", "refugee", "other"))
 
 # make a clean data directory
+
 dir.create("clean_data")
 
 ######
@@ -229,19 +211,23 @@ dir.create("clean_data")
 english_by_continent  <- read_xlsx("raw_data/social_immigrants/english_by_continent.xlsx", na = c("", "NA")) %>% clean_names()
 
 #load english speaking capability by country, for the top 10 country with most US immigrants
+
 english_by_country <-
 read_xlsx("raw_data/social_immigrants/english_by_country.xlsx", na = c("", "NA")) %>% clean_names()
 
 # load unemployment by country, for the top 10 country with most US immigrants
+
 employment_by_country <-
 read_xlsx("raw_data/social_immigrants/employment_by_country.xlsx", na = c("", "NA")) %>% clean_names()
 
 # adding columns to employment table
+
 employment_by_country <- employment_by_country %>%
            mutate(population_in_labor_force = percentage_in_labor_force * total_number) %>%
            mutate(employment_population = population_in_labor_force - unemployment_population)
   
 # write the clean data to csv
+
 write.csv(immigration_country, file = "clean_data/immigration_country.csv", row.names = FALSE)
 write.csv(immigration_continent, file = "clean_data/immigration_continent.csv", row.names = FALSE)
 write.csv(immigration_country_long, file = "clean_data/immigration_country_long.csv", row.names = FALSE)
@@ -266,6 +252,7 @@ write.csv(employment_by_country, file = "clean_data/employment_country.csv", row
 # Colombia
 # Haiti
 # Jamaica
+
 top10 <- immigration_country %>%
           group_by(country) %>%
           summarize(total = sum(total)) %>%
@@ -273,10 +260,12 @@ top10 <- immigration_country %>%
           head(10)
 
 # filter out to be top 10 countries only
+
 immigration_country_10 <- immigration_country %>%
   filter(country %in% top10$country)
 
 # create the top 10 countries gif
+
 gif <- 
 ggplot(immigration_country_10, aes(x = country, y = total, color = country, fill = country)) +
  geom_col(alpha = 0.75) +
@@ -288,6 +277,7 @@ ggplot(immigration_country_10, aes(x = country, y = total, color = country, fill
  theme(axis.text.x = element_text(angle = 90, hjust = 1)) 
 
 #save the gif 
+
 anim_save("images/top_10.gif", gif)
 
 ```
@@ -297,20 +287,24 @@ anim_save("images/top_10.gif", gif)
 ``` {r graph - world map trial}
 
 # load worldmap
+
 world <- ne_countries(scale = "medium", returnclass = "sf")
 class(world)
 
 # first, summarize total immigration over the 10 years
+
 immigration_country_sum <- immigration_country %>%
   group_by(country) %>%
   summarize(total = sum(total))
 
 # anti_join result in 36 records that are in immigration_country_sum but can't be mapped
 # examine the 36 records
+
 anti_join(immigration_country_sum, world, by = c("country" = "name_long"))
 
 # prepare for cleaning
 # first, define not in
+
 `%notin%` <- Negate(`%in%`)
 
 # filter out other/unknown country
@@ -323,10 +317,12 @@ immigration_country_sum_clean <- immigration_country_sum %>%
 
 # compared manually to update the country names
 # not using fuzzy match here, since unmatch could be of political/historical events
+
 anti_join(immigration_country_sum_clean, world, by = c("country" = "name_long")) %>%
   arrange(desc(total))
 
 # first, rename the regions
+
 immigration_country_sum_clean$country <- 
   revalue(immigration_country_sum_clean$country, 
           c("China, People's Republic" = "China",
@@ -380,6 +376,7 @@ immigration_country_sum_clean <- immigration_country_sum_clean %>%
   mutate(total = ifelse(country == "Serbia", total + 11694 + 2199 + 920 + 578, total))
 
 # filter out the regions processed in the last chunk
+
 immigration_country_sum_clean <- immigration_country_sum_clean %>%
   filter(country %notin% c("Soviet Union (former)",
                            "Czechoslovakia (former)",
@@ -390,35 +387,44 @@ immigration_country_sum_clean <- immigration_country_sum_clean %>%
                            "Serbia and Montenegro (former)"))
 
 # rename the immigration column
+
 immigration_country_sum_clean <- immigration_country_sum_clean %>%
                   mutate(immigration = total)
 
 # reexamine again to make sure data is clean
+
 anti_join(immigration_country_sum_clean, world, by = c("country" = "name_long"))
 
 # join data onto world map
+
 world_immigration <- left_join(world, immigration_country_sum_clean, by = c("name_long" = "country"))
 
-# create an immigration percetentage map
-world_immigration <- world_immigration %>%
-  mutate(immigration_percap = immigration/11/(pop_est /10000))
+# prepare for the map making
+# add one column for average, 
+# add one column  for per 10,000 people
 
+world_immigration <- world_immigration %>%
+  mutate(immigration_avg = immigration/11) %>%
+  mutate(immigration_percap = immigration_avg/(pop_est /10000))
 
 
 # map out overall immigration status
-# US will be photoshopped out later
+# US color on map will be photoshopped out later
+
 map_overall <- ggplot(data = world_immigration) +
           geom_sf(aes(fill = immigration)) +
           scale_fill_viridis_c(option = "plasma", trans = "sqrt") +
-          labs(title = "Total Immigration into US", subtitle = "Sum over 2007 - 2017, Top 5: Mexico, China, India, Philippines and Dominican Republic",
+          labs(title = "Total Immigration into US", subtitle = "Annual Average 2007 - 2017, Top 5: Mexico, China, India, Philippines and Dominican Republic",
                caption = "Data Source: US Homeland Security, rnaturalearth Library",
                fill = "Immigrants")
 
-# save image to file         
+# save image to file  
+
 ggsave("images/map_overall.png", map_overall)
 
 # map out perCap immigration status
-# US will be photoshopped out later         
+# US will be photoshopped out later  
+
 map_perCap <- ggplot(data = world_immigration) +
           geom_sf(aes(fill = immigration_percap)) +
           scale_fill_viridis_c(option = "plasma", trans = "sqrt") +
@@ -426,7 +432,8 @@ map_perCap <- ggplot(data = world_immigration) +
                caption = "Data Source: US Homeland Security, rnaturalearth Library",
                fill = "per 10,000")
 
-# save image to file         
+# save image to file   
+
 ggsave("images/map_percap.png", map_perCap)
     
 ```
