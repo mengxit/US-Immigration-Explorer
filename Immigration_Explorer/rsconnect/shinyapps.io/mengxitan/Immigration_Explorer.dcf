@@ -5,8 +5,8 @@ account: mengxitan
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 1504489
-bundleId: 2610968
+bundleId: 2638993
 url: https://mengxitan.shinyapps.io/Immigration_Explorer/
-when: 1574464295.80695
+when: 1575437120.54473
 asMultiple: FALSE
 asStatic: FALSE

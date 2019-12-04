@@ -9,22 +9,27 @@
 library(markdown)
 library(shiny)
 library(ggplot2)
+library(dplyr)
 library(tidyverse)
 
 # read clean data into Shiny
-english_continent <- read_csv("english_continent.csv")
+english_continent <- read_csv("data/english_continent.csv")
                              
-english_country <- read_csv("english_country.csv")
+english_country <- read_csv("data/english_country.csv")
 
-employment_country <- read_csv("employment_country.csv")
+employment_country <- read_csv("data/employment_country.csv")
                             
-immigration_continent <- read_csv("immigration_continent.csv")
+immigration_continent <- read_csv("data/immigration_continent.csv")
                                 
-immigration_continent_long <- read_csv("immigration_continent_long.csv")
+immigration_continent_long <- read_csv("data/immigration_continent_long.csv")
 
-immigration_country <- read_csv("immigration_country.csv")
+immigration_country <- read_csv("data/immigration_country.csv")
 
-immigration_country_long <- read_csv("immigration_country_long.csv")
+immigration_country_long <- read_csv("data/immigration_country_long.csv")
+
+# join employment and language data for later regression
+
+social_combined <- left_join(employment_country, english_country, by = c("country", "year"))
 
 
 # percent function for formatting
@@ -32,24 +37,59 @@ percent <- function(x, digits = 1, format = "f", ...) {
     paste0(formatC(100 * x, format = format, digits = digits, ...), "%")
 }
 
+
+
+#sliderInput("year", "Year:",
+# min = 2007, max = 2017,
+# value = 2007),
+#plotOutput("barchart")
                             
 # define UI for application that draws a histogram
 # create Navigation bar for both overview and by country
 # create an input for selecting specific country to examine
 
 ui<- navbarPage("Gov1005 Final Project: US Immigration Explorer",
+                
                 tabPanel("Overview",
-                         headerPanel("IMMIGRATION INTO US BY SOURCE COUNTRY - WILL UPDATE TEXT"),
-                         sliderInput("year", "Year:",
-                                     min = 2007, max = 2017,
-                                     value = 2007),
-                         #imageOutput("overview", width = "20%", height = "20%"),
-                         plotOutput("barchart")
-                        
+                         
+                        fixedRow(
+                          column(12,align = "center",
+                                 includeMarkdown("md/panel1_opening.md"))
                          ),
+                        
+                        fixedRow(
+                          hr(),
+                          column(3,align = "center",
+                               includeMarkdown("md/panel1_p1.md")),
+                          column(9,
+                               imageOutput("map_overall"))
+                          ),
+                        
+                        fixedRow(
+                          column(4, align = "center",
+                                 imageOutput("top10_gif"),
+                                 br()),
+                          column(8, align = "left",
+                                 br(),
+                                 br(),
+                                 br(),
+                                 imageOutput("top10_flag"))
+                        
+                        ),
+                        
+                        fixedRow(
+                          hr(),
+                          column(3,align = "center",
+                                 includeMarkdown("md/panel1_p2.md")),
+                          column(9,
+                                 br(),
+                                 imageOutput("map_percap"))
+                        )
+                        ),
+                
                 tabPanel("A Closer Look",
-                         headerPanel("CLOSER LOOK INTO A SOURCE COUNTRY - PLEASE SELECT - WILL UPDATE TEXT"),
-                         fluidRow(
+                         headerPanel("Closer Look: Select the Country You are Interested In"),
+                          fixedRow(
                           column(8, align="center",
                           selectInput("variable", "Country:",
                                                 list("Mexico" = "Mexico",
@@ -59,25 +99,78 @@ ui<- navbarPage("Gov1005 Final Project: US Immigration Explorer",
                                                      "Dominican Republic" = "Dominican Republic",
                                                      "Cuba" = "Cuba",
                                                      "Vietnam" = "Vietnam",
-                                                     "Korea, South" = "Korea, South",
                                                      "Colombia" = "Colombia",
-                                                     "Haiti" = "Haiti")),
+                                                     "Haiti" = "Haiti",
+                                                     "Jamaica" = "Jamaica")),
                          plotOutput("trendchart")),
                          column(4, align = "center",
-                         plotOutput("donut_language"),
-                         plotOutput("donut_labor"),
-                         plotOutput("donut_employment")))
-))
+                                includeMarkdown("md/panel2_p1.md")
+                        ),
+                        fixedRow(
+                          column(12,align = "center",
+                                 hr(),
+                                 includeMarkdown("md/panel2_p2.md"))
+                        ),
+                        fixedRow(
+                          column(4,align = "center",
+                                 plotOutput("donut_language")),
+                          column(4,align = "center",
+                                 plotOutput("donut_labor")),
+                          column(4,align = "center",
+                                 plotOutput("donut_employment"))
+                        ))
+                        ),
+                tabPanel("Story",
+                         column(4,align = "left",
+                                includeMarkdown("md/panel3_p1.md")
+                         ),
+                         column(8, align = "left",
+                                plotOutput("story_1"))
+                         ),
+                tabPanel("About",
+                         column(12,align = "left",
+                                includeMarkdown("md/panel4_p1.md"))
+                )
+)
 
 
 # define server
 server <- function(input, output, session){
+
   
-  # render the opening page
-  output$overview <- renderImage(
-    list(src = "intro_graph.png"),
+  
+  # render the gif image
+  
+  output$top10_gif <- renderImage(
+    list(src = "image/top_10.gif"),
     deleteFile = FALSE
   )
+  
+  # render the flag image
+  
+  output$top10_flag <- renderImage(
+    list(src = "image/countries_top10.png",
+         width = 800),
+    deleteFile = FALSE
+  )
+  
+
+  # render the overall map image
+  
+  output$map_overall <- renderImage(
+    list(src = "image/map_overall.png",
+         width = 1000),
+    deleteFile = FALSE
+  )
+  
+  # render the perCap map image
+  
+  output$map_percap <- renderImage(
+    list(src = "image/map_percap.png",
+         width = 1000),
+    deleteFile = FALSE
+  )
+  
   
   # render the bar chart on the opening page
   
@@ -105,6 +198,19 @@ server <- function(input, output, session){
   })
   
   
+  # render the regression chart
+  
+  output$story_1 <- renderPlot({
+    
+    regression_1 <- ggplot(social_combined, mapping = aes(y = percentage_in_labor_force, x = percentage_very_well)) + 
+     geom_point() +
+     geom_smooth(method = "loess")
+    
+    print(regression_1)
+    
+  })
+  
+  
 # render the trend chart on the left
   output$trendchart <- renderPlot({
     
@@ -115,7 +221,7 @@ server <- function(input, output, session){
     # create the chart
     graph_left <- ggplot(immigration_country_current, 
                          aes(x = year, y = count, fill = admission_class)) +
-        geom_area(position = 'stack') + 
+        geom_area(position = 'stack', alpha = 0.75) + 
         labs(y = "Total Immigrants", x = "Year", 
              fill = "Admission Class", 
              title = paste0("Immigration Overview from ", input$variable,  " to US")) + 

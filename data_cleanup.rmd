@@ -267,12 +267,12 @@ immigration_country_10 <- immigration_country %>%
 # create the top 10 countries gif
 
 gif <- 
-ggplot(immigration_country_10, aes(x = country, y = total, color = country, fill = country)) +
+ggplot(immigration_country_10, aes(x = reorder(country, -total), y = total, color = country, fill = country)) +
  geom_col(alpha = 0.75) +
  transition_time(year) +
  theme(legend.position = "none") +
  labs(title = "Immigration into US: {(frame_time)}", subtitle = "Among Top 10 Source Countries",
-      y = "Immigrants",
+      y = "Immigrants", x = "",
       caption = "Data Source: US Homeland Security, rnaturalearth Library") +
  theme(axis.text.x = element_text(angle = 90, hjust = 1)) 
 
@@ -437,3 +437,4 @@ map_perCap <- ggplot(data = world_immigration) +
 ggsave("images/map_percap.png", map_perCap)
     
 ```
+
