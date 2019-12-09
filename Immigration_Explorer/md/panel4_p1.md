@@ -13,19 +13,22 @@ Free feel to pull the Git repo (this project is open-sourced!), or contact me if
 
 **Raw Data Source**
 
-My raw data comes from two sources: 
-
-1. Homeland Security, 2007 - 2017: 
+To answer these two main questions raised above, I used three public datasets:
+i.	US Homeland Security Immigration Data, 2007 – 2017
 https://www.dhs.gov/immigration-statistics/yearbook
 
-    covering annual immigration count by different characteristics (visa type, country of origin etc.)
+The Homeland Security immigration yearbook documents all new legal immigrants admitted through US customs. In this dataset, immigration counts by country, year and class of admission (visa type) are recorded.
 
-2. American Fact Finder(US Census Bureau), 2007 - 2017:
+ii.	US Census Bureau American Community Survey (American Fact Finder), 2007 – 2017
 https://factfinder.census.gov/faces/nav/jsf/pages/searchresults.xhtml?refresh=t#none
 
-    covering US resident census data(immigration status, english speaking capability, in labor force or not, etc.)
-    
-Both data sets address the issue of immigrants to US, segmented by country and state of origin. Note that the US Census Bureau data covers all immigrants *living* in US in that particular year, while the Homeland Security data covers immigrants *moving* to US in that year. Therefore, there is strong connection between the two datasets, yet keep in mind that the Homeland Security sample population is only part of the US Census Bureau sample population.
+The US Census Bureau American Community Survey documents socioeconomic status of US residents, which can be further segmented by different group characteristics. In this analysis, I used English speaking capability, labor force participation rate and labor force employment rate as the indicators of “fitting into society”. These metrics are available in individual groups based on country of origin, and I gathered data for the top 10 countries with most immigration into US (based on Homeland Security data). Note that the immigration group in this dataset are all immigrants living in US in a particular year, while the group in the Homeland Security dataset are immigrants moving into US in a particular year. Therefore, though connection and correlation can be made between the two groups, the population sampled here in dataset I and II are different. 
+
+iii.	Natural Earth Data, 2019 Version
+https://www.naturalearthdata.com/
+
+The Natural Earth Data library contains geographical and basic fact data about countries. I used country shape and total population count in this dataset for the heatmap.
+
 
 **Data Cleaning**
 
@@ -37,7 +40,10 @@ Besides standard join, aggregation and new metric creation, there are two data c
 
 **Limitation and Future Steps**
 
-The regressions done in the *Story* panel were only using the data of the top 10 US immigrant source countries, given the limitation of the scope and time of this project. In the future, I will hopefully include all documented groups in US Census Bureau to have more robust regressions and models. 
+One limitation in the regression part is that the data used were only for the top 10 source countries across 10 years given the time limitation of this project. Going forward, including all countries will deliver a more cohesive and robust analysis.
+
+Another future direction to go to will be including past immigration data before 2007. During 2007 -2017, we are observing relatively stable trends in US immigration. However, if we go further back in time, we might be able to observe more interesting trends in immigration, and speculate how these trends relate to historical or political events. 
+
 
 **Walk-Through Video**
 
