@@ -33,8 +33,11 @@ library(broom)
 library(rnaturalearth)
 library(rnaturalearthdata)
 library(sf)
+library(gt)
+library(DT)
 library(rgeos)
 library(fuzzyjoin)
+library(moderndive)
 library(tidyverse)
 
 #####
@@ -436,5 +439,56 @@ map_perCap <- ggplot(data = world_immigration) +
 
 ggsave("images/map_percap.png", map_perCap)
     
+```
+
+```{r regression}
+english_country <- english_by_country
+employment_country <- employment_by_country
+
+social_combined <- left_join(employment_country, english_country, by = c("country", "year"))
+
+immigration_country_regression <- immigration_country %>%
+  mutate(work_visa_percent = employment/total) 
+
+employment_country_regression <- employment_country %>%
+  filter(country != "Korea, South") %>%
+  mutate(employment_in_laborforce = 1- unemployment_rate_unemployed_labor_force)
+
+english_country_regression <- english_country %>%
+  filter(country != "Korea, South")
+
+immigration_employment_combined <- left_join(employment_country_regression, immigration_country_regression, by = c("country", "year"))
+
+immigration_language_combined <- left_join(english_country_regression, immigration_country_regression, by = c("country", "year"))
+
+
+ggplot(immigration_employment_combined, mapping = aes(y = percentage_in_labor_force, x = work_visa_percent)) + 
+     geom_point() +
+     geom_smooth(method = "loess")
+  
+ggplot(immigration_employment_combined, mapping = aes(y = employment_in_laborforce, x = work_visa_percent)) + 
+     geom_point() +
+     geom_smooth(method = "loess")
+
+ggplot(immigration_language_combined, mapping = aes(y = percentage_very_well, x = work_visa_percent)) + 
+     geom_point() +
+     geom_smooth(method = "loess")
+
+ggplot(immigration_country, mapping = aes(y = work_visa_percent, x = family_visa_percent)) + 
+     geom_point() +
+     geom_smooth(method = "loess")
+
+model <- lm(employment_in_laborforce ~ work_visa_percent, data = immigration_employment_combined)
+
+model_table <- get_regression_table(model)
+
+model_table2 <- glance(model)
+
+
+
+
+
+
+
 ```
 

@@ -11,8 +11,6 @@ library(shiny)
 library(ggplot2)
 library(dplyr)
 library(DT)
-library(moderndive)
-library(broom)
 library(tidyverse)
 
 # read clean data into Shiny
@@ -110,8 +108,7 @@ ui<- navbarPage("Gov1005 Final Project: US Immigration Explorer",
                         ),
                 
                 tabPanel("A Closer Look",
-                         headerPanel("Closer Look into Top 10 Source Countries: Select One You are Interested In"),
-                         br(),
+                         headerPanel("Closer Look: Select the Country You are Interested In"),
                           fixedRow(
                           column(8, align="center",
                           selectInput("variable", "Country:",
@@ -141,43 +138,21 @@ ui<- navbarPage("Gov1005 Final Project: US Immigration Explorer",
                                  plotOutput("donut_labor")),
                           column(4,align = "center",
                                  plotOutput("donut_employment"))
-                        )),
-                        fixedRow(
-                          column(12, align = "center",
-                                 includeMarkdown("md/panel2_p3.md"))
-                        )
+                        ))
                         ),
                 tabPanel("Story",
-                         headerPanel("Is Admission Class a Good Indicator of How US immigrants Are Performing After the Entrance?"),
-                         br(),
-                         fixedRow( 
-                           column(4,align = "left",
-                                          includeMarkdown("md/panel3_p1.md")),
-                           column(8, align = "left",
-                                  plotOutput("story_1"),
-                                  tableOutput("model_table_1"),
-                                  tableOutput("model_table_1_2"))
+                         column(4,align = "left",
+                                includeMarkdown("md/panel3_p1.md")
                          ),
-                         fixedRow( 
-                           hr(),
-                           column(4,align = "left",
-                                  includeMarkdown("md/panel3_p2.md")),
-                           column(8, align = "left",
-                                 plotOutput("story_2"),
-                                 tableOutput("model_table_2"),
-                                 tableOutput("model_table_2_2"))
-                         ),
-                         fixedRow(
-                           hr(),
-                           column(4,align = "left",
-                                  includeMarkdown("md/panel3_p3.md")),
-                           column(8, align = "left",
-                                  plotOutput("story_3"),
-                                  tableOutput("model_table_3"),
-                                  tableOutput("model_table_3_2"))
-                           
-                         )),
+                         column(8, align = "left",
+                                plotOutput("story_1"),
+                                DT::dataTableOutput("model_table_1"),
+                                plotOutput("story_2"),
+                                tableOutput("model_table_2"),
+                                plotOutput("story_3"),
+                                DT::dataTableOutput("model_table_3"))
 
+                         ),
                 tabPanel("About",
                          column(12,align = "left",
                                 includeMarkdown("md/panel4_p1.md"))
@@ -255,12 +230,12 @@ server <- function(input, output, session){
     
     regression_1 <- ggplot(immigration_employment_combined, 
                            aes(y = percentage_in_labor_force, x = work_visa_percent)) + 
-      geom_jitter() +
+      geom_point() +
       geom_smooth(method = "loess") +
       scale_y_continuous(labels = scales::percent) +
       scale_x_continuous(labels = scales::percent) +
-      labs(title = "Labor Force Percentage in relationship to Work Visa Percentage",
-           subtitle = "for the top 10 US immigration source countries, 2007 - 2017, each point is a country in a particular year",
+      labs(title = "Labor Force Percentage in relationship to Work Visa Percent",
+           subtitle = "for the top 10 US immigration source countries, 2007 - 2017",
            y = "% in Labor Force",
            x = "% entering through Work Visa",
            caption = "Data Source: Homeland Security and US Census Bureau")
@@ -273,27 +248,24 @@ server <- function(input, output, session){
   
   model_1 <- lm(percentage_in_labor_force ~ work_visa_percent, data = immigration_employment_combined)
   model_table_1 <- get_regression_table(model_1)
-  model_1_glance <- as.data.frame(glance(model_1))
   
   # render the linear regression table
   
-  output$model_table_1 <- renderTable(model_table_1)
-  
-  # render the r^2 table
-  
-  output$model_table_1_2 <- renderTable(model_1_glance)
+  output$model_table_1 = DT::renderDataTable({
+    model_table
+  })
   
   # render the regression chart for employment versus work visa
   
   output$story_2 <- renderPlot({
     
     regression_2 <-   ggplot(immigration_employment_combined, mapping = aes(y = employment_in_laborforce, x = work_visa_percent)) + 
-      geom_jitter() +
+      geom_point() +
       geom_smooth(method = "loess") +
       scale_y_continuous(labels = scales::percent) +
       scale_x_continuous(labels = scales::percent) +
-      labs(title = "Employment Percentage in relationship to Work Visa Percentage",
-           subtitle = "for the top 10 US immigration source countries, 2007 - 2017, each point is a country in a particular year",
+      labs(title = "Empployment Percentage in relationship to Work Visa Percent",
+           subtitle = "for the top 10 US immigration source countries, 2007 - 2017",
            y = "% Labor Force in Employment",
            x = "% entering through Work Visa",
            caption = "Data Source: Homeland Security and US Census Bureau")
@@ -306,15 +278,10 @@ server <- function(input, output, session){
   
   model_2 <- lm(employment_in_laborforce ~ work_visa_percent, data = immigration_employment_combined)
   model_table_2 <- get_regression_table(model_2)
-  model_2_glance <- as.data.frame(glance(model_2))
   
   # render the linear regression table
   
   output$model_table_2 <- renderTable(model_table_2)
-  
-  # render the r^2 table
-  
-  output$model_table_2_2 <- renderTable(model_2_glance)
   
   
   # render the regression chart for language versus work visa percentage
@@ -322,12 +289,12 @@ server <- function(input, output, session){
   output$story_3 <- renderPlot({
     
     regression_3 <-   ggplot(immigration_language_combined, mapping = aes(y = percentage_very_well, x = work_visa_percent)) + 
-      geom_jitter() +
+      geom_point() +
       geom_smooth(method = "loess") +
       scale_y_continuous(labels = scales::percent) +
       scale_x_continuous(labels = scales::percent) +
-      labs(title = "English Proficiency Percentage in relationship to Work Visa Percentage",
-           subtitle = "for the top 10 US immigration source countries, 2007 - 2017, each point is a country in a particular year",
+      labs(title = "English Proficiency Percentage in relationship to Work Visa Percent",
+           subtitle = "for the top 10 US immigration source countries, 2007 - 2017",
            y = "% Speaking English Very Well",
            x = "% entering through Work Visa",
            caption = "Data Source: Homeland Security and US Census Bureau")
@@ -340,15 +307,12 @@ server <- function(input, output, session){
   
   model_3 <- lm(percentage_very_well ~ work_visa_percent, data = immigration_language_combined)
   model_table_3 <- get_regression_table(model_3)
-  model_3_glance <- as.data.frame(glance(model_3))
   
   # render the linear regression table
   
-  output$model_table_3 <- renderTable(model_table_3)
-  
-  # render the r^2 table
-  
-  output$model_table_3_2 <- renderTable(model_3_glance)
+  output$model_table_3 = DT::renderDataTable({
+    model_table
+  })
   
   
 # render the trend chart on the left
@@ -364,9 +328,7 @@ server <- function(input, output, session){
         geom_area(position = 'stack', alpha = 0.75) + 
         labs(y = "Total Immigrants", x = "Year", 
              fill = "Admission Class", 
-             title = paste0("Immigration by Admission Class from ", input$variable,  " to US"),
-             subtitle = "from 2007 - 2017",
-             caption = "Data Source: Homeland Security") + 
+             title = paste0("Immigration Overview from ", input$variable,  " to US")) + 
         scale_fill_discrete(labels = c("Diversity", "Employment",
                                        "Immediate Relatives", "Other Relatives", "Refugee", "Other")) +  
         scale_x_continuous(breaks = c(2007, 2009, 2011, 2013, 2015, 2017))
@@ -407,12 +369,11 @@ server <- function(input, output, session){
           geom_rect() +
           coord_polar(theta = "y") +
           xlim(c(2, 4)) + 
-          scale_fill_manual(labels = c("Not Very Well", "Very Well"), values = c("grey", "yellowgreen")) +
+          scale_fill_discrete(labels = c("Not Very Well", "Very Well")) +
           labs(title = paste0(percent(english_country_current_summary$fraction[1]) ,
                               " Immigrants from ", input$variable, " Speak English Very Well"),
                              fill = "English Speaking Ability", 
-                        subtitle = "Weighted Average, 2007 - 2017",
-                        caption = "Data Source: US Census Bureau") +
+                        caption = "Weighted Average, 2007 - 2017") +
           theme(axis.text.y=element_blank(), 
                 axis.ticks=element_blank())
       
@@ -452,12 +413,11 @@ server <- function(input, output, session){
       geom_rect() +
       coord_polar(theta = "y") +
       xlim(c(2, 4)) + 
-      scale_fill_manual(labels = c("In Labor Force", "Not in Labor Force"), values = c("yellowgreen", "grey")) +
+      scale_fill_discrete(labels = c("In Labor Force", "Not in Labor Force")) +
       labs(title = paste0(percent(employment_country_current_summary$fraction[1]) ,
                           " Immigrants from ", input$variable, " are in Labor Force"),
            fill = "Labor Force", 
-           subtitle = "Weighted Average, 2007 - 2017",
-           caption = "Data Source: US Census Bureau") +
+           caption = "Weighted Average, 2007 - 2017") +
       theme(axis.text.y=element_blank(), 
             axis.ticks=element_blank())
     
@@ -500,12 +460,11 @@ server <- function(input, output, session){
       geom_rect() +
       coord_polar(theta = "y") +
       xlim(c(2, 4)) + 
-      scale_fill_manual(labels = c("Employed", "Unemployed"), values = c("yellowgreen", "grey")) +
+      scale_fill_discrete(labels = c("Employed", "Unemployed")) +
       labs(title = paste0(percent(employment_country_current_summary$fraction[1]) ,
                           " Labor Force from ", input$variable, " are Employed"),
            fill = "Employment", 
-           subtitle = "Weighted Average, 2007 - 2017",
-           caption = "Data Source: US Census Bureau") +
+           caption = "Weighted Average, 2007 - 2017") +
       theme(axis.text.y=element_blank(), 
             axis.ticks=element_blank())
     
