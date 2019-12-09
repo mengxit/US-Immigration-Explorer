@@ -10,9 +10,10 @@ library(markdown)
 library(shiny)
 library(ggplot2)
 library(dplyr)
-library(DT)
 library(moderndive)
 library(broom)
+library(htmltools)
+library(vembedr)
 library(tidyverse)
 
 # read clean data into Shiny
@@ -180,7 +181,8 @@ ui<- navbarPage("Gov1005 Final Project: US Immigration Explorer",
 
                 tabPanel("About",
                          column(12,align = "left",
-                                includeMarkdown("md/panel4_p1.md"))
+                                includeMarkdown("md/panel4_p1.md"),
+                                embed_vimeo("378216482"))
                 )
 )
 

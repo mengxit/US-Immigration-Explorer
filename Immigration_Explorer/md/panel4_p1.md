@@ -39,6 +39,13 @@ Besides standard join, aggregation and new metric creation, there are two data c
 
 The regressions done in the *Story* panel were only using the data of the top 10 US immigrant source countries, given the limitation of the scope and time of this project. In the future, I will hopefully include all documented groups in US Census Bureau to have more robust regressions and models. 
 
+**Walk-Through Video**
+
+Watch the video below for highlights in the visualization!
+
+https://vimeo.com/378216482
+
+
 
 
 
